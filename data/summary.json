@@ -1,12 +1,15 @@
 {
-  "updated": "2026-05-24T06:36:05.483837+00:00",
+  "updated": "2026-05-24T07:35:11.279435+00:00",
   "games": {
     "6x49": true,
     "6x42": true,
     "5x35": true,
     "joker": true,
     "rojdenden": true,
-    "zodiak": true
+    "zodiak": true,
+    "13t1": true,
+    "12t1": true,
+    "10t1": true
   },
   "errors": []
 }

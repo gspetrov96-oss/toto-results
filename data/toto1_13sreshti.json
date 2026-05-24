@@ -1,1 +1,91 @@
-{"game":"toto1_13sreshti","title":"","drawings":[],"fetched":0}
+{
+  "game": "13t1",
+  "title": "Тираж 38 - 17.05.2026",
+  "drawings": [
+    {
+      "matches": [
+        {
+          "match": "1",
+          "result": "1"
+        },
+        {
+          "match": "2",
+          "result": "1"
+        },
+        {
+          "match": "3",
+          "result": "1"
+        },
+        {
+          "match": "4",
+          "result": "1"
+        },
+        {
+          "match": "5",
+          "result": "2"
+        },
+        {
+          "match": "6",
+          "result": "1"
+        },
+        {
+          "match": "7",
+          "result": "2"
+        },
+        {
+          "match": "8",
+          "result": "1"
+        },
+        {
+          "match": "9",
+          "result": "x"
+        },
+        {
+          "match": "10",
+          "result": "x"
+        },
+        {
+          "match": "11",
+          "result": "1"
+        },
+        {
+          "match": "12",
+          "result": "1"
+        },
+        {
+          "match": "13",
+          "result": "2"
+        }
+      ],
+      "jackpot": "3 790.00 euro",
+      "winnings": [
+        {
+          "label": "13 срещи",
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
+        },
+        {
+          "label": "12 срещи",
+          "count": "3",
+          "amount": "444.90 euro",
+          "total": "1 334.70 euro"
+        },
+        {
+          "label": "11 срещи",
+          "count": "56",
+          "amount": "29.80 euro",
+          "total": "1 668.80 euro"
+        },
+        {
+          "label": "10 срещи",
+          "count": "513",
+          "amount": "4.60 euro",
+          "total": "2 359.80 euro"
+        }
+      ],
+      "type": "toto1"
+    }
+  ],
+  "fetched": 1779608104
+}

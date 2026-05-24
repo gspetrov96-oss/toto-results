@@ -1,1 +1,75 @@
-{"game":"toto1_12tip","title":"","drawings":[],"fetched":0}
+{
+  "game": "12t1",
+  "title": "Тираж 38 - 17.05.2026",
+  "drawings": [
+    {
+      "matches": [
+        {
+          "match": "1",
+          "result": "2"
+        },
+        {
+          "match": "2",
+          "result": "1"
+        },
+        {
+          "match": "3",
+          "result": "1"
+        },
+        {
+          "match": "4",
+          "result": "x"
+        },
+        {
+          "match": "5",
+          "result": "1"
+        },
+        {
+          "match": "6",
+          "result": "x"
+        },
+        {
+          "match": "7",
+          "result": "2"
+        },
+        {
+          "match": "8",
+          "result": "1"
+        },
+        {
+          "match": "9",
+          "result": "1"
+        },
+        {
+          "match": "10",
+          "result": "1"
+        },
+        {
+          "match": "11",
+          "result": "2"
+        },
+        {
+          "match": "12",
+          "result": "2"
+        }
+      ],
+      "jackpot": "17 421.01 euro",
+      "winnings": [
+        {
+          "label": "12 срещи",
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
+        },
+        {
+          "label": "11 срещи",
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
+        }
+      ],
+      "type": "toto1"
+    }
+  ],
+  "fetched": 1779608106
+}
