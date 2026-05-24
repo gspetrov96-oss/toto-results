@@ -1,1 +1,45 @@
-{"game":"toto_6x42","title":"Зарежда се...","drawings":[],"fetched":0}
+{
+  "game": "6x42",
+  "title": "Тираж 39 - 21.05.2026",
+  "drawings": [
+    {
+      "numbers": [
+        "3",
+        "4",
+        "19",
+        "23",
+        "30",
+        "37"
+      ],
+      "jackpot": "358 927.99 euro",
+      "winnings": [
+        {
+          "label": "6 числа",
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
+        },
+        {
+          "label": "5 числа",
+          "count": "6",
+          "amount": "2 169.20 euro",
+          "total": "13 015.20 euro"
+        },
+        {
+          "label": "4 числа",
+          "count": "381",
+          "amount": "34.20 euro",
+          "total": "13 030.20 euro"
+        },
+        {
+          "label": "3 числа",
+          "count": "5902",
+          "amount": "3.20 euro",
+          "total": "18 886.40 euro"
+        }
+      ],
+      "type": "standard"
+    }
+  ],
+  "fetched": 1779604554
+}

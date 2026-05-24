@@ -1,1 +1,35 @@
-{"game":"joker","title":"Зарежда се...","drawings":[],"fetched":0}
+{
+  "game": "joker",
+  "title": "Тираж 39 - 21.05.2026",
+  "drawings": [
+    {
+      "numbers": [
+        "9",
+        "3",
+        "7"
+      ],
+      "positions": [
+        "4",
+        "6",
+        "9"
+      ],
+      "jackpot": "33 983.45 euro",
+      "winnings": [
+        {
+          "label": "3 числа",
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
+        },
+        {
+          "label": "2 числа",
+          "count": "925",
+          "amount": "36.70 euro",
+          "total": "33 947.50 euro"
+        }
+      ],
+      "type": "joker"
+    }
+  ],
+  "fetched": 1779604558
+}
