@@ -22,6 +22,9 @@ GAMES = {
     'joker':    'joker',
     'rojdenden':'rojdenden',
     'zodiak':   'zodiak',
+    '13t1':     'toto1_13sreshti',
+    '12t1':     'toto1_12tip',
+    '10t1':     'toto1_10ot10',
 }
 
 HEADERS = {
@@ -225,6 +228,41 @@ def parse_rojdenden(soup, game):
     return {'game': game, 'title': title, 'drawings': drawings, 'fetched': int(time.time())}
 
 
+def parse_toto1( soup, game ):
+    """Тото 1 — div.numbers + div.xses (1/X/2 резултати)"""
+    tir = extract_tir_result(soup)
+    if not tir:
+        return None
+
+    title_tag = tir.find('h2', class_='tir_title')
+    title = title_tag.get_text(strip=True) if title_tag else ''
+
+    # Извличаме двойките number/xses
+    matches = []
+    for cell in tir.find_all('div', style=lambda s: s and 'display:inline-block' in s):
+        num_div = cell.find('div', class_='numbers')
+        xse_div = cell.find('div', class_='xses')
+        if num_div and xse_div:
+            matches.append({
+                'match':  num_div.get_text(strip=True),
+                'result': xse_div.get_text(strip=True).lower(),
+            })
+
+    jp    = get_jackpot(tir)
+    wins  = get_winnings(tir)
+
+    drawings = []
+    if matches:
+        drawings.append({
+            'matches':  matches,
+            'jackpot':  jp,
+            'winnings': wins,
+            'type':     'toto1',
+        })
+
+    return {'game': game, 'title': title, 'drawings': drawings, 'fetched': int(time.time())}
+
+
 PARSERS = {
     '6x49': parse_standard,
     '6x42': parse_standard,
@@ -232,6 +270,9 @@ PARSERS = {
     'joker': parse_joker,
     'zodiak': parse_zodiak,
     'rojdenden': parse_rojdenden,
+    '13t1': parse_toto1,
+    '12t1': parse_toto1,
+    '10t1': parse_toto1,
 }
 
 results = {}
