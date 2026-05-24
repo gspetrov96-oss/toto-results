@@ -1,14 +1,14 @@
 {
   "game": "zodiak",
-  "title": "Тираж 39 - 21.05.2026",
+  "title": "Тираж 40 - 24.05.2026",
   "drawings": [
     {
       "numbers": [
+        "1",
         "5",
-        "24",
-        "45",
-        "47",
-        "48"
+        "11",
+        "17",
+        "45"
       ],
       "zodia": "3",
       "jackpot": "1 500 000.00 euro",
@@ -33,49 +33,49 @@
         },
         {
           "label": "4 числа",
-          "count": "6",
+          "count": "17",
           "amount": "300.00 euro",
-          "total": "1 800.00 euro"
+          "total": "5 100.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "31",
+          "count": "43",
           "amount": "60.00 euro",
-          "total": "1 860.00 euro"
+          "total": "2 580.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "205",
+          "count": "428",
           "amount": "6.00 euro",
-          "total": "1 230.00 euro"
+          "total": "2 568.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "399",
+          "count": "687",
           "amount": "3.00 euro",
-          "total": "1 197.00 euro"
+          "total": "2 061.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2344",
+          "count": "2348",
           "amount": "1.00 euro",
-          "total": "2 344.00 euro"
+          "total": "2 348.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "3999",
+          "count": "6895",
           "amount": "0.50 euro",
-          "total": "1 999.50 euro"
+          "total": "3 447.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3716",
+          "count": "3558",
           "amount": "0.60 euro",
-          "total": "2 229.60 euro"
+          "total": "2 134.80 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1779608102
+  "fetched": 1779653808
 }

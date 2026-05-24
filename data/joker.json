@@ -1,35 +1,35 @@
 {
   "game": "joker",
-  "title": "Тираж 39 - 21.05.2026",
+  "title": "Тираж 40 - 24.05.2026",
   "drawings": [
     {
       "numbers": [
-        "9",
         "3",
-        "7"
-      ],
-      "positions": [
-        "4",
-        "6",
+        "1",
         "9"
       ],
-      "jackpot": "33 983.45 euro",
+      "positions": [
+        "1",
+        "6",
+        "8"
+      ],
+      "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "11",
+          "amount": "6 816.50 euro",
+          "total": "74 981.50 euro"
         },
         {
           "label": "2 числа",
-          "count": "925",
-          "amount": "36.70 euro",
-          "total": "33 947.50 euro"
+          "count": "1940",
+          "amount": "21.10 euro",
+          "total": "40 934.00 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1779608097
+  "fetched": 1779653803
 }

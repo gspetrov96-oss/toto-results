@@ -1,17 +1,17 @@
 {
   "game": "6x49",
-  "title": "Тираж 39 - 21.05.2026",
+  "title": "Тираж 40 - 24.05.2026",
   "drawings": [
     {
       "numbers": [
-        "3",
-        "17",
-        "33",
-        "36",
-        "39",
-        "45"
+        "8",
+        "9",
+        "38",
+        "43",
+        "45",
+        "46"
       ],
-      "jackpot": "1 341 238.91 euro",
+      "jackpot": "1 440 623.36 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "20",
-          "amount": "1 024.10 euro",
-          "total": "20 482.00 euro"
+          "count": "4",
+          "amount": "6 466.80 euro",
+          "total": "25 867.20 euro"
         },
         {
           "label": "4 числа",
-          "count": "680",
-          "amount": "33.30 euro",
-          "total": "22 644.00 euro"
+          "count": "258",
+          "amount": "110.80 euro",
+          "total": "28 586.40 euro"
         },
         {
           "label": "3 числа",
-          "count": "10496",
-          "amount": "4.60 euro",
-          "total": "48 281.60 euro"
+          "count": "7033",
+          "amount": "8.70 euro",
+          "total": "61 187.10 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1779608090
+  "fetched": 1779653796
 }
