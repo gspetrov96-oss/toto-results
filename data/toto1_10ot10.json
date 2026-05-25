@@ -1,24 +1,24 @@
 {
   "game": "10t1",
-  "title": "Тираж 38 - 17.05.2026",
+  "title": "Тираж 40 - 25.05.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "x"
-        },
-        {
-          "match": "2",
           "result": "1"
         },
         {
-          "match": "3",
+          "match": "2",
           "result": "2"
         },
         {
+          "match": "3",
+          "result": "1"
+        },
+        {
           "match": "4",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "5",
@@ -26,15 +26,15 @@
         },
         {
           "match": "6",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "7",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "8",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "9",
@@ -42,20 +42,20 @@
         },
         {
           "match": "10",
-          "result": "1"
+          "result": "2"
         }
       ],
-      "jackpot": "Спечелен",
+      "jackpot": "357.85 euro",
       "winnings": [
         {
           "label": "10 срещи",
-          "count": "1",
-          "amount": "412.40 euro",
-          "total": "412.40 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1779653815
+  "fetched": 1779724976
 }
