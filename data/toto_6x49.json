@@ -1,17 +1,17 @@
 {
   "game": "6x49",
-  "title": "Тираж 41 - 28.05.2026",
+  "title": "Тираж 42 - 31.05.2026",
   "drawings": [
     {
       "numbers": [
-        "2",
-        "6",
-        "15",
-        "19",
-        "26",
-        "35"
+        "9",
+        "17",
+        "29",
+        "39",
+        "42",
+        "49"
       ],
-      "jackpot": "1 514 993.52 euro",
+      "jackpot": "1 601 347.79 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "5",
-          "amount": "3 871.30 euro",
-          "total": "19 356.50 euro"
+          "count": "8",
+          "amount": "2 809.50 euro",
+          "total": "22 476.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "596",
-          "amount": "35.90 euro",
-          "total": "21 396.40 euro"
+          "count": "606",
+          "amount": "41.00 euro",
+          "total": "24 846.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "10156",
-          "amount": "4.50 euro",
-          "total": "45 702.00 euro"
+          "count": "9731",
+          "amount": "5.50 euro",
+          "total": "53 520.50 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1780259989
+  "fetched": 1780346823
 }

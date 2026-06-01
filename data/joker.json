@@ -1,35 +1,35 @@
 {
   "game": "joker",
-  "title": "Тираж 41 - 28.05.2026",
+  "title": "Тираж 42 - 31.05.2026",
   "drawings": [
     {
       "numbers": [
-        "6",
         "8",
-        "6"
+        "6",
+        "3"
       ],
       "positions": [
-        "1",
-        "2",
-        "9"
+        "4",
+        "5",
+        "8"
       ],
       "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "7",
-          "amount": "4 590.80 euro",
-          "total": "32 135.60 euro"
+          "count": "15",
+          "amount": "2 430.00 euro",
+          "total": "36 450.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "1543",
-          "amount": "20.80 euro",
-          "total": "32 094.40 euro"
+          "count": "2793",
+          "amount": "13.10 euro",
+          "total": "36 588.30 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1780259996
+  "fetched": 1780346831
 }

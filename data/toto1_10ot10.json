@@ -1,6 +1,6 @@
 {
   "game": "10t1",
-  "title": "Тираж 40 - 25.05.2026",
+  "title": "Тираж 42 - 31.05.2026",
   "drawings": [
     {
       "matches": [
@@ -22,7 +22,7 @@
         },
         {
           "match": "5",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "6",
@@ -38,24 +38,24 @@
         },
         {
           "match": "9",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "10",
-          "result": "2"
+          "result": "1"
         }
       ],
-      "jackpot": "357.85 euro",
+      "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "10 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "6",
+          "amount": "168.00 euro",
+          "total": "1 008.00 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1780260008
+  "fetched": 1780346843
 }

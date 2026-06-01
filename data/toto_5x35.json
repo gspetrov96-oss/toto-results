@@ -1,69 +1,69 @@
 {
   "game": "5x35",
-  "title": "Тираж 41 - 28.05.2026",
+  "title": "Тираж 42 - 31.05.2026",
   "drawings": [
     {
       "numbers": [
-        "3",
-        "9",
-        "18",
-        "20",
-        "27"
+        "1",
+        "2",
+        "8",
+        "17",
+        "30"
       ],
       "jackpot": "Няма",
       "winnings": [
         {
           "label": "5 числа",
           "count": "1",
-          "amount": "22 153.80 euro",
-          "total": "22 153.80 euro"
+          "amount": "24 381.20 euro",
+          "total": "24 381.20 euro"
         },
         {
           "label": "4 числа",
-          "count": "476",
-          "amount": "60.70 euro",
-          "total": "28 893.20 euro"
+          "count": "231",
+          "amount": "137.70 euro",
+          "total": "31 808.70 euro"
         },
         {
           "label": "3 числа",
-          "count": "11065",
-          "amount": "4.10 euro",
-          "total": "45 366.50 euro"
+          "count": "8767",
+          "amount": "5.70 euro",
+          "total": "49 971.90 euro"
         }
       ],
       "type": "standard"
     },
     {
       "numbers": [
-        "2",
-        "5",
-        "21",
-        "32",
-        "33"
+        "1",
+        "15",
+        "17",
+        "22",
+        "32"
       ],
       "jackpot": "Няма",
       "winnings": [
         {
           "label": "5 числа",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "1",
+          "amount": "24 381.20 euro",
+          "total": "24 381.20 euro"
         },
         {
           "label": "4 числа",
-          "count": "194",
-          "amount": "206.10 euro",
-          "total": "39 983.40 euro"
+          "count": "196",
+          "amount": "162.30 euro",
+          "total": "31 810.80 euro"
         },
         {
           "label": "3 числа",
-          "count": "7268",
-          "amount": "7.80 euro",
-          "total": "56 690.40 euro"
+          "count": "7534",
+          "amount": "6.60 euro",
+          "total": "49 724.40 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1780259994
+  "fetched": 1780346828
 }
