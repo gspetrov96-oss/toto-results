@@ -1,17 +1,17 @@
 {
   "game": "6x42",
-  "title": "Тираж 42 - 31.05.2026",
+  "title": "Тираж 43 - 04.06.2026",
   "drawings": [
     {
       "numbers": [
-        "2",
-        "3",
         "5",
         "14",
-        "30",
+        "18",
+        "21",
+        "34",
         "41"
       ],
-      "jackpot": "421 607.33 euro",
+      "jackpot": "441 174.95 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "7",
-          "amount": "1 994.70 euro",
-          "total": "13 962.90 euro"
+          "count": "17",
+          "amount": "746.00 euro",
+          "total": "12 682.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "323",
-          "amount": "43.20 euro",
-          "total": "13 953.60 euro"
+          "count": "390",
+          "amount": "32.50 euro",
+          "total": "12 675.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "5817",
-          "amount": "3.40 euro",
-          "total": "19 777.80 euro"
+          "count": "5549",
+          "amount": "3.30 euro",
+          "total": "18 311.70 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1780346826
+  "fetched": 1780611209
 }

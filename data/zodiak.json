@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 42 - 31.05.2026",
+  "title": "Тираж 43 - 04.06.2026",
   "drawings": [
     {
       "numbers": [
-        "8",
-        "10",
-        "11",
+        "7",
+        "12",
         "29",
-        "32"
+        "32",
+        "40"
       ],
-      "zodia": "5",
+      "zodia": "11",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -27,55 +27,55 @@
         },
         {
           "label": "4 числа + 1 зодия",
-          "count": "1",
-          "amount": "3 000.00 euro",
-          "total": "3 000.00 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "4",
+          "count": "3",
           "amount": "300.00 euro",
-          "total": "1 200.00 euro"
+          "total": "900.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "59",
+          "count": "15",
           "amount": "60.00 euro",
-          "total": "3 540.00 euro"
+          "total": "900.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "423",
+          "count": "239",
           "amount": "6.00 euro",
-          "total": "2 538.00 euro"
+          "total": "1 434.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "571",
+          "count": "339",
           "amount": "3.00 euro",
-          "total": "1 713.00 euro"
+          "total": "1 017.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2690",
+          "count": "1933",
           "amount": "1.00 euro",
-          "total": "2 690.00 euro"
+          "total": "1 933.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "5406",
+          "count": "4821",
           "amount": "0.50 euro",
-          "total": "2 703.00 euro"
+          "total": "2 410.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3962",
+          "count": "3178",
           "amount": "0.60 euro",
-          "total": "2 377.20 euro"
+          "total": "1 906.80 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1780346835
+  "fetched": 1780611218
 }
