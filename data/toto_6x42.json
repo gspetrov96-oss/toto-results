@@ -1,17 +1,17 @@
 {
   "game": "6x42",
-  "title": "Тираж 43 - 04.06.2026",
+  "title": "Тираж 44 - 07.06.2026",
   "drawings": [
     {
       "numbers": [
-        "5",
-        "14",
-        "18",
-        "21",
+        "4",
+        "7",
+        "17",
         "34",
-        "41"
+        "36",
+        "42"
       ],
-      "jackpot": "441 174.95 euro",
+      "jackpot": "462 907.48 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "17",
-          "amount": "746.00 euro",
-          "total": "12 682.00 euro"
+          "count": "20",
+          "amount": "704.30 euro",
+          "total": "14 086.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "390",
-          "amount": "32.50 euro",
-          "total": "12 675.00 euro"
+          "count": "659",
+          "amount": "21.40 euro",
+          "total": "14 102.60 euro"
         },
         {
           "label": "3 числа",
-          "count": "5549",
-          "amount": "3.30 euro",
-          "total": "18 311.70 euro"
+          "count": "8021",
+          "amount": "2.50 euro",
+          "total": "20 052.50 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1780668621
+  "fetched": 1780865622
 }

@@ -1,14 +1,14 @@
 {
   "game": "zodiak",
-  "title": "Тираж 43 - 04.06.2026",
+  "title": "Тираж 44 - 07.06.2026",
   "drawings": [
     {
       "numbers": [
-        "7",
-        "12",
-        "29",
-        "32",
-        "40"
+        "8",
+        "11",
+        "35",
+        "36",
+        "46"
       ],
       "zodia": "11",
       "jackpot": "1 500 000.00 euro",
@@ -33,49 +33,49 @@
         },
         {
           "label": "4 числа",
-          "count": "3",
+          "count": "5",
           "amount": "300.00 euro",
-          "total": "900.00 euro"
+          "total": "1 500.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "15",
+          "count": "13",
           "amount": "60.00 euro",
-          "total": "900.00 euro"
+          "total": "780.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "239",
+          "count": "253",
           "amount": "6.00 euro",
-          "total": "1 434.00 euro"
+          "total": "1 518.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "339",
+          "count": "311",
           "amount": "3.00 euro",
-          "total": "1 017.00 euro"
+          "total": "933.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "1933",
+          "count": "2099",
           "amount": "1.00 euro",
-          "total": "1 933.00 euro"
+          "total": "2 099.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "4821",
+          "count": "4538",
           "amount": "0.50 euro",
-          "total": "2 410.50 euro"
+          "total": "2 269.00 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3178",
+          "count": "3307",
           "amount": "0.60 euro",
-          "total": "1 906.80 euro"
+          "total": "1 984.20 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1780668631
+  "fetched": 1780865631
 }

@@ -1,35 +1,35 @@
 {
   "game": "joker",
-  "title": "Тираж 43 - 04.06.2026",
+  "title": "Тираж 44 - 07.06.2026",
   "drawings": [
     {
       "numbers": [
-        "7",
-        "9",
-        "2"
+        "8",
+        "2",
+        "9"
       ],
       "positions": [
-        "2",
-        "5",
-        "7"
+        "6",
+        "7",
+        "9"
       ],
       "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "31",
-          "amount": "1 042.50 euro",
-          "total": "32 317.50 euro"
+          "count": "10",
+          "amount": "3 614.10 euro",
+          "total": "36 141.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "2051",
-          "amount": "15.80 euro",
-          "total": "32 405.80 euro"
+          "count": "1685",
+          "amount": "21.50 euro",
+          "total": "36 227.50 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1780668626
+  "fetched": 1780865627
 }
