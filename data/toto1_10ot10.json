@@ -1,6 +1,6 @@
 {
   "game": "10t1",
-  "title": "Тираж 42 - 31.05.2026",
+  "title": "Тираж 44 - 07.06.2026",
   "drawings": [
     {
       "matches": [
@@ -14,11 +14,11 @@
         },
         {
           "match": "3",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "4",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "5",
@@ -26,15 +26,15 @@
         },
         {
           "match": "6",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "7",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "8",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "9",
@@ -42,20 +42,20 @@
         },
         {
           "match": "10",
-          "result": "1"
+          "result": "2"
         }
       ],
-      "jackpot": "Спечелен",
+      "jackpot": "304.80 euro",
       "winnings": [
         {
           "label": "10 срещи",
-          "count": "6",
-          "amount": "168.00 euro",
-          "total": "1 008.00 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1780865638
+  "fetched": 1780937964
 }

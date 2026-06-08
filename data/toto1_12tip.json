@@ -1,16 +1,16 @@
 {
   "game": "12t1",
-  "title": "Тираж 42 - 31.05.2026",
+  "title": "Тираж 44 - 07.06.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "2",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "3",
@@ -18,7 +18,7 @@
         },
         {
           "match": "4",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "5",
@@ -26,11 +26,11 @@
         },
         {
           "match": "6",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "7",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "8",
@@ -42,34 +42,34 @@
         },
         {
           "match": "10",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "11",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "12",
           "result": "1"
         }
       ],
-      "jackpot": "Спечелен",
+      "jackpot": "164.25 euro",
       "winnings": [
         {
           "label": "12 срещи",
-          "count": "8",
-          "amount": "3 897.30 euro",
-          "total": "31 178.40 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         },
         {
           "label": "11 срещи",
-          "count": "140",
+          "count": "3",
           "amount": "54.80 euro",
-          "total": "7 672.00 euro"
+          "total": "164.40 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1780865636
+  "fetched": 1780937961
 }
