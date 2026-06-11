@@ -1,35 +1,35 @@
 {
   "game": "joker",
-  "title": "Тираж 44 - 07.06.2026",
+  "title": "Тираж 45 - 11.06.2026",
   "drawings": [
     {
       "numbers": [
-        "8",
+        "6",
         "2",
-        "9"
+        "4"
       ],
       "positions": [
+        "3",
         "6",
-        "7",
-        "9"
+        "7"
       ],
       "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "10",
-          "amount": "3 614.10 euro",
-          "total": "36 141.00 euro"
+          "count": "2",
+          "amount": "17 043.60 euro",
+          "total": "34 087.20 euro"
         },
         {
           "label": "2 числа",
-          "count": "1685",
-          "amount": "21.50 euro",
-          "total": "36 227.50 euro"
+          "count": "943",
+          "amount": "36.20 euro",
+          "total": "34 136.60 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1780937952
+  "fetched": 1781218852
 }
