@@ -1,33 +1,33 @@
 {
   "game": "rojdenden",
-  "title": "Тираж 45 - 11.06.2026",
+  "title": "Тираж 46 - 14.06.2026",
   "drawings": [
     {
       "numbers": [
-        "53",
-        "5",
-        "22",
-        "3"
+        "33",
+        "2",
+        "3",
+        "1"
       ],
       "ymdd": [
         {
           "label": "Година",
-          "value": "53"
+          "value": "33"
         },
         {
           "label": "Месец",
-          "value": "5"
+          "value": "2"
         },
         {
           "label": "Дата",
-          "value": "22"
+          "value": "3"
         },
         {
           "label": "Ден",
-          "value": "3"
+          "value": "1"
         }
       ],
-      "jackpot": "12 231.28 euro",
+      "jackpot": "13 243.56 euro",
       "winnings": [
         {
           "label": "година + месец + дата + ден",
@@ -37,91 +37,91 @@
         },
         {
           "label": "година + месец + дата",
+          "count": "1",
+          "amount": "404.90 euro",
+          "total": "404.90 euro"
+        },
+        {
+          "label": "година + дата + ден",
           "count": "0",
           "amount": "0.00 euro",
           "total": "0.00 euro"
         },
         {
-          "label": "година + дата + ден",
-          "count": "2",
-          "amount": "155.90 euro",
-          "total": "311.80 euro"
-        },
-        {
           "label": "година + месец + ден",
-          "count": "9",
-          "amount": "21.70 euro",
-          "total": "195.30 euro"
+          "count": "1",
+          "amount": "202.50 euro",
+          "total": "202.50 euro"
         },
         {
           "label": "година + дата",
-          "count": "11",
-          "amount": "17.70 euro",
-          "total": "194.70 euro"
+          "count": "10",
+          "amount": "20.30 euro",
+          "total": "203.00 euro"
         },
         {
           "label": "месец + дата + ден",
-          "count": "12",
-          "amount": "13.00 euro",
-          "total": "156.00 euro"
+          "count": "13",
+          "amount": "12.50 euro",
+          "total": "162.50 euro"
         },
         {
           "label": "година + месец",
-          "count": "31",
-          "amount": "6.30 euro",
-          "total": "195.30 euro"
+          "count": "9",
+          "amount": "22.50 euro",
+          "total": "202.50 euro"
         },
         {
           "label": "година + ден",
-          "count": "56",
-          "amount": "2.80 euro",
-          "total": "156.80 euro"
+          "count": "20",
+          "amount": "8.10 euro",
+          "total": "162.00 euro"
         },
         {
           "label": "месец + дата",
-          "count": "77",
-          "amount": "3.00 euro",
-          "total": "231.00 euro"
+          "count": "72",
+          "amount": "3.40 euro",
+          "total": "244.80 euro"
         },
         {
           "label": "дата + ден",
-          "count": "141",
-          "amount": "1.90 euro",
-          "total": "267.90 euro"
+          "count": "140",
+          "amount": "2.00 euro",
+          "total": "280.00 euro"
         },
         {
           "label": "година",
-          "count": "301",
-          "amount": "1.00 euro",
-          "total": "301.00 euro"
+          "count": "105",
+          "amount": "3.10 euro",
+          "total": "325.50 euro"
         },
         {
           "label": "месец + ден",
-          "count": "487",
-          "amount": "0.80 euro",
-          "total": "389.60 euro"
+          "count": "305",
+          "amount": "1.30 euro",
+          "total": "396.50 euro"
         },
         {
           "label": "дата",
-          "count": "767",
+          "count": "794",
           "amount": "1.10 euro",
-          "total": "843.70 euro"
+          "total": "873.40 euro"
         },
         {
           "label": "месец",
-          "count": "2425",
-          "amount": "0.55 euro",
-          "total": "1 333.75 euro"
+          "count": "2085",
+          "amount": "0.66 euro",
+          "total": "1 376.10 euro"
         },
         {
           "label": "ден",
-          "count": "4231",
-          "amount": "0.52 euro",
-          "total": "2 200.12 euro"
+          "count": "3935",
+          "amount": "0.58 euro",
+          "total": "2 282.30 euro"
         }
       ],
       "type": "rojdenden"
     }
   ],
-  "fetched": 1781281949
+  "fetched": 1781470441
 }

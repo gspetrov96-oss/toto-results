@@ -1,17 +1,17 @@
 {
   "game": "6x42",
-  "title": "Тираж 45 - 11.06.2026",
+  "title": "Тираж 46 - 14.06.2026",
   "drawings": [
     {
       "numbers": [
-        "8",
-        "9",
-        "13",
-        "20",
-        "26",
-        "37"
+        "1",
+        "3",
+        "24",
+        "28",
+        "35",
+        "40"
       ],
-      "jackpot": "483 757.38 euro",
+      "jackpot": "505 835.31 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "9",
-          "amount": "1 501.50 euro",
-          "total": "13 513.50 euro"
+          "count": "7",
+          "amount": "2 044.20 euro",
+          "total": "14 309.40 euro"
         },
         {
           "label": "4 числа",
-          "count": "388",
-          "amount": "34.80 euro",
-          "total": "13 502.40 euro"
+          "count": "281",
+          "amount": "50.90 euro",
+          "total": "14 302.90 euro"
         },
         {
           "label": "3 числа",
-          "count": "6059",
-          "amount": "3.20 euro",
-          "total": "19 388.80 euro"
+          "count": "5652",
+          "amount": "3.60 euro",
+          "total": "20 347.20 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1781281942
+  "fetched": 1781470434
 }

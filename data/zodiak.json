@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 45 - 11.06.2026",
+  "title": "Тираж 46 - 14.06.2026",
   "drawings": [
     {
       "numbers": [
         "2",
-        "21",
-        "39",
-        "45",
-        "48"
+        "6",
+        "20",
+        "43",
+        "44"
       ],
-      "zodia": "7",
+      "zodia": "10",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -33,49 +33,49 @@
         },
         {
           "label": "4 числа",
-          "count": "2",
+          "count": "5",
           "amount": "300.00 euro",
-          "total": "600.00 euro"
+          "total": "1 500.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "13",
+          "count": "24",
           "amount": "60.00 euro",
-          "total": "780.00 euro"
+          "total": "1 440.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "172",
+          "count": "221",
           "amount": "6.00 euro",
-          "total": "1 032.00 euro"
+          "total": "1 326.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "318",
+          "count": "371",
           "amount": "3.00 euro",
-          "total": "954.00 euro"
+          "total": "1 113.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2141",
+          "count": "2191",
           "amount": "1.00 euro",
-          "total": "2 141.00 euro"
+          "total": "2 191.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "3450",
+          "count": "4177",
           "amount": "0.50 euro",
-          "total": "1 725.00 euro"
+          "total": "2 088.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "4320",
+          "count": "3874",
           "amount": "0.60 euro",
-          "total": "2 592.00 euro"
+          "total": "2 324.40 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1781281952
+  "fetched": 1781470443
 }
