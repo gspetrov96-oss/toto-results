@@ -1,28 +1,28 @@
 {
   "game": "10t1",
-  "title": "Тираж 44 - 07.06.2026",
+  "title": "Тираж 46 - 14.06.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "2",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "3",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "4",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "5",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "6",
@@ -30,22 +30,22 @@
         },
         {
           "match": "7",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "8",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "9",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "10",
-          "result": "2"
+          "result": "x"
         }
       ],
-      "jackpot": "304.80 euro",
+      "jackpot": "713.50 euro",
       "winnings": [
         {
           "label": "10 срещи",
@@ -57,5 +57,5 @@
       "type": "toto1"
     }
   ],
-  "fetched": 1781470450
+  "fetched": 1781552031
 }
