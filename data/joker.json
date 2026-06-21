@@ -1,35 +1,35 @@
 {
   "game": "joker",
-  "title": "Тираж 47 - 18.06.2026",
+  "title": "Тираж 48 - 21.06.2026",
   "drawings": [
     {
       "numbers": [
         "2",
-        "4",
-        "3"
+        "8",
+        "0"
       ],
       "positions": [
-        "4",
-        "6",
-        "8"
+        "1",
+        "3",
+        "5"
       ],
       "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "19",
-          "amount": "1 775.70 euro",
-          "total": "33 738.30 euro"
+          "count": "1",
+          "amount": "36 585.00 euro",
+          "total": "36 585.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "2305",
-          "amount": "14.60 euro",
-          "total": "33 653.00 euro"
+          "count": "1085",
+          "amount": "33.70 euro",
+          "total": "36 564.50 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1781885735
+  "fetched": 1782075609
 }
