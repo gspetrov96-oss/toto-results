@@ -1,17 +1,17 @@
 {
   "game": "6x49",
-  "title": "Тираж 48 - 21.06.2026",
+  "title": "Тираж 49 - 25.06.2026",
   "drawings": [
     {
       "numbers": [
-        "6",
-        "13",
-        "16",
-        "19",
-        "42",
-        "44"
+        "5",
+        "11",
+        "44",
+        "46",
+        "47",
+        "48"
       ],
-      "jackpot": "2 101 765.38 euro",
+      "jackpot": "2 189 497.94 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "8",
-          "amount": "2 903.20 euro",
-          "total": "23 225.60 euro"
+          "count": "2",
+          "amount": "11 417.30 euro",
+          "total": "22 834.60 euro"
         },
         {
           "label": "4 числа",
-          "count": "632",
-          "amount": "40.60 euro",
-          "total": "25 659.20 euro"
+          "count": "442",
+          "amount": "57.10 euro",
+          "total": "25 238.20 euro"
         },
         {
           "label": "3 числа",
-          "count": "11524",
-          "amount": "4.80 euro",
-          "total": "55 315.20 euro"
+          "count": "7164",
+          "amount": "7.60 euro",
+          "total": "54 446.40 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1782154402
+  "fetched": 1782425470
 }
