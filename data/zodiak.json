@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 49 - 25.06.2026",
+  "title": "Тираж 50 - 28.06.2026",
   "drawings": [
     {
       "numbers": [
-        "9",
-        "13",
-        "22",
+        "3",
+        "4",
+        "14",
         "28",
-        "46"
+        "41"
       ],
-      "zodia": "3",
+      "zodia": "11",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -27,55 +27,55 @@
         },
         {
           "label": "4 числа + 1 зодия",
-          "count": "2",
-          "amount": "3 000.00 euro",
-          "total": "6 000.00 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "11",
+          "count": "7",
           "amount": "300.00 euro",
-          "total": "3 300.00 euro"
-        },
-        {
-          "label": "3 числа + 1 зодия",
-          "count": "35",
-          "amount": "60.00 euro",
           "total": "2 100.00 euro"
         },
         {
+          "label": "3 числа + 1 зодия",
+          "count": "32",
+          "amount": "60.00 euro",
+          "total": "1 920.00 euro"
+        },
+        {
           "label": "3 числа",
-          "count": "412",
+          "count": "379",
           "amount": "6.00 euro",
-          "total": "2 472.00 euro"
+          "total": "2 274.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "487",
+          "count": "375",
           "amount": "3.00 euro",
-          "total": "1 461.00 euro"
+          "total": "1 125.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2327",
+          "count": "2126",
           "amount": "1.00 euro",
-          "total": "2 327.00 euro"
+          "total": "2 126.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "5252",
+          "count": "5493",
           "amount": "0.50 euro",
-          "total": "2 626.00 euro"
+          "total": "2 746.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3331",
+          "count": "3014",
           "amount": "0.60 euro",
-          "total": "1 998.60 euro"
+          "total": "1 808.40 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1782477127
+  "fetched": 1782679464
 }
