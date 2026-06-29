@@ -1,6 +1,6 @@
 {
   "game": "10t1",
-  "title": "Тираж 48 - 21.06.2026",
+  "title": "Тираж 50 - 28.06.2026",
   "drawings": [
     {
       "matches": [
@@ -10,23 +10,23 @@
         },
         {
           "match": "2",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "3",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "4",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "5",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "6",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "7",
@@ -34,28 +34,28 @@
         },
         {
           "match": "8",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "9",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "10",
-          "result": "2"
+          "result": "1"
         }
       ],
-      "jackpot": "1 111.25 euro",
+      "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "10 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "4",
+          "amount": "521.40 euro",
+          "total": "2 085.60 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1782679471
+  "fetched": 1782751597
 }

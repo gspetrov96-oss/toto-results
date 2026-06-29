@@ -1,6 +1,6 @@
 {
   "game": "13t1",
-  "title": "Тираж 48 - 21.06.2026",
+  "title": "Тираж 50 - 28.06.2026",
   "drawings": [
     {
       "matches": [
@@ -10,7 +10,7 @@
         },
         {
           "match": "2",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "3",
@@ -18,19 +18,19 @@
         },
         {
           "match": "4",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "5",
-          "result": "1"
-        },
-        {
-          "match": "6",
           "result": "x"
         },
         {
+          "match": "6",
+          "result": "2"
+        },
+        {
           "match": "7",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "8",
@@ -42,50 +42,50 @@
         },
         {
           "match": "10",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "11",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "12",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "13",
           "result": "x"
         }
       ],
-      "jackpot": "2 744.12 euro",
+      "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "13 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "8",
+          "amount": "520.00 euro",
+          "total": "4 160.00 euro"
         },
         {
           "label": "12 срещи",
-          "count": "1",
-          "amount": "1 422.60 euro",
-          "total": "1 422.60 euro"
+          "count": "169",
+          "amount": "8.40 euro",
+          "total": "1 419.60 euro"
         },
         {
           "label": "11 срещи",
-          "count": "32",
-          "amount": "55.60 euro",
-          "total": "1 779.20 euro"
+          "count": "1291",
+          "amount": "1.40 euro",
+          "total": "1 807.40 euro"
         },
         {
           "label": "10 срещи",
-          "count": "280",
-          "amount": "8.90 euro",
-          "total": "2 492.00 euro"
+          "count": "5375",
+          "amount": "0.46 euro",
+          "total": "2 472.50 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1782679466
+  "fetched": 1782751592
 }
