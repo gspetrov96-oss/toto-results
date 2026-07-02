@@ -1,35 +1,35 @@
 {
   "game": "joker",
-  "title": "Тираж 50 - 28.06.2026",
+  "title": "Тираж 51 - 02.07.2026",
   "drawings": [
     {
       "numbers": [
-        "7",
         "0",
-        "5"
+        "4",
+        "0"
       ],
       "positions": [
-        "1",
         "4",
-        "6"
+        "6",
+        "9"
       ],
-      "jackpot": "72 878.85 euro",
+      "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "4",
+          "amount": "28 439.30 euro",
+          "total": "113 757.20 euro"
         },
         {
           "label": "2 числа",
-          "count": "762",
-          "amount": "52.00 euro",
-          "total": "39 624.00 euro"
+          "count": "1288",
+          "amount": "31.70 euro",
+          "total": "40 829.60 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1782751586
+  "fetched": 1783016541
 }

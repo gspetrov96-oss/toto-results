@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 50 - 28.06.2026",
+  "title": "Тираж 51 - 02.07.2026",
   "drawings": [
     {
       "numbers": [
-        "3",
-        "4",
-        "14",
-        "28",
-        "41"
+        "15",
+        "16",
+        "22",
+        "30",
+        "38"
       ],
-      "zodia": "11",
+      "zodia": "10",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -39,43 +39,43 @@
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "32",
+          "count": "26",
           "amount": "60.00 euro",
-          "total": "1 920.00 euro"
+          "total": "1 560.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "379",
+          "count": "357",
           "amount": "6.00 euro",
-          "total": "2 274.00 euro"
+          "total": "2 142.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "375",
+          "count": "419",
           "amount": "3.00 euro",
-          "total": "1 125.00 euro"
+          "total": "1 257.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2126",
+          "count": "2221",
           "amount": "1.00 euro",
-          "total": "2 126.00 euro"
+          "total": "2 221.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "5493",
+          "count": "4579",
           "amount": "0.50 euro",
-          "total": "2 746.50 euro"
+          "total": "2 289.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3014",
+          "count": "3203",
           "amount": "0.60 euro",
-          "total": "1 808.40 euro"
+          "total": "1 921.80 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1782751590
+  "fetched": 1783016546
 }
