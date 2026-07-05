@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 51 - 02.07.2026",
+  "title": "Тираж 52 - 05.07.2026",
   "drawings": [
     {
       "numbers": [
-        "15",
-        "16",
-        "22",
-        "30",
-        "38"
+        "5",
+        "7",
+        "33",
+        "35",
+        "40"
       ],
-      "zodia": "10",
+      "zodia": "1",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -33,49 +33,49 @@
         },
         {
           "label": "4 числа",
-          "count": "7",
+          "count": "9",
           "amount": "300.00 euro",
-          "total": "2 100.00 euro"
+          "total": "2 700.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "26",
+          "count": "17",
           "amount": "60.00 euro",
-          "total": "1 560.00 euro"
+          "total": "1 020.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "357",
+          "count": "272",
           "amount": "6.00 euro",
-          "total": "2 142.00 euro"
+          "total": "1 632.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "419",
+          "count": "448",
           "amount": "3.00 euro",
-          "total": "1 257.00 euro"
+          "total": "1 344.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2221",
+          "count": "2214",
           "amount": "1.00 euro",
-          "total": "2 221.00 euro"
+          "total": "2 214.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "4579",
+          "count": "5233",
           "amount": "0.50 euro",
-          "total": "2 289.50 euro"
+          "total": "2 616.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3203",
+          "count": "3412",
           "amount": "0.60 euro",
-          "total": "1 921.80 euro"
+          "total": "2 047.20 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1783065396
+  "fetched": 1783274082
 }
