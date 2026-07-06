@@ -1,16 +1,16 @@
 {
   "game": "12t1",
-  "title": "Тираж 50 - 28.06.2026",
+  "title": "Тираж 52 - 05.07.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "2",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "3",
@@ -18,7 +18,7 @@
         },
         {
           "match": "4",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "5",
@@ -34,26 +34,26 @@
         },
         {
           "match": "8",
-          "result": "x"
-        },
-        {
-          "match": "9",
-          "result": "2"
-        },
-        {
-          "match": "10",
           "result": "1"
         },
         {
+          "match": "9",
+          "result": "1"
+        },
+        {
+          "match": "10",
+          "result": "2"
+        },
+        {
           "match": "11",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "12",
           "result": "x"
         }
       ],
-      "jackpot": "1 469.68 euro",
+      "jackpot": "2 338.48 euro",
       "winnings": [
         {
           "label": "12 срещи",
@@ -63,13 +63,13 @@
         },
         {
           "label": "11 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "2",
+          "amount": "434.40 euro",
+          "total": "868.80 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1783274086
+  "fetched": 1783328028
 }
