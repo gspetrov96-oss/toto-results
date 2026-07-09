@@ -1,17 +1,17 @@
 {
   "game": "6x49",
-  "title": "Тираж 52 - 05.07.2026",
+  "title": "Тираж 53 - 09.07.2026",
   "drawings": [
     {
       "numbers": [
-        "4",
-        "11",
-        "21",
-        "28",
-        "36",
-        "49"
+        "12",
+        "17",
+        "23",
+        "30",
+        "38",
+        "41"
       ],
-      "jackpot": "2 454 504.13 euro",
+      "jackpot": "2 538 119.44 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "20",
-          "amount": "1 163.00 euro",
-          "total": "23 260.00 euro"
+          "count": "11",
+          "amount": "1 978.40 euro",
+          "total": "21 762.40 euro"
         },
         {
           "label": "4 числа",
-          "count": "726",
-          "amount": "35.40 euro",
-          "total": "25 700.40 euro"
+          "count": "688",
+          "amount": "35.00 euro",
+          "total": "24 080.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "11545",
-          "amount": "4.80 euro",
-          "total": "55 416.00 euro"
+          "count": "11695",
+          "amount": "4.40 euro",
+          "total": "51 458.00 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1783328011
+  "fetched": 1783622760
 }
