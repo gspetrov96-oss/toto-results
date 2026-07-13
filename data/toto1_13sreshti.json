@@ -1,12 +1,12 @@
 {
   "game": "13t1",
-  "title": "Тираж 52 - 05.07.2026",
+  "title": "Тираж 54 - 12.07.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "2",
@@ -34,19 +34,19 @@
         },
         {
           "match": "8",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "9",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "10",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "11",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "12",
@@ -57,7 +57,7 @@
           "result": "1"
         }
       ],
-      "jackpot": "444.90 euro",
+      "jackpot": "1 325.74 euro",
       "winnings": [
         {
           "label": "13 срещи",
@@ -67,25 +67,25 @@
         },
         {
           "label": "12 срещи",
-          "count": "2",
-          "amount": "222.50 euro",
-          "total": "445.00 euro"
+          "count": "24",
+          "amount": "36.70 euro",
+          "total": "880.80 euro"
         },
         {
           "label": "11 срещи",
-          "count": "49",
-          "amount": "11.40 euro",
-          "total": "558.60 euro"
+          "count": "334",
+          "amount": "3.30 euro",
+          "total": "1 102.20 euro"
         },
         {
           "label": "10 срещи",
-          "count": "369",
-          "amount": "2.10 euro",
-          "total": "774.90 euro"
+          "count": "2217",
+          "amount": "0.70 euro",
+          "total": "1 551.90 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1783878577
+  "fetched": 1783929612
 }

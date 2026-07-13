@@ -1,6 +1,6 @@
 {
   "game": "10t1",
-  "title": "Тираж 52 - 05.07.2026",
+  "title": "Тираж 54 - 12.07.2026",
   "drawings": [
     {
       "matches": [
@@ -14,7 +14,7 @@
         },
         {
           "match": "3",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "4",
@@ -22,19 +22,19 @@
         },
         {
           "match": "5",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "6",
-          "result": "1"
-        },
-        {
-          "match": "7",
           "result": "2"
         },
         {
-          "match": "8",
+          "match": "7",
           "result": "1"
+        },
+        {
+          "match": "8",
+          "result": "2"
         },
         {
           "match": "9",
@@ -42,10 +42,10 @@
         },
         {
           "match": "10",
-          "result": "2"
+          "result": "1"
         }
       ],
-      "jackpot": "254.30 euro",
+      "jackpot": "740.05 euro",
       "winnings": [
         {
           "label": "10 срещи",
@@ -57,5 +57,5 @@
       "type": "toto1"
     }
   ],
-  "fetched": 1783878582
+  "fetched": 1783929617
 }
