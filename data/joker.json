@@ -1,35 +1,35 @@
 {
   "game": "joker",
-  "title": "Тираж 54 - 12.07.2026",
+  "title": "Тираж 55 - 16.07.2026",
   "drawings": [
     {
       "numbers": [
-        "7",
-        "8",
-        "3"
+        "4",
+        "6",
+        "2"
       ],
       "positions": [
-        "4",
-        "5",
+        "1",
+        "8",
         "9"
       ],
       "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "2",
-          "amount": "19 415.30 euro",
-          "total": "38 830.60 euro"
+          "count": "5",
+          "amount": "7 018.20 euro",
+          "total": "35 091.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "1043",
-          "amount": "37.20 euro",
-          "total": "38 799.60 euro"
+          "count": "1402",
+          "amount": "25.00 euro",
+          "total": "35 050.00 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1783929605
+  "fetched": 1784224721
 }
