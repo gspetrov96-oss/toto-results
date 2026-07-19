@@ -1,33 +1,33 @@
 {
   "game": "rojdenden",
-  "title": "Тираж 55 - 16.07.2026",
+  "title": "Тираж 56 - 19.07.2026",
   "drawings": [
     {
       "numbers": [
-        "95",
-        "12",
-        "21",
-        "5"
+        "54",
+        "6",
+        "14",
+        "2"
       ],
       "ymdd": [
         {
           "label": "Година",
-          "value": "95"
+          "value": "54"
         },
         {
           "label": "Месец",
-          "value": "12"
+          "value": "6"
         },
         {
           "label": "Дата",
-          "value": "21"
+          "value": "14"
         },
         {
           "label": "Ден",
-          "value": "5"
+          "value": "2"
         }
       ],
-      "jackpot": "1 006.80 euro",
+      "jackpot": "2 047.95 euro",
       "winnings": [
         {
           "label": "година + месец + дата + ден",
@@ -43,85 +43,85 @@
         },
         {
           "label": "година + дата + ден",
-          "count": "2",
-          "amount": "149.20 euro",
-          "total": "298.40 euro"
+          "count": "1",
+          "amount": "308.50 euro",
+          "total": "308.50 euro"
         },
         {
           "label": "година + месец + ден",
-          "count": "4",
-          "amount": "46.60 euro",
-          "total": "186.40 euro"
+          "count": "2",
+          "amount": "96.40 euro",
+          "total": "192.80 euro"
         },
         {
           "label": "година + дата",
-          "count": "4",
-          "amount": "46.60 euro",
-          "total": "186.40 euro"
+          "count": "8",
+          "amount": "24.10 euro",
+          "total": "192.80 euro"
         },
         {
           "label": "месец + дата + ден",
-          "count": "11",
-          "amount": "13.60 euro",
-          "total": "149.60 euro"
+          "count": "13",
+          "amount": "11.90 euro",
+          "total": "154.70 euro"
         },
         {
           "label": "година + месец",
-          "count": "19",
-          "amount": "9.80 euro",
-          "total": "186.20 euro"
+          "count": "28",
+          "amount": "6.90 euro",
+          "total": "193.20 euro"
         },
         {
           "label": "година + ден",
-          "count": "44",
-          "amount": "3.40 euro",
-          "total": "149.60 euro"
+          "count": "37",
+          "amount": "4.20 euro",
+          "total": "155.40 euro"
         },
         {
           "label": "месец + дата",
-          "count": "49",
-          "amount": "4.60 euro",
-          "total": "225.40 euro"
+          "count": "81",
+          "amount": "2.90 euro",
+          "total": "234.90 euro"
         },
         {
           "label": "дата + ден",
-          "count": "126",
-          "amount": "2.10 euro",
-          "total": "264.60 euro"
+          "count": "105",
+          "amount": "2.60 euro",
+          "total": "273.00 euro"
         },
         {
           "label": "година",
-          "count": "227",
-          "amount": "1.30 euro",
-          "total": "295.10 euro"
+          "count": "276",
+          "amount": "1.10 euro",
+          "total": "303.60 euro"
         },
         {
           "label": "месец + ден",
-          "count": "295",
-          "amount": "1.30 euro",
-          "total": "383.50 euro"
+          "count": "312",
+          "amount": "1.20 euro",
+          "total": "374.40 euro"
         },
         {
           "label": "дата",
-          "count": "732",
+          "count": "728",
           "amount": "1.10 euro",
-          "total": "805.20 euro"
+          "total": "800.80 euro"
         },
         {
           "label": "месец",
-          "count": "1791",
-          "amount": "0.71 euro",
-          "total": "1 271.61 euro"
+          "count": "2098",
+          "amount": "0.62 euro",
+          "total": "1 300.76 euro"
         },
         {
           "label": "ден",
-          "count": "3783",
-          "amount": "0.55 euro",
-          "total": "2 080.65 euro"
+          "count": "3652",
+          "amount": "0.59 euro",
+          "total": "2 154.68 euro"
         }
       ],
       "type": "rojdenden"
     }
   ],
-  "fetched": 1784272320
+  "fetched": 1784483203
 }

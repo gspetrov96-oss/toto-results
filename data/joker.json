@@ -1,15 +1,15 @@
 {
   "game": "joker",
-  "title": "Тираж 55 - 16.07.2026",
+  "title": "Тираж 56 - 19.07.2026",
   "drawings": [
     {
       "numbers": [
-        "4",
-        "6",
-        "2"
+        "5",
+        "8",
+        "3"
       ],
       "positions": [
-        "1",
+        "6",
         "8",
         "9"
       ],
@@ -17,19 +17,19 @@
       "winnings": [
         {
           "label": "3 числа",
-          "count": "5",
-          "amount": "7 018.20 euro",
-          "total": "35 091.00 euro"
+          "count": "8",
+          "amount": "4 848.40 euro",
+          "total": "38 787.20 euro"
         },
         {
           "label": "2 числа",
-          "count": "1402",
-          "amount": "25.00 euro",
-          "total": "35 050.00 euro"
+          "count": "1828",
+          "amount": "21.20 euro",
+          "total": "38 753.60 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1784272318
+  "fetched": 1784483200
 }
