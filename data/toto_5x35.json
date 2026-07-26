@@ -1,69 +1,69 @@
 {
   "game": "5x35",
-  "title": "Тираж 57 - 23.07.2026",
+  "title": "Тираж 58 - 26.07.2026",
   "drawings": [
     {
       "numbers": [
-        "11",
+        "5",
+        "12",
         "20",
-        "24",
-        "25",
-        "30"
-      ],
-      "jackpot": "Няма",
-      "winnings": [
-        {
-          "label": "5 числа",
-          "count": "1",
-          "amount": "23 231.80 euro",
-          "total": "23 231.80 euro"
-        },
-        {
-          "label": "4 числа",
-          "count": "339",
-          "amount": "89.40 euro",
-          "total": "30 306.60 euro"
-        },
-        {
-          "label": "3 числа",
-          "count": "9874",
-          "amount": "4.80 euro",
-          "total": "47 395.20 euro"
-        }
-      ],
-      "type": "standard"
-    },
-    {
-      "numbers": [
-        "2",
-        "10",
-        "17",
-        "33",
+        "21",
         "35"
       ],
       "jackpot": "Няма",
       "winnings": [
         {
           "label": "5 числа",
-          "count": "3",
-          "amount": "7 744.00 euro",
-          "total": "23 232.00 euro"
+          "count": "1",
+          "amount": "25 082.40 euro",
+          "total": "25 082.40 euro"
+        },
+        {
+          "label": "4 числа",
+          "count": "297",
+          "amount": "110.20 euro",
+          "total": "32 729.40 euro"
+        },
+        {
+          "label": "3 числа",
+          "count": "9694",
+          "amount": "5.30 euro",
+          "total": "51 378.20 euro"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "numbers": [
+        "6",
+        "14",
+        "17",
+        "20",
+        "32"
+      ],
+      "jackpot": "Няма",
+      "winnings": [
+        {
+          "label": "5 числа",
+          "count": "1",
+          "amount": "25 082.40 euro",
+          "total": "25 082.40 euro"
         },
         {
           "label": "4 числа",
           "count": "320",
-          "amount": "94.70 euro",
-          "total": "30 304.00 euro"
+          "amount": "102.20 euro",
+          "total": "32 704.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "9119",
-          "amount": "5.20 euro",
-          "total": "47 418.80 euro"
+          "count": "8885",
+          "amount": "5.80 euro",
+          "total": "51 533.00 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1784877975
+  "fetched": 1785088425
 }
