@@ -1,6 +1,6 @@
 {
   "game": "10t1",
-  "title": "Тираж 56 - 19.07.2026",
+  "title": "Тираж 58 - 26.07.2026",
   "drawings": [
     {
       "matches": [
@@ -14,7 +14,7 @@
         },
         {
           "match": "3",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "4",
@@ -26,7 +26,7 @@
         },
         {
           "match": "6",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "7",
@@ -38,14 +38,14 @@
         },
         {
           "match": "9",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "10",
-          "result": "1"
+          "result": "2"
         }
       ],
-      "jackpot": "1 087.20 euro",
+      "jackpot": "2 094.85 euro",
       "winnings": [
         {
           "label": "10 срещи",
@@ -57,5 +57,5 @@
       "type": "toto1"
     }
   ],
-  "fetched": 1785088439
+  "fetched": 1785140381
 }

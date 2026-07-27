@@ -1,16 +1,16 @@
 {
   "game": "12t1",
-  "title": "Тираж 56 - 19.07.2026",
+  "title": "Тираж 58 - 26.07.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "2",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "3",
@@ -22,15 +22,15 @@
         },
         {
           "match": "5",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "6",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "7",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "8",
@@ -38,38 +38,38 @@
         },
         {
           "match": "9",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "10",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "11",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "12",
           "result": "1"
         }
       ],
-      "jackpot": "Спечелен",
+      "jackpot": "433.65 euro",
       "winnings": [
         {
           "label": "12 срещи",
-          "count": "1",
-          "amount": "5 533.00 euro",
-          "total": "5 533.00 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         },
         {
           "label": "11 срещи",
-          "count": "7",
-          "amount": "223.90 euro",
-          "total": "1 567.30 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1785088436
+  "fetched": 1785140378
 }
