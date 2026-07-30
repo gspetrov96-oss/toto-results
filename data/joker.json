@@ -1,35 +1,35 @@
 {
   "game": "joker",
-  "title": "Тираж 58 - 26.07.2026",
+  "title": "Тираж 59 - 30.07.2026",
   "drawings": [
     {
       "numbers": [
-        "2",
-        "3",
-        "3"
+        "0",
+        "1",
+        "1"
       ],
       "positions": [
         "1",
-        "4",
-        "7"
+        "8",
+        "9"
       ],
       "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "1",
-          "amount": "39 117.50 euro",
-          "total": "39 117.50 euro"
+          "count": "8",
+          "amount": "4 409.20 euro",
+          "total": "35 273.60 euro"
         },
         {
           "label": "2 числа",
-          "count": "957",
-          "amount": "40.90 euro",
-          "total": "39 141.30 euro"
+          "count": "2303",
+          "amount": "15.30 euro",
+          "total": "35 235.90 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1785140369
+  "fetched": 1785434975
 }

@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 58 - 26.07.2026",
+  "title": "Тираж 59 - 30.07.2026",
   "drawings": [
     {
       "numbers": [
-        "11",
-        "27",
+        "13",
+        "28",
         "29",
-        "32",
-        "37"
+        "40",
+        "50"
       ],
-      "zodia": "4",
+      "zodia": "6",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -33,49 +33,49 @@
         },
         {
           "label": "4 числа",
-          "count": "7",
+          "count": "3",
           "amount": "300.00 euro",
-          "total": "2 100.00 euro"
+          "total": "900.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "29",
+          "count": "32",
           "amount": "60.00 euro",
-          "total": "1 740.00 euro"
+          "total": "1 920.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "284",
+          "count": "261",
           "amount": "6.00 euro",
-          "total": "1 704.00 euro"
+          "total": "1 566.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "541",
+          "count": "442",
           "amount": "3.00 euro",
-          "total": "1 623.00 euro"
+          "total": "1 326.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2382",
+          "count": "2408",
           "amount": "1.00 euro",
-          "total": "2 382.00 euro"
+          "total": "2 408.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "4898",
+          "count": "4502",
           "amount": "0.50 euro",
-          "total": "2 449.00 euro"
+          "total": "2 251.00 euro"
         },
         {
           "label": "1 зодия",
-          "count": "4047",
+          "count": "4106",
           "amount": "0.60 euro",
-          "total": "2 428.20 euro"
+          "total": "2 463.60 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1785140374
+  "fetched": 1785434980
 }

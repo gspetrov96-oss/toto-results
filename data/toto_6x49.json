@@ -1,17 +1,17 @@
 {
   "game": "6x49",
-  "title": "Тираж 58 - 26.07.2026",
+  "title": "Тираж 59 - 30.07.2026",
   "drawings": [
     {
       "numbers": [
-        "4",
-        "19",
-        "20",
-        "27",
-        "28",
-        "34"
+        "14",
+        "33",
+        "35",
+        "37",
+        "39",
+        "43"
       ],
-      "jackpot": "2 995 996.96 euro",
+      "jackpot": "3 080 816.99 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "17",
-          "amount": "1 628.60 euro",
-          "total": "27 686.20 euro"
+          "count": "12",
+          "amount": "2 034.80 euro",
+          "total": "24 417.60 euro"
         },
         {
           "label": "4 числа",
-          "count": "793",
-          "amount": "38.60 euro",
-          "total": "30 609.80 euro"
+          "count": "352",
+          "amount": "76.70 euro",
+          "total": "26 998.40 euro"
         },
         {
           "label": "3 числа",
-          "count": "12452",
-          "amount": "5.30 euro",
-          "total": "65 995.60 euro"
+          "count": "7183",
+          "amount": "8.10 euro",
+          "total": "58 182.30 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1785140362
+  "fetched": 1785434968
 }
