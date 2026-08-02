@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 59 - 30.07.2026",
+  "title": "Тираж 60 - 02.08.2026",
   "drawings": [
     {
       "numbers": [
-        "13",
-        "28",
-        "29",
-        "40",
-        "50"
+        "22",
+        "37",
+        "38",
+        "41",
+        "45"
       ],
-      "zodia": "6",
+      "zodia": "9",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -33,49 +33,49 @@
         },
         {
           "label": "4 числа",
-          "count": "3",
-          "amount": "300.00 euro",
-          "total": "900.00 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "32",
+          "count": "25",
           "amount": "60.00 euro",
-          "total": "1 920.00 euro"
+          "total": "1 500.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "261",
+          "count": "227",
           "amount": "6.00 euro",
-          "total": "1 566.00 euro"
+          "total": "1 362.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "442",
+          "count": "494",
           "amount": "3.00 euro",
-          "total": "1 326.00 euro"
+          "total": "1 482.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2408",
+          "count": "2371",
           "amount": "1.00 euro",
-          "total": "2 408.00 euro"
+          "total": "2 371.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "4502",
+          "count": "4811",
           "amount": "0.50 euro",
-          "total": "2 251.00 euro"
+          "total": "2 405.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "4106",
+          "count": "4519",
           "amount": "0.60 euro",
-          "total": "2 463.60 euro"
+          "total": "2 711.40 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1785483929
+  "fetched": 1785693099
 }
