@@ -1,24 +1,24 @@
 {
   "game": "12t1",
-  "title": "Тираж 58 - 26.07.2026",
+  "title": "Тираж 60 - 02.08.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "2",
-          "result": "x"
-        },
-        {
-          "match": "3",
           "result": "2"
         },
         {
+          "match": "3",
+          "result": "1"
+        },
+        {
           "match": "4",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "5",
@@ -26,7 +26,7 @@
         },
         {
           "match": "6",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "7",
@@ -46,14 +46,14 @@
         },
         {
           "match": "11",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "12",
           "result": "1"
         }
       ],
-      "jackpot": "433.65 euro",
+      "jackpot": "844.10 euro",
       "winnings": [
         {
           "label": "12 срещи",
@@ -71,5 +71,5 @@
       "type": "toto1"
     }
   ],
-  "fetched": 1785693103
+  "fetched": 1785745073
 }
