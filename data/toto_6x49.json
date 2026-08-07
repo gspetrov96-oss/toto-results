@@ -1,17 +1,17 @@
 {
   "game": "6x49",
-  "title": "Тираж 60 - 02.08.2026",
+  "title": "Тираж 61 - 06.08.2026",
   "drawings": [
     {
       "numbers": [
-        "2",
-        "17",
-        "21",
-        "29",
-        "34",
-        "36"
+        "6",
+        "22",
+        "27",
+        "33",
+        "36",
+        "41"
       ],
-      "jackpot": "3 175 849.96 euro",
+      "jackpot": "3 260 941.00 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "6",
-          "amount": "4 559.70 euro",
-          "total": "27 358.20 euro"
+          "count": "7",
+          "amount": "3 499.40 euro",
+          "total": "24 495.80 euro"
         },
         {
           "label": "4 числа",
-          "count": "528",
-          "amount": "57.30 euro",
-          "total": "30 254.40 euro"
+          "count": "511",
+          "amount": "53.00 euro",
+          "total": "27 083.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "10343",
-          "amount": "6.30 euro",
-          "total": "65 160.90 euro"
+          "count": "9889",
+          "amount": "5.90 euro",
+          "total": "58 345.10 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1785745056
+  "fetched": 1786082733
 }
