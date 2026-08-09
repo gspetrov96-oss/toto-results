@@ -1,35 +1,35 @@
 {
   "game": "joker",
-  "title": "Тираж 61 - 06.08.2026",
+  "title": "Тираж 62 - 09.08.2026",
   "drawings": [
     {
       "numbers": [
-        "1",
-        "2",
-        "9"
+        "3",
+        "0",
+        "2"
       ],
       "positions": [
         "1",
-        "3",
-        "8"
+        "4",
+        "5"
       ],
-      "jackpot": "34 197.55 euro",
+      "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "2",
+          "amount": "39 011.00 euro",
+          "total": "78 022.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "662",
-          "amount": "51.70 euro",
-          "total": "34 225.40 euro"
+          "count": "1257",
+          "amount": "34.90 euro",
+          "total": "43 869.30 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1786082740
+  "fetched": 1786296020
 }
