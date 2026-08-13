@@ -1,16 +1,16 @@
 {
   "game": "12t1",
-  "title": "Тираж 60 - 02.08.2026",
+  "title": "Тираж 62 - 09.08.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "2",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "3",
@@ -26,19 +26,19 @@
         },
         {
           "match": "6",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "7",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "8",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "9",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "10",
@@ -46,14 +46,14 @@
         },
         {
           "match": "11",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "12",
           "result": "1"
         }
       ],
-      "jackpot": "844.10 euro",
+      "jackpot": "1 241.85 euro",
       "winnings": [
         {
           "label": "12 срещи",
@@ -63,13 +63,13 @@
         },
         {
           "label": "11 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "2",
+          "amount": "198.90 euro",
+          "total": "397.80 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1786341897
+  "fetched": 1786643461
 }

@@ -1,35 +1,35 @@
 {
   "game": "joker",
-  "title": "Тираж 62 - 09.08.2026",
+  "title": "Тираж 63 - 13.08.2026",
   "drawings": [
     {
       "numbers": [
-        "3",
-        "0",
-        "2"
+        "9",
+        "2",
+        "0"
       ],
       "positions": [
         "1",
-        "4",
-        "5"
+        "7",
+        "8"
       ],
       "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "2",
-          "amount": "39 011.00 euro",
-          "total": "78 022.00 euro"
+          "count": "4",
+          "amount": "9 212.60 euro",
+          "total": "36 850.40 euro"
         },
         {
           "label": "2 числа",
-          "count": "1257",
-          "amount": "34.90 euro",
-          "total": "43 869.30 euro"
+          "count": "1457",
+          "amount": "25.30 euro",
+          "total": "36 862.10 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1786341888
+  "fetched": 1786643452
 }

@@ -1,17 +1,17 @@
 {
   "game": "6x42",
-  "title": "Тираж 62 - 09.08.2026",
+  "title": "Тираж 63 - 13.08.2026",
   "drawings": [
     {
       "numbers": [
-        "1",
-        "6",
-        "11",
-        "12",
-        "23",
-        "36"
+        "2",
+        "4",
+        "18",
+        "20",
+        "31",
+        "41"
       ],
-      "jackpot": "881 427.65 euro",
+      "jackpot": "907 493.57 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "8",
-          "amount": "2 237.60 euro",
-          "total": "17 900.80 euro"
+          "count": "7",
+          "amount": "2 327.30 euro",
+          "total": "16 291.10 euro"
         },
         {
           "label": "4 числа",
-          "count": "460",
-          "amount": "38.90 euro",
-          "total": "17 894.00 euro"
+          "count": "447",
+          "amount": "36.50 euro",
+          "total": "16 315.50 euro"
         },
         {
           "label": "3 числа",
-          "count": "7039",
-          "amount": "3.60 euro",
-          "total": "25 340.40 euro"
+          "count": "6711",
+          "amount": "3.50 euro",
+          "total": "23 488.50 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1786341883
+  "fetched": 1786643447
 }

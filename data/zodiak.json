@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 62 - 09.08.2026",
+  "title": "Тираж 63 - 13.08.2026",
   "drawings": [
     {
       "numbers": [
-        "9",
-        "11",
-        "32",
-        "36",
-        "44"
+        "1",
+        "2",
+        "19",
+        "27",
+        "49"
       ],
-      "zodia": "3",
+      "zodia": "10",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -27,55 +27,55 @@
         },
         {
           "label": "4 числа + 1 зодия",
-          "count": "1",
-          "amount": "3 000.00 euro",
-          "total": "3 000.00 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "10",
+          "count": "6",
           "amount": "300.00 euro",
-          "total": "3 000.00 euro"
+          "total": "1 800.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "17",
+          "count": "28",
           "amount": "60.00 euro",
-          "total": "1 020.00 euro"
+          "total": "1 680.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "253",
+          "count": "314",
           "amount": "6.00 euro",
-          "total": "1 518.00 euro"
+          "total": "1 884.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "363",
+          "count": "419",
           "amount": "3.00 euro",
-          "total": "1 089.00 euro"
+          "total": "1 257.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2243",
+          "count": "2197",
           "amount": "1.00 euro",
-          "total": "2 243.00 euro"
+          "total": "2 197.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "4531",
+          "count": "4759",
           "amount": "0.50 euro",
-          "total": "2 265.50 euro"
+          "total": "2 379.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3936",
+          "count": "3541",
           "amount": "0.60 euro",
-          "total": "2 361.60 euro"
+          "total": "2 124.60 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1786341893
+  "fetched": 1786643456
 }
