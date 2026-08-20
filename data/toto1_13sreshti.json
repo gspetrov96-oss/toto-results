@@ -1,6 +1,6 @@
 {
   "game": "13t1",
-  "title": "Тираж 62 - 09.08.2026",
+  "title": "Тираж 64 - 16.08.2026",
   "drawings": [
     {
       "matches": [
@@ -10,19 +10,19 @@
         },
         {
           "match": "2",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "3",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "4",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "5",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "6",
@@ -30,7 +30,7 @@
         },
         {
           "match": "7",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "8",
@@ -42,7 +42,7 @@
         },
         {
           "match": "10",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "11",
@@ -50,14 +50,14 @@
         },
         {
           "match": "12",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "13",
-          "result": "1"
+          "result": "x"
         }
       ],
-      "jackpot": "6 752.04 euro",
+      "jackpot": "8 399.99 euro",
       "winnings": [
         {
           "label": "13 срещи",
@@ -67,25 +67,25 @@
         },
         {
           "label": "12 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "2",
+          "amount": "824.00 euro",
+          "total": "1 648.00 euro"
         },
         {
           "label": "11 срещи",
-          "count": "20",
-          "amount": "75.20 euro",
-          "total": "1 504.00 euro"
+          "count": "28",
+          "amount": "73.60 euro",
+          "total": "2 060.80 euro"
         },
         {
           "label": "10 срещи",
-          "count": "244",
-          "amount": "8.60 euro",
-          "total": "2 098.40 euro"
+          "count": "201",
+          "amount": "14.40 euro",
+          "total": "2 894.40 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1786944262
+  "fetched": 1787246396
 }

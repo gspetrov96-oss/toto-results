@@ -1,17 +1,17 @@
 {
   "game": "6x49",
-  "title": "Тираж 64 - 16.08.2026",
+  "title": "Тираж 65 - 20.08.2026",
   "drawings": [
     {
       "numbers": [
-        "2",
-        "17",
-        "20",
-        "34",
-        "38",
+        "4",
+        "12",
+        "15",
+        "16",
+        "30",
         "39"
       ],
-      "jackpot": "3 562 080.56 euro",
+      "jackpot": "3 650 343.41 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "15",
-          "amount": "2 161.20 euro",
-          "total": "32 418.00 euro"
+          "count": "9",
+          "amount": "2 823.20 euro",
+          "total": "25 408.80 euro"
         },
         {
           "label": "4 числа",
-          "count": "627",
-          "amount": "57.20 euro",
-          "total": "35 864.40 euro"
+          "count": "648",
+          "amount": "43.30 euro",
+          "total": "28 058.40 euro"
         },
         {
           "label": "3 числа",
-          "count": "11768",
-          "amount": "6.50 euro",
-          "total": "76 492.00 euro"
+          "count": "11543",
+          "amount": "5.20 euro",
+          "total": "60 023.60 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1786944248
+  "fetched": 1787246382
 }
