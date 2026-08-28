@@ -1,16 +1,16 @@
 {
   "game": "joker",
-  "title": "Тираж 66 - 23.08.2026",
+  "title": "Тираж 67 - 27.08.2026",
   "drawings": [
     {
       "numbers": [
-        "7",
-        "7",
-        "6"
+        "5",
+        "6",
+        "8"
       ],
       "positions": [
-        "4",
-        "7",
+        "1",
+        "2",
         "8"
       ],
       "jackpot": "Спечелен",
@@ -18,18 +18,18 @@
         {
           "label": "3 числа",
           "count": "1",
-          "amount": "39 749.00 euro",
-          "total": "39 749.00 euro"
+          "amount": "36 138.30 euro",
+          "total": "36 138.30 euro"
         },
         {
           "label": "2 числа",
-          "count": "1087",
-          "amount": "36.60 euro",
-          "total": "39 784.20 euro"
+          "count": "657",
+          "amount": "55.00 euro",
+          "total": "36 135.00 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1787549262
+  "fetched": 1787879657
 }

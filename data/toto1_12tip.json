@@ -1,24 +1,24 @@
 {
   "game": "12t1",
-  "title": "Тираж 64 - 16.08.2026",
+  "title": "Тираж 66 - 23.08.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "2",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "3",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "4",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "5",
@@ -30,15 +30,15 @@
         },
         {
           "match": "7",
-          "result": "2"
-        },
-        {
-          "match": "8",
           "result": "x"
         },
         {
-          "match": "9",
+          "match": "8",
           "result": "2"
+        },
+        {
+          "match": "9",
+          "result": "1"
         },
         {
           "match": "10",
@@ -53,7 +53,7 @@
           "result": "1"
         }
       ],
-      "jackpot": "1 572.38 euro",
+      "jackpot": "2 381.28 euro",
       "winnings": [
         {
           "label": "12 срещи",
@@ -63,13 +63,13 @@
         },
         {
           "label": "11 срещи",
-          "count": "5",
-          "amount": "66.10 euro",
-          "total": "330.50 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1787549272
+  "fetched": 1787879667
 }
