@@ -1,17 +1,17 @@
 {
   "game": "6x49",
-  "title": "Тираж 67 - 27.08.2026",
+  "title": "Тираж 68 - 30.08.2026",
   "drawings": [
     {
       "numbers": [
-        "1",
-        "8",
-        "15",
-        "17",
-        "41",
-        "43"
+        "2",
+        "9",
+        "10",
+        "13",
+        "25",
+        "46"
       ],
-      "jackpot": "3 836 076.27 euro",
+      "jackpot": "3 935 862.72 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "7",
-          "amount": "3 641.50 euro",
-          "total": "25 490.50 euro"
+          "count": "14",
+          "amount": "2 051.90 euro",
+          "total": "28 726.60 euro"
         },
         {
           "label": "4 числа",
-          "count": "415",
-          "amount": "67.90 euro",
-          "total": "28 178.50 euro"
+          "count": "870",
+          "amount": "36.50 euro",
+          "total": "31 755.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "9911",
-          "amount": "6.10 euro",
-          "total": "60 457.10 euro"
+          "count": "15516",
+          "amount": "4.40 euro",
+          "total": "68 270.40 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1787936670
+  "fetched": 1788118376
 }
