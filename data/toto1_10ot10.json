@@ -1,20 +1,20 @@
 {
   "game": "10t1",
-  "title": "Тираж 66 - 23.08.2026",
+  "title": "Тираж 68 - 30.08.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "2",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "3",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "4",
@@ -26,26 +26,26 @@
         },
         {
           "match": "6",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "7",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "8",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "9",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "10",
-          "result": "1"
+          "result": "x"
         }
       ],
-      "jackpot": "777.55 euro",
+      "jackpot": "1 352.60 euro",
       "winnings": [
         {
           "label": "10 срещи",
@@ -57,5 +57,5 @@
       "type": "toto1"
     }
   ],
-  "fetched": 1788118394
+  "fetched": 1788174700
 }
