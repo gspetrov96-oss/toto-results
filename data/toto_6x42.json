@@ -1,17 +1,17 @@
 {
   "game": "6x42",
-  "title": "Тираж 68 - 30.08.2026",
+  "title": "Тираж 69 - 03.09.2026",
   "drawings": [
     {
       "numbers": [
-        "2",
-        "9",
-        "10",
-        "33",
+        "5",
+        "13",
+        "17",
+        "37",
         "38",
-        "42"
+        "40"
       ],
-      "jackpot": "1 046 086.94 euro",
+      "jackpot": "1 072 695.94 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "7",
-          "amount": "2 574.80 euro",
-          "total": "18 023.60 euro"
+          "count": "6",
+          "amount": "2 771.80 euro",
+          "total": "16 630.80 euro"
         },
         {
           "label": "4 числа",
-          "count": "450",
-          "amount": "40.10 euro",
-          "total": "18 045.00 euro"
+          "count": "326",
+          "amount": "51.00 euro",
+          "total": "16 626.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "7444",
-          "amount": "3.50 euro",
-          "total": "26 054.00 euro"
+          "count": "5972",
+          "amount": "4.00 euro",
+          "total": "23 888.00 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1788174683
+  "fetched": 1788463801
 }
