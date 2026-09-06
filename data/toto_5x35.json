@@ -1,69 +1,69 @@
 {
   "game": "5x35",
-  "title": "Тираж 69 - 03.09.2026",
+  "title": "Тираж 70 - 06.09.2026",
   "drawings": [
     {
       "numbers": [
-        "8",
-        "14",
-        "20",
+        "6",
+        "18",
         "21",
-        "34"
+        "24",
+        "30"
       ],
       "jackpot": "Няма",
       "winnings": [
         {
           "label": "5 числа",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "2",
+          "amount": "12 792.90 euro",
+          "total": "25 585.80 euro"
         },
         {
           "label": "4 числа",
-          "count": "218",
-          "amount": "187.20 euro",
-          "total": "40 809.60 euro"
+          "count": "620",
+          "amount": "53.80 euro",
+          "total": "33 356.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "7095",
-          "amount": "8.10 euro",
-          "total": "57 469.50 euro"
+          "count": "10698",
+          "amount": "4.90 euro",
+          "total": "52 420.20 euro"
         }
       ],
       "type": "standard"
     },
     {
       "numbers": [
-        "8",
-        "17",
-        "18",
+        "3",
         "24",
-        "33"
+        "27",
+        "30",
+        "32"
       ],
       "jackpot": "Няма",
       "winnings": [
         {
           "label": "5 числа",
           "count": "1",
-          "amount": "22 612.80 euro",
-          "total": "22 612.80 euro"
+          "amount": "25 585.80 euro",
+          "total": "25 585.80 euro"
         },
         {
           "label": "4 числа",
-          "count": "368",
-          "amount": "80.20 euro",
-          "total": "29 513.60 euro"
+          "count": "308",
+          "amount": "108.40 euro",
+          "total": "33 387.20 euro"
         },
         {
           "label": "3 числа",
-          "count": "10466",
-          "amount": "4.40 euro",
-          "total": "46 050.40 euro"
+          "count": "9952",
+          "amount": "5.30 euro",
+          "total": "52 745.60 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1788513183
+  "fetched": 1788720184
 }

@@ -1,6 +1,6 @@
 {
   "game": "joker",
-  "title": "Тираж 69 - 03.09.2026",
+  "title": "Тираж 70 - 06.09.2026",
   "drawings": [
     {
       "numbers": [
@@ -9,27 +9,27 @@
         "4"
       ],
       "positions": [
-        "2",
         "4",
-        "6"
+        "5",
+        "8"
       ],
       "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "2",
-          "amount": "18 484.50 euro",
-          "total": "36 969.00 euro"
+          "count": "18",
+          "amount": "2 345.90 euro",
+          "total": "42 226.20 euro"
         },
         {
           "label": "2 числа",
-          "count": "1488",
-          "amount": "24.80 euro",
-          "total": "36 902.40 euro"
+          "count": "3287",
+          "amount": "12.90 euro",
+          "total": "42 402.30 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1788513185
+  "fetched": 1788720187
 }

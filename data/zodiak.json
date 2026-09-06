@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 69 - 03.09.2026",
+  "title": "Тираж 70 - 06.09.2026",
   "drawings": [
     {
       "numbers": [
-        "5",
+        "14",
+        "16",
+        "18",
         "26",
-        "27",
-        "34",
-        "39"
+        "31"
       ],
-      "zodia": "3",
+      "zodia": "6",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -27,55 +27,55 @@
         },
         {
           "label": "4 числа + 1 зодия",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "4",
+          "amount": "3 000.00 euro",
+          "total": "12 000.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "4",
+          "count": "9",
           "amount": "300.00 euro",
-          "total": "1 200.00 euro"
+          "total": "2 700.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "36",
+          "count": "50",
           "amount": "60.00 euro",
-          "total": "2 160.00 euro"
+          "total": "3 000.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "345",
+          "count": "438",
           "amount": "6.00 euro",
-          "total": "2 070.00 euro"
+          "total": "2 628.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "504",
+          "count": "445",
           "amount": "3.00 euro",
-          "total": "1 512.00 euro"
+          "total": "1 335.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2308",
+          "count": "2638",
           "amount": "1.00 euro",
-          "total": "2 308.00 euro"
+          "total": "2 638.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "5029",
+          "count": "5545",
           "amount": "0.50 euro",
-          "total": "2 514.50 euro"
+          "total": "2 772.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3488",
+          "count": "4074",
           "amount": "0.60 euro",
-          "total": "2 092.80 euro"
+          "total": "2 444.40 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1788513190
+  "fetched": 1788720191
 }

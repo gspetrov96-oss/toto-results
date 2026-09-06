@@ -1,17 +1,17 @@
 {
   "game": "6x49",
-  "title": "Тираж 69 - 03.09.2026",
+  "title": "Тираж 70 - 06.09.2026",
   "drawings": [
     {
       "numbers": [
-        "8",
-        "16",
-        "20",
-        "35",
-        "38",
-        "47"
+        "6",
+        "9",
+        "19",
+        "25",
+        "30",
+        "38"
       ],
-      "jackpot": "4 025 208.88 euro",
+      "jackpot": "4 139 833.36 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "5",
-          "amount": "5 144.20 euro",
-          "total": "25 721.00 euro"
+          "count": "46",
+          "amount": "717.40 euro",
+          "total": "33 000.40 euro"
         },
         {
           "label": "4 числа",
-          "count": "435",
-          "amount": "65.40 euro",
-          "total": "28 449.00 euro"
+          "count": "1420",
+          "amount": "25.70 euro",
+          "total": "36 494.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "8825",
-          "amount": "6.90 euro",
-          "total": "60 892.50 euro"
+          "count": "17997",
+          "amount": "4.30 euro",
+          "total": "77 387.10 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1788513178
+  "fetched": 1788720180
 }
