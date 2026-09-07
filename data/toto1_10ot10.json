@@ -1,12 +1,12 @@
 {
   "game": "10t1",
-  "title": "Тираж 68 - 30.08.2026",
+  "title": "Тираж 70 - 06.09.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "2",
@@ -14,19 +14,19 @@
         },
         {
           "match": "3",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "4",
-          "result": "x"
-        },
-        {
-          "match": "5",
           "result": "2"
         },
         {
-          "match": "6",
+          "match": "5",
           "result": "1"
+        },
+        {
+          "match": "6",
+          "result": "2"
         },
         {
           "match": "7",
@@ -34,7 +34,7 @@
         },
         {
           "match": "8",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "9",
@@ -45,17 +45,17 @@
           "result": "x"
         }
       ],
-      "jackpot": "1 352.60 euro",
+      "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "10 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "1",
+          "amount": "2 405.70 euro",
+          "total": "2 405.70 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1788720198
+  "fetched": 1788774491
 }
