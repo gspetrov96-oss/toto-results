@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 70 - 06.09.2026",
+  "title": "Тираж 71 - 10.09.2026",
   "drawings": [
     {
       "numbers": [
         "14",
-        "16",
-        "18",
+        "19",
         "26",
-        "31"
+        "27",
+        "48"
       ],
-      "zodia": "6",
+      "zodia": "1",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -27,55 +27,55 @@
         },
         {
           "label": "4 числа + 1 зодия",
-          "count": "4",
-          "amount": "3 000.00 euro",
-          "total": "12 000.00 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "9",
+          "count": "3",
           "amount": "300.00 euro",
-          "total": "2 700.00 euro"
+          "total": "900.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "50",
+          "count": "33",
           "amount": "60.00 euro",
-          "total": "3 000.00 euro"
+          "total": "1 980.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "438",
+          "count": "316",
           "amount": "6.00 euro",
-          "total": "2 628.00 euro"
+          "total": "1 896.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "445",
+          "count": "420",
           "amount": "3.00 euro",
-          "total": "1 335.00 euro"
+          "total": "1 260.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2638",
+          "count": "2245",
           "amount": "1.00 euro",
-          "total": "2 638.00 euro"
+          "total": "2 245.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "5545",
+          "count": "5318",
           "amount": "0.50 euro",
-          "total": "2 772.50 euro"
+          "total": "2 659.00 euro"
         },
         {
           "label": "1 зодия",
-          "count": "4074",
+          "count": "3294",
           "amount": "0.60 euro",
-          "total": "2 444.40 euro"
+          "total": "1 976.40 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1788774484
+  "fetched": 1789118225
 }
