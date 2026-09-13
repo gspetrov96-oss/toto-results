@@ -1,69 +1,69 @@
 {
   "game": "5x35",
-  "title": "Тираж 71 - 10.09.2026",
+  "title": "Тираж 72 - 13.09.2026",
   "drawings": [
     {
       "numbers": [
-        "9",
-        "10",
-        "18",
-        "23",
-        "28"
-      ],
-      "jackpot": "Няма",
-      "winnings": [
-        {
-          "label": "5 числа",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
-        },
-        {
-          "label": "4 числа",
-          "count": "326",
-          "amount": "130.70 euro",
-          "total": "42 608.20 euro"
-        },
-        {
-          "label": "3 числа",
-          "count": "10399",
-          "amount": "5.80 euro",
-          "total": "60 314.20 euro"
-        }
-      ],
-      "type": "standard"
-    },
-    {
-      "numbers": [
-        "1",
+        "4",
         "6",
-        "29",
-        "31",
-        "34"
+        "9",
+        "16",
+        "20"
       ],
       "jackpot": "Няма",
       "winnings": [
         {
           "label": "5 числа",
           "count": "3",
-          "amount": "7 873.50 euro",
-          "total": "23 620.50 euro"
+          "amount": "8 557.30 euro",
+          "total": "25 671.90 euro"
         },
         {
           "label": "4 числа",
-          "count": "201",
-          "amount": "153.30 euro",
-          "total": "30 813.30 euro"
+          "count": "407",
+          "amount": "82.30 euro",
+          "total": "33 496.10 euro"
         },
         {
           "label": "3 числа",
-          "count": "6600",
-          "amount": "7.30 euro",
-          "total": "48 180.00 euro"
+          "count": "11137",
+          "amount": "4.70 euro",
+          "total": "52 343.90 euro"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "numbers": [
+        "5",
+        "11",
+        "13",
+        "19",
+        "20"
+      ],
+      "jackpot": "Няма",
+      "winnings": [
+        {
+          "label": "5 числа",
+          "count": "6",
+          "amount": "4 278.60 euro",
+          "total": "25 671.60 euro"
+        },
+        {
+          "label": "4 числа",
+          "count": "477",
+          "amount": "70.20 euro",
+          "total": "33 485.40 euro"
+        },
+        {
+          "label": "3 числа",
+          "count": "12462",
+          "amount": "4.20 euro",
+          "total": "52 340.40 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1789118217
+  "fetched": 1789326215
 }

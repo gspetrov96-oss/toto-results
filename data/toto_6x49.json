@@ -1,17 +1,17 @@
 {
   "game": "6x49",
-  "title": "Тираж 71 - 10.09.2026",
+  "title": "Тираж 72 - 13.09.2026",
   "drawings": [
     {
       "numbers": [
-        "9",
+        "5",
+        "14",
         "16",
-        "18",
-        "22",
-        "30",
-        "37"
+        "20",
+        "25",
+        "29"
       ],
-      "jackpot": "4 233 285.69 euro",
+      "jackpot": "4 340 289.98 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,25 @@
         },
         {
           "label": "5 числа",
-          "count": "14",
-          "amount": "1 921.60 euro",
-          "total": "26 902.40 euro"
+          "count": "15",
+          "amount": "2 053.60 euro",
+          "total": "30 804.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "769",
-          "amount": "38.70 euro",
-          "total": "29 760.30 euro"
+          "count": "917",
+          "amount": "37.10 euro",
+          "total": "34 020.70 euro"
         },
         {
           "label": "3 числа",
-          "count": "12741",
-          "amount": "5.00 euro",
-          "total": "63 705.00 euro"
+          "count": "14440",
+          "amount": "5.10 euro",
+          "total": "73 644.00 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1789118213
+  "fetched": 1789326211
 }

@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 71 - 10.09.2026",
+  "title": "Тираж 72 - 13.09.2026",
   "drawings": [
     {
       "numbers": [
-        "14",
-        "19",
-        "26",
-        "27",
+        "9",
+        "29",
+        "38",
+        "40",
         "48"
       ],
-      "zodia": "1",
+      "zodia": "11",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -33,49 +33,49 @@
         },
         {
           "label": "4 числа",
-          "count": "3",
+          "count": "6",
           "amount": "300.00 euro",
-          "total": "900.00 euro"
+          "total": "1 800.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "33",
+          "count": "34",
           "amount": "60.00 euro",
-          "total": "1 980.00 euro"
+          "total": "2 040.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "316",
+          "count": "248",
           "amount": "6.00 euro",
-          "total": "1 896.00 euro"
+          "total": "1 488.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "420",
+          "count": "416",
           "amount": "3.00 euro",
-          "total": "1 260.00 euro"
+          "total": "1 248.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2245",
+          "count": "2086",
           "amount": "1.00 euro",
-          "total": "2 245.00 euro"
+          "total": "2 086.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "5318",
+          "count": "4355",
           "amount": "0.50 euro",
-          "total": "2 659.00 euro"
+          "total": "2 177.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3294",
+          "count": "3576",
           "amount": "0.60 euro",
-          "total": "1 976.40 euro"
+          "total": "2 145.60 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1789118225
+  "fetched": 1789326222
 }

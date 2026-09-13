@@ -1,35 +1,35 @@
 {
   "game": "joker",
-  "title": "Тираж 71 - 10.09.2026",
+  "title": "Тираж 72 - 13.09.2026",
   "drawings": [
     {
       "numbers": [
-        "0",
-        "1",
-        "8"
+        "8",
+        "9",
+        "5"
       ],
       "positions": [
-        "4",
         "6",
+        "7",
         "9"
       ],
       "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "4",
-          "amount": "9 473.70 euro",
-          "total": "37 894.80 euro"
+          "count": "7",
+          "amount": "6 013.30 euro",
+          "total": "42 093.10 euro"
         },
         {
           "label": "2 числа",
-          "count": "1065",
-          "amount": "35.60 euro",
-          "total": "37 914.00 euro"
+          "count": "2066",
+          "amount": "20.40 euro",
+          "total": "42 146.40 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1789118220
+  "fetched": 1789326218
 }
