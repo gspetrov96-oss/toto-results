@@ -1,16 +1,16 @@
 {
   "game": "10t1",
-  "title": "Тираж 70 - 06.09.2026",
+  "title": "Тираж 72 - 13.09.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "2",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "3",
@@ -18,15 +18,15 @@
         },
         {
           "match": "4",
-          "result": "2"
-        },
-        {
-          "match": "5",
           "result": "1"
         },
         {
+          "match": "5",
+          "result": "x"
+        },
+        {
           "match": "6",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "7",
@@ -38,24 +38,24 @@
         },
         {
           "match": "9",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "10",
-          "result": "x"
+          "result": "2"
         }
       ],
-      "jackpot": "Спечелен",
+      "jackpot": "455.15 euro",
       "winnings": [
         {
           "label": "10 срещи",
-          "count": "1",
-          "amount": "2 405.70 euro",
-          "total": "2 405.70 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1789326230
+  "fetched": 1789380609
 }
