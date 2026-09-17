@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 72 - 13.09.2026",
+  "title": "Тираж 73 - 17.09.2026",
   "drawings": [
     {
       "numbers": [
-        "9",
-        "29",
-        "38",
-        "40",
-        "48"
+        "8",
+        "16",
+        "22",
+        "23",
+        "34"
       ],
-      "zodia": "11",
+      "zodia": "10",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -33,49 +33,49 @@
         },
         {
           "label": "4 числа",
-          "count": "6",
+          "count": "3",
           "amount": "300.00 euro",
-          "total": "1 800.00 euro"
+          "total": "900.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "34",
+          "count": "53",
           "amount": "60.00 euro",
-          "total": "2 040.00 euro"
+          "total": "3 180.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "248",
+          "count": "487",
           "amount": "6.00 euro",
-          "total": "1 488.00 euro"
+          "total": "2 922.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "416",
+          "count": "547",
           "amount": "3.00 euro",
-          "total": "1 248.00 euro"
+          "total": "1 641.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2086",
+          "count": "2351",
           "amount": "1.00 euro",
-          "total": "2 086.00 euro"
+          "total": "2 351.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "4355",
+          "count": "6307",
           "amount": "0.50 euro",
-          "total": "2 177.50 euro"
+          "total": "3 153.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3576",
+          "count": "3598",
           "amount": "0.60 euro",
-          "total": "2 145.60 euro"
+          "total": "2 158.80 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1789380602
+  "fetched": 1789674980
 }
