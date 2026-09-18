@@ -1,6 +1,6 @@
 {
   "game": "13t1",
-  "title": "Тираж 72 - 13.09.2026",
+  "title": "Тираж 73 - 17.09.2026",
   "drawings": [
     {
       "matches": [
@@ -14,7 +14,7 @@
         },
         {
           "match": "3",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "4",
@@ -26,11 +26,11 @@
         },
         {
           "match": "6",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "7",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "8",
@@ -42,22 +42,22 @@
         },
         {
           "match": "10",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "11",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "12",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "13",
           "result": "2"
         }
       ],
-      "jackpot": "26 764.72 euro",
+      "jackpot": "29 520.75 euro",
       "winnings": [
         {
           "label": "13 срещи",
@@ -67,25 +67,25 @@
         },
         {
           "label": "12 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "6",
+          "amount": "459.30 euro",
+          "total": "2 755.80 euro"
         },
         {
           "label": "11 срещи",
-          "count": "6",
-          "amount": "818.80 euro",
-          "total": "4 912.80 euro"
+          "count": "95",
+          "amount": "36.30 euro",
+          "total": "3 448.50 euro"
         },
         {
           "label": "10 срещи",
-          "count": "94",
-          "amount": "73.20 euro",
-          "total": "6 880.80 euro"
+          "count": "701",
+          "amount": "6.90 euro",
+          "total": "4 836.90 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1789674982
+  "fetched": 1789723115
 }
