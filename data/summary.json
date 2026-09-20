@@ -1,15 +1,25 @@
 {
-  "updated": "2026-09-18T09:18:42.476727+00:00",
+  "updated": "2026-09-20T19:09:24.689270+00:00",
   "games": {
-    "6x49": true,
-    "6x42": true,
-    "5x35": true,
-    "joker": true,
-    "rojdenden": true,
-    "zodiak": true,
-    "13t1": true,
-    "12t1": true,
-    "10t1": true
+    "6x49": false,
+    "6x42": false,
+    "5x35": false,
+    "joker": false,
+    "rojdenden": false,
+    "zodiak": false,
+    "13t1": false,
+    "12t1": false,
+    "10t1": false
   },
-  "errors": []
+  "errors": [
+    "6x49",
+    "6x42",
+    "5x35",
+    "joker",
+    "rojdenden",
+    "zodiak",
+    "13t1",
+    "12t1",
+    "10t1"
+  ]
 }
