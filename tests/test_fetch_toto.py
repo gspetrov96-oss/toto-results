@@ -88,6 +88,10 @@ class MockSite(http.server.BaseHTTPRequestHandler):
             # блокира браузърния UA, пуска "честния" bot UA
             if 'Chrome' in self.headers.get('User-Agent', ''):
                 return self._send(200, '<html><head><title>Radware Page</title></head><body><script src="/rdwr_x"></script></body></html>')
+        if m == 'cookie_gate':
+            # пуска само заявки с валидна Radware бисквитка
+            if 'uzmx=good' not in self.headers.get('Cookie', ''):
+                return self._send(200, '<html><head><title>Radware Page</title></head><body>rdwr</body></html>')
         if m == 'radware_hard':
             return self._send(200, '<html><head><title>Radware Page</title></head><body>rdwr</body></html>')
         if m == 'challenge':
@@ -283,6 +287,29 @@ class TestFetcher(Base):
         finally:
             os.environ.pop('TOTO_USER_AGENTS', None); os.environ.pop('TOTO_PROXY', None)
             importlib.reload(fetch_toto)
+
+    def test_cookie_header_passes_waf(self):
+        os.environ['TOTO_COOKIE'] = 'uzmx=good; uzmxj=x'
+        try:
+            import fetch_toto
+            ft = importlib.reload(fetch_toto)
+            MockSite.mode = 'cookie_gate'
+            self.assertEqual(ft.main(), 0)
+            self.assertEqual(self.data('toto_6x49.json')['draw'], 86)
+        finally:
+            os.environ.pop('TOTO_COOKIE', None); importlib.reload(fetch_toto)
+
+    def test_impersonate_without_lib_falls_back(self):
+        os.environ['TOTO_IMPERSONATE'] = 'chrome'
+        try:
+            import fetch_toto
+            ft = importlib.reload(fetch_toto)
+            s = ft.build_session()
+            self.assertTrue(hasattr(s, 'get'))
+            MockSite.mode = 'ok'
+            self.assertEqual(ft.main(), 0)
+        finally:
+            os.environ.pop('TOTO_IMPERSONATE', None); importlib.reload(fetch_toto)
 
     def test_draw_meta_parsing(self):
         p = self.ft.parse_draw_meta
