@@ -32,6 +32,8 @@ DEBUG_DIR = os.environ.get('TOTO_DEBUG_DIR', 'debug')
 HISTORY_DIR = os.path.join(DATA_DIR, 'history')   # натрупва всички тиражи по игра
 HISTORY_MAX = int(os.environ.get('TOTO_HISTORY_MAX', '2000'))
 PROXY = os.environ.get('TOTO_PROXY', '').strip()
+COOKIE = os.environ.get('TOTO_COOKIE', '').strip()              # бисквитки от браузъра: "uzmx=...; uzmxj=...; ..."
+IMPERSONATE = os.environ.get('TOTO_IMPERSONATE', '').strip()    # напр. chrome -> curl_cffi с TLS fingerprint на Chrome
 PAUSE_SECONDS = float(os.environ.get('TOTO_PAUSE', '2'))
 REQUEST_TIMEOUT = (10, 30)          # (connect, read)
 STALE_AFTER_DAYS = 8                # тиражите са чт и нд -> над 8 дни без нов е аномалия
@@ -95,8 +97,29 @@ log = logging.getLogger('toto')
 
 
 def build_session():
+    s = None
+    if IMPERSONATE:
+        try:
+            from curl_cffi import requests as cffi_requests
+            s = cffi_requests.Session(impersonate=IMPERSONATE)
+            log.info("Transport: curl_cffi, impersonate=%s (TLS fingerprint на браузър)", IMPERSONATE)
+        except ImportError:
+            log.warning("TOTO_IMPERSONATE е зададен, но curl_cffi липсва (pip install curl_cffi) - ползвам requests")
+        except Exception as e:
+            log.warning("curl_cffi не може да стартира (%s) - ползвам requests", e)
+    if s is not None:
+        s.headers.update(HEADERS)
+        if COOKIE:
+            s.headers['Cookie'] = COOKIE
+            log.info("Cookie header зададен (%d знака)", len(COOKIE))
+        if PROXY:
+            s.proxies.update({'http': PROXY, 'https': PROXY})
+        return s
     s = requests.Session()
     s.headers.update(HEADERS)
+    if COOKIE:
+        s.headers['Cookie'] = COOKIE
+        log.info("Cookie header зададен (%d знака)", len(COOKIE))
     retry = Retry(
         total=3, connect=3, read=2,
         backoff_factor=3,                       # 0s, 6s, 12s
@@ -255,24 +278,34 @@ def _fetch_once(session, url, debug_name, require_marker='tir_result'):
         res.reason, res.message = 'request_error', f'{type(e).__name__}: {e}'
         log.error("  REQUEST ERROR: %s", res.message)
         return res
+    except Exception as e:                       # curl_cffi и други транспорти
+        msg = str(e).lower()
+        res.reason = 'timeout' if ('timed out' in msg or 'timeout' in msg) else 'request_error'
+        res.message = f'{type(e).__name__}: {e}'
+        log.error("  %s: %s", res.reason.upper(), res.message)
+        return res
 
     res.http_status = r.status_code
+    hdr = getattr(r, 'headers', {}) or {}
     res.diag = {
-        'final_url': r.url,
+        'final_url': getattr(r, 'url', url),
         'bytes': len(r.content),
         'elapsed_s': round(time.time() - t0, 2),
-        'content_type': r.headers.get('Content-Type', ''),
-        'content_encoding': r.headers.get('Content-Encoding', ''),
-        'server': r.headers.get('Server', ''),
-        'cf_ray': r.headers.get('CF-RAY', ''),
+        'content_type': hdr.get('Content-Type', '') or hdr.get('content-type', ''),
+        'content_encoding': hdr.get('Content-Encoding', '') or hdr.get('content-encoding', ''),
+        'server': hdr.get('Server', '') or hdr.get('server', ''),
+        'cf_ray': hdr.get('CF-RAY', '') or hdr.get('cf-ray', ''),
     }
     log.info("  Status %s | %s bytes | encoding=%r | type=%r | server=%r | %.1fs",
              r.status_code, res.diag['bytes'], res.diag['content_encoding'],
              res.diag['content_type'], res.diag['server'], res.diag['elapsed_s'])
 
-    if 'charset' not in res.diag['content_type'].lower():
-        r.encoding = 'utf-8'
-    text = r.text
+    try:
+        if 'charset' not in res.diag['content_type'].lower():
+            r.encoding = 'utf-8'
+        text = r.text
+    except Exception:
+        text = r.content.decode('utf-8', errors='replace')
 
     if r.status_code != 200:
         if r.status_code in (401, 403, 429, 503):

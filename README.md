@@ -48,7 +48,13 @@ info.toto.bg е зад Radware Bot Manager, който връща challenge ст
 3. **Браузър в GitHub (експериментално):** Repository variable `TOTO_BROWSER=1`. Workflow-ът инсталира Chromium
    (Playwright) и скриптът отваря страниците като истински браузър, за да премине JavaScript challenge-а.
    Може да не мине, ако Radware блокира самия IP адрес; тогава остават вариантите 1 и 2.
-4. Проверка дали даден сървър е блокиран:
+4. **Бисквитки + TLS fingerprint (работи и от GitHub):** Radware изисква JavaScript challenge и после издава
+   дълготрайни бисквитки (`uzmx`, `uzmxj`, `__uzmlj0`, `__xdst`, ~6 месеца). Копирайте ги от Chrome
+   (F12 → Application → Cookies → info.toto.bg) в secret `TOTO_COOKIE` (формат `име=стойност; име2=стойност2`),
+   сложете точния User-Agent на същия браузър в `TOTO_USER_AGENTS` и variable `TOTO_IMPERSONATE=chrome`
+   (curl_cffi имитира TLS fingerprint-а на Chrome, защото Radware разпознава curl/requests и с валидна бисквитка).
+   Локален тест: `test-windows.bat`.
+5. Проверка дали даден сървър е блокиран:
    `curl -s -A "Mozilla/5.0" https://info.toto.bg/results/6x49 | grep -c tir_result` → `1` = ОК, `0` = блокиран.
 
 ## Тестове
