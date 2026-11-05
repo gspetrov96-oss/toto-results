@@ -765,4 +765,19 @@ def main():
 
 
 if __name__ == '__main__':
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except SystemExit:
+        raise
+    except Exception:                      # срив -> видим в анотациите и в summary.json
+        import traceback
+        tb = traceback.format_exc()
+        print(tb, file=sys.stderr)
+        gh('error', 'fetch_toto.py crash', tb.strip().splitlines()[-1][:300])
+        try:
+            os.makedirs(DATA_DIR, exist_ok=True)
+            with open(os.path.join(DATA_DIR, 'summary.json'), 'w', encoding='utf-8') as f:
+                json.dump({'updated': datetime.now(timezone.utc).isoformat(), 'games': {g: False for g in GAMES},
+                           'errors': list(GAMES), 'error_reasons': ['crash'], 'crash': tb[-2000:]}, f, ensure_ascii=False, indent=2)
+        finally:
+            sys.exit(3)
