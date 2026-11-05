@@ -35,9 +35,18 @@
 
 При неуспех старите JSON файлове се запазват; файл никога не се презаписва с по-стар тираж.
 
-## Ако info.toto.bg блокира GitHub
+## Ако info.toto.bg блокира GitHub (Radware Page / bot_challenge)
 
-Добави secret `TOTO_PROXY` (напр. `http://user:pass@host:port`) — скриптът ще ходи през него.
+info.toto.bg е зад Radware Bot Manager, който връща challenge страница (HTTP 200, `<title>Radware Page`)
+на заявки от datacenter IP адреси като тези на GitHub Actions. Скриптът го разпознава като `bot_challenge`
+и автоматично пробва няколко User-Agent профила (`TOTO_USER_AGENTS`, разделени с `|`). Ако и това не мине:
+
+1. **Прокси:** secret `TOTO_PROXY` = `http://user:pass@host:port` (български/residential proxy или ваш сървър).
+2. **Собствен сървър (препоръчително):** качете repo-то на хостинг с python3 и пуснете `cron-run.sh`
+   през cPanel Cron. Данните отиват в `TOTO_DATA_DIR` (напр. `public_html/toto-data`), а плъгинът чете от
+   `https://вашият-домейн/toto-data`. С `TOTO_GIT_PUSH=1` резултатите се push-ват и в GitHub.
+3. Проверка дали даден сървър е блокиран:
+   `curl -s -A "Mozilla/5.0" https://info.toto.bg/results/6x49 | grep -c tir_result` → `1` = ОК, `0` = блокиран.
 
 ## Тестове
 

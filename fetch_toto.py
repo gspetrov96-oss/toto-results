@@ -69,8 +69,15 @@ def _supported_encodings():
     return ', '.join(encodings)
 
 
+UA_PROFILES = [p for p in os.environ.get(
+    'TOTO_USER_AGENTS',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36|'
+    'toto-results-fetcher/2.0 (+https://github.com/gspetrov96-oss/toto-results)|'
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0'
+).split('|') if p.strip()]
+
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    'User-Agent': UA_PROFILES[0],
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
     'Accept-Language': 'bg-BG,bg;q=0.9,en-US;q=0.8,en;q=0.7',
     'Accept-Encoding': _supported_encodings(),
@@ -107,7 +114,8 @@ def build_session():
 
 
 CHALLENGE_MARKERS = ('cf-chl', 'challenge-platform', 'Just a moment', 'Attention Required',
-                     'captcha', 'Access denied', 'Request unsuccessful', 'Incapsula')
+                     'captcha', 'Access denied', 'Request unsuccessful', 'Incapsula',
+                     'Radware', 'rdwr', 'perfdrive', 'validate.perfdrive', 'bot manager')
 
 
 class FetchResult:
@@ -139,6 +147,21 @@ def _save_debug(name, content):
 
 
 def fetch(session, url, debug_name, require_marker='tir_result'):
+    """Опитва всички UA профили при антибот блок; връща последния FetchResult."""
+    res = None
+    for i, ua in enumerate(UA_PROFILES):
+        session.headers['User-Agent'] = ua
+        res = _fetch_once(session, url, debug_name, require_marker)
+        if res.ok or res.reason not in ('bot_challenge', 'blocked_or_rate_limited'):
+            break
+        if i + 1 < len(UA_PROFILES):
+            log.warning("  блок с UA #%d -> опит с UA #%d (%s)", i + 1, i + 2, UA_PROFILES[i + 1][:40])
+            time.sleep(PAUSE_SECONDS)
+    res.diag['user_agent'] = session.headers.get('User-Agent', '')[:60]
+    return res
+
+
+def _fetch_once(session, url, debug_name, require_marker='tir_result'):
     """Връща FetchResult с ясна причина при неуспех."""
     res = FetchResult(url)
     log.info("Fetching %s", url)
@@ -206,16 +229,22 @@ def fetch(session, url, debug_name, require_marker='tir_result'):
         log.error("  %s", res.message)
         return res
 
-    low = sample.lower()
+    low = text[:5000].lower()
+    is_challenge = any(m.lower() in low for m in CHALLENGE_MARKERS) and 'tir_result' not in text
+    if is_challenge:
+        res.reason = 'bot_challenge'
+        title = re.search(r'<title[^>]*>(.*?)</title>', text, re.S | re.I)
+        res.message = ('Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. '
+                       f'<title>: {title.group(1).strip()[:80] if title else "-"}. '
+                       'Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).')
+        log.error("  %s", res.message)
+        _save_debug(debug_name, text)
+        return res
     if require_marker and require_marker not in text:
-        if any(m.lower() in low for m in CHALLENGE_MARKERS):
-            res.reason = 'bot_challenge'
-            res.message = 'Получена е антибот/challenge страница вместо резултати'
-        else:
-            res.reason = 'layout_changed'
-            title = re.search(r'<title[^>]*>(.*?)</title>', text, re.S | re.I)
-            res.message = (f'Липсва "{require_marker}" - вероятно е сменена HTML структурата. '
-                           f'<title>: {title.group(1).strip()[:120] if title else "-"}')
+        res.reason = 'layout_changed'
+        title = re.search(r'<title[^>]*>(.*?)</title>', text, re.S | re.I)
+        res.message = (f'Липсва "{require_marker}" - вероятно е сменена HTML структурата. '
+                       f'<title>: {title.group(1).strip()[:120] if title else "-"}')
         log.error("  %s", res.message)
         _save_debug(debug_name, text)
         return res
