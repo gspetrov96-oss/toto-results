@@ -84,6 +84,12 @@ class MockSite(http.server.BaseHTTPRequestHandler):
             return self._send(403, '<html>Forbidden</html>')
         if m == 'layout':
             return self._send(200, '<html><head><title>Нов дизайн</title></head><body><div class="results-v2"></div></body></html>')
+        if m == 'radware':
+            # блокира браузърния UA, пуска "честния" bot UA
+            if 'Chrome' in self.headers.get('User-Agent', ''):
+                return self._send(200, '<html><head><title>Radware Page</title></head><body><script src="/rdwr_x"></script></body></html>')
+        if m == 'radware_hard':
+            return self._send(200, '<html><head><title>Radware Page</title></head><body>rdwr</body></html>')
         if m == 'challenge':
             return self._send(200, '<html><head><title>Just a moment...</title></head><body>cf-chl</body></html>')
         parts = self.path.strip('/').split('/')        # results/<game>[/<year-draw>]
@@ -178,6 +184,20 @@ class TestFetcher(Base):
         self.assertEqual(s['error_reasons'], ['layout_changed'])
         self.assertIn('Нов дизайн', s['details']['6x49']['message'])
         self.assertTrue(os.path.exists(os.path.join(self.tmp, 'debug', '6x49.html')))
+
+    def test_radware_block_classified_not_layout(self):
+        self.assertEqual(self.run_main('radware_hard'), 2)
+        s = self.data('summary.json')
+        self.assertEqual(s['error_reasons'], ['bot_challenge'])
+        self.assertIn('Radware', s['details']['6x49']['message'])
+        self.assertIn('TOTO_PROXY', s['details']['6x49']['message'])
+
+    def test_radware_ua_rotation_recovers(self):
+        self.assertEqual(self.run_main('radware'), 0)
+        s = self.data('summary.json')
+        self.assertEqual(s['errors'], [])
+        self.assertIn('toto-results-fetcher', s['details']['6x49']['fetch']['user_agent'])
+        self.assertEqual(self.data('toto_6x49.json')['draw'], 86)
 
     def test_bot_challenge_detected(self):
         self.run_main('challenge')
