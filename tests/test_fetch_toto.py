@@ -268,6 +268,22 @@ class TestFetcher(Base):
         self.assertEqual(sorted(a['games'].keys()), sorted(self.ft.GAMES.keys()))
         self.assertEqual(a['games']['6x49']['draw'], 86)
 
+    def test_empty_env_secrets_do_not_crash(self):
+        """Регресия: GitHub подава празни стойности за несъществуващи secrets."""
+        os.environ['TOTO_USER_AGENTS'] = ''
+        os.environ['TOTO_PROXY'] = ''
+        try:
+            import fetch_toto
+            ft = importlib.reload(fetch_toto)
+            self.assertEqual(ft.UA_PROFILES, ft.DEFAULT_USER_AGENTS)
+            self.assertEqual(ft.PROXY, '')
+            os.environ['TOTO_USER_AGENTS'] = ' custom/1.0 | '
+            ft = importlib.reload(fetch_toto)
+            self.assertEqual(ft.UA_PROFILES, ['custom/1.0'])
+        finally:
+            os.environ.pop('TOTO_USER_AGENTS', None); os.environ.pop('TOTO_PROXY', None)
+            importlib.reload(fetch_toto)
+
     def test_draw_meta_parsing(self):
         p = self.ft.parse_draw_meta
         self.assertEqual(p('Тираж 84 - 25.10.2026, Тото 2 - 6 от 49'), (84, self.ft.date(2026, 10, 25)))
