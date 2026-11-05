@@ -45,7 +45,10 @@ info.toto.bg е зад Radware Bot Manager, който връща challenge ст
 2. **Собствен сървър (препоръчително):** качете repo-то на хостинг с python3 и пуснете `cron-run.sh`
    през cPanel Cron. Данните отиват в `TOTO_DATA_DIR` (напр. `public_html/toto-data`), а плъгинът чете от
    `https://вашият-домейн/toto-data`. С `TOTO_GIT_PUSH=1` резултатите се push-ват и в GitHub.
-3. Проверка дали даден сървър е блокиран:
+3. **Браузър в GitHub (експериментално):** Repository variable `TOTO_BROWSER=1`. Workflow-ът инсталира Chromium
+   (Playwright) и скриптът отваря страниците като истински браузър, за да премине JavaScript challenge-а.
+   Може да не мине, ако Radware блокира самия IP адрес; тогава остават вариантите 1 и 2.
+4. Проверка дали даден сървър е блокиран:
    `curl -s -A "Mozilla/5.0" https://info.toto.bg/results/6x49 | grep -c tir_result` → `1` = ОК, `0` = блокиран.
 
 ## Тестове

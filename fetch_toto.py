@@ -147,17 +147,80 @@ def _save_debug(name, content):
         log.warning("  Could not save debug copy: %s", e)
 
 
+BROWSER_MODE = os.environ.get('TOTO_BROWSER', '').strip() == '1'
+_BROWSER = {'pw': None, 'browser': None, 'ctx': None, 'failed': False}
+
+
+def browser_fetch(url, require_marker='tir_result', wait_s=25):
+    """Експериментално: отваря страницата с истински браузър (Playwright/Chromium), за да премине
+    JavaScript challenge-а на WAF-а. Включва се с TOTO_BROWSER=1; изисква `pip install playwright`
+    и `playwright install chromium`. Връща HTML или None."""
+    if _BROWSER['failed']:
+        return None
+    try:
+        if _BROWSER['ctx'] is None:
+            from playwright.sync_api import sync_playwright
+            _BROWSER['pw'] = sync_playwright().start()
+            _BROWSER['browser'] = _BROWSER['pw'].chromium.launch(
+                headless=True, args=['--disable-blink-features=AutomationControlled'])
+            _BROWSER['ctx'] = _BROWSER['browser'].new_context(
+                user_agent=DEFAULT_USER_AGENTS[0], locale='bg-BG', viewport={'width': 1366, 'height': 900})
+            log.info("  браузър: Chromium стартиран (TOTO_BROWSER=1)")
+        page = _BROWSER['ctx'].new_page()
+        try:
+            page.goto(url, wait_until='domcontentloaded', timeout=wait_s * 1000)
+            marker = f'.{require_marker}' if require_marker else 'body'
+            try:
+                page.wait_for_selector(marker, timeout=wait_s * 1000)
+            except Exception:
+                pass
+            html = page.content()
+        finally:
+            page.close()
+        if require_marker and require_marker not in html:
+            log.error("  браузър: challenge-ът не е преминат за %s (<title>: %s)", url,
+                      (re.search(r'<title[^>]*>(.*?)</title>', html, re.S | re.I) or [None, '-'])[1])
+            return None
+        log.info("  браузър: OK %s (%d bytes)", url, len(html))
+        return html
+    except Exception as e:
+        _BROWSER['failed'] = True
+        log.error("  браузър: недостъпен (%s). Инсталирай: pip install playwright && playwright install chromium", e)
+        return None
+
+
+def browser_close():
+    try:
+        if _BROWSER['browser']: _BROWSER['browser'].close()
+        if _BROWSER['pw']: _BROWSER['pw'].stop()
+    except Exception:
+        pass
+
+
+_WAF_BLOCKED = {'all_ua': False}      # щом всички UA профили са блокирани -> не ги въртим повече
+
+
 def fetch(session, url, debug_name, require_marker='tir_result'):
-    """Опитва всички UA профили при антибот блок; връща последния FetchResult."""
+    """Опитва всички UA профили при антибот блок; при пълен блок пробва браузър (ако е включен)."""
     res = None
-    for i, ua in enumerate(UA_PROFILES):
+    profiles = UA_PROFILES[:1] if _WAF_BLOCKED['all_ua'] else UA_PROFILES
+    for i, ua in enumerate(profiles):
         session.headers['User-Agent'] = ua
         res = _fetch_once(session, url, debug_name, require_marker)
         if res.ok or res.reason not in ('bot_challenge', 'blocked_or_rate_limited'):
             break
-        if i + 1 < len(UA_PROFILES):
-            log.warning("  блок с UA #%d -> опит с UA #%d (%s)", i + 1, i + 2, UA_PROFILES[i + 1][:40])
+        if i + 1 < len(profiles):
+            log.warning("  блок с UA #%d -> опит с UA #%d (%s)", i + 1, i + 2, profiles[i + 1][:40])
             time.sleep(PAUSE_SECONDS)
+    if not res.ok and res.reason in ('bot_challenge', 'blocked_or_rate_limited'):
+        if not _WAF_BLOCKED['all_ua']:
+            _WAF_BLOCKED['all_ua'] = True
+            log.warning("  всички UA профили са блокирани - спирам ротацията за останалите URL-и")
+        if BROWSER_MODE:
+            html = browser_fetch(url, require_marker)
+            if html:
+                res.html, res.ok, res.reason, res.message = html, True, '', ''
+                res.diag['via'] = 'browser'
     res.diag['user_agent'] = session.headers.get('User-Agent', '')[:60]
     return res
 
@@ -757,6 +820,7 @@ def main():
         json.dump(summary, f, ensure_ascii=False, indent=2)
     write_step_summary(summary)
 
+    browser_close()
     ok = len(GAMES) - len(errors)
     log.info("Done. Success: %d/%d, Errors: %s, Reasons: %s", ok, len(GAMES), errors, reasons)
     if errors:
