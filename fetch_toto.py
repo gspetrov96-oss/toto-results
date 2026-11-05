@@ -69,12 +69,13 @@ def _supported_encodings():
     return ', '.join(encodings)
 
 
-UA_PROFILES = [p for p in os.environ.get(
-    'TOTO_USER_AGENTS',
-    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36|'
-    'toto-results-fetcher/2.0 (+https://github.com/gspetrov96-oss/toto-results)|'
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0'
-).split('|') if p.strip()]
+DEFAULT_USER_AGENTS = [
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    'toto-results-fetcher/2.0 (+https://github.com/gspetrov96-oss/toto-results)',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0',
+]
+# TOTO_USER_AGENTS може да е зададена, но празна (secret без стойност) -> ползваме вградените
+UA_PROFILES = [p.strip() for p in os.environ.get('TOTO_USER_AGENTS', '').split('|') if p.strip()] or DEFAULT_USER_AGENTS
 
 HEADERS = {
     'User-Agent': UA_PROFILES[0],
