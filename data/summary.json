@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T13:26:06.448925+00:00",
+  "updated": "2026-11-05T13:38:06.551905+00:00",
   "games": {
     "6x49": false,
     "6x42": false,
@@ -34,7 +34,7 @@
     "http_status": 200,
     "final_url": "https://info.toto.bg/",
     "bytes": 118361,
-    "elapsed_s": 0.35,
+    "elapsed_s": 0.28,
     "content_type": "text/html; charset=UTF-8",
     "content_encoding": "gzip",
     "server": "rdwr",
@@ -54,13 +54,13 @@
         "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).",
         "http_status": 200,
         "final_url": "https://info.toto.bg/results/6x49",
-        "bytes": 118363,
-        "elapsed_s": 0.36,
+        "bytes": 118361,
+        "elapsed_s": 0.28,
         "content_type": "text/html; charset=UTF-8",
         "content_encoding": "gzip",
         "server": "rdwr",
         "cf_ray": "",
-        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, l"
       },
       "status": "failed",
       "reason": "bot_challenge",
@@ -77,13 +77,13 @@
         "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).",
         "http_status": 200,
         "final_url": "https://info.toto.bg/results/6x42",
-        "bytes": 118363,
-        "elapsed_s": 0.35,
+        "bytes": 118361,
+        "elapsed_s": 0.28,
         "content_type": "text/html; charset=UTF-8",
         "content_encoding": "gzip",
         "server": "rdwr",
         "cf_ray": "",
-        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, l"
       },
       "status": "failed",
       "reason": "bot_challenge",
@@ -101,12 +101,12 @@
         "http_status": 200,
         "final_url": "https://info.toto.bg/results/5x35",
         "bytes": 118363,
-        "elapsed_s": 0.35,
+        "elapsed_s": 0.28,
         "content_type": "text/html; charset=UTF-8",
         "content_encoding": "gzip",
         "server": "rdwr",
         "cf_ray": "",
-        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, l"
       },
       "status": "failed",
       "reason": "bot_challenge",
@@ -124,12 +124,12 @@
         "http_status": 200,
         "final_url": "https://info.toto.bg/results/joker",
         "bytes": 118363,
-        "elapsed_s": 0.36,
+        "elapsed_s": 0.28,
         "content_type": "text/html; charset=UTF-8",
         "content_encoding": "gzip",
         "server": "rdwr",
         "cf_ray": "",
-        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, l"
       },
       "status": "failed",
       "reason": "bot_challenge",
@@ -147,12 +147,12 @@
         "http_status": 200,
         "final_url": "https://info.toto.bg/results/rojdenden",
         "bytes": 118363,
-        "elapsed_s": 0.35,
+        "elapsed_s": 0.28,
         "content_type": "text/html; charset=UTF-8",
         "content_encoding": "gzip",
         "server": "rdwr",
         "cf_ray": "",
-        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, l"
       },
       "status": "failed",
       "reason": "bot_challenge",
@@ -170,12 +170,12 @@
         "http_status": 200,
         "final_url": "https://info.toto.bg/results/zodiak",
         "bytes": 118363,
-        "elapsed_s": 0.35,
+        "elapsed_s": 0.28,
         "content_type": "text/html; charset=UTF-8",
         "content_encoding": "gzip",
         "server": "rdwr",
         "cf_ray": "",
-        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, l"
       },
       "status": "failed",
       "reason": "bot_challenge",
@@ -193,12 +193,12 @@
         "http_status": 200,
         "final_url": "https://info.toto.bg/results/13t1",
         "bytes": 118363,
-        "elapsed_s": 0.36,
+        "elapsed_s": 0.28,
         "content_type": "text/html; charset=UTF-8",
         "content_encoding": "gzip",
         "server": "rdwr",
         "cf_ray": "",
-        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, l"
       },
       "status": "failed",
       "reason": "bot_challenge",
@@ -216,12 +216,12 @@
         "http_status": 200,
         "final_url": "https://info.toto.bg/results/12t1",
         "bytes": 118363,
-        "elapsed_s": 0.35,
+        "elapsed_s": 0.28,
         "content_type": "text/html; charset=UTF-8",
         "content_encoding": "gzip",
         "server": "rdwr",
         "cf_ray": "",
-        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, l"
       },
       "status": "failed",
       "reason": "bot_challenge",
@@ -239,12 +239,12 @@
         "http_status": 200,
         "final_url": "https://info.toto.bg/results/10t1",
         "bytes": 118363,
-        "elapsed_s": 0.36,
+        "elapsed_s": 0.28,
         "content_type": "text/html; charset=UTF-8",
         "content_encoding": "gzip",
         "server": "rdwr",
         "cf_ray": "",
-        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, l"
       },
       "status": "failed",
       "reason": "bot_challenge",
