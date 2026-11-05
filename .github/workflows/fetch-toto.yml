@@ -28,12 +28,23 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-          cache: pip
-          cache-dependency-path: requirements.txt
+          python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            echo "::warning::requirements.txt липсва в repo-то - инсталирам пакетите директно"
+            pip install requests beautifulsoup4 lxml brotli
+          fi
+          pip list | grep -iE "requests|beautifulsoup4|lxml|brotli"
+
+      - name: Check files
+        run: |
+          test -f fetch_toto.py || { echo "::error::fetch_toto.py липсва"; exit 1; }
+          python -c "import ast,sys; ast.parse(open('fetch_toto.py').read())" && echo "fetch_toto.py: синтаксис OK"
 
       - name: Fetch results
         env:
