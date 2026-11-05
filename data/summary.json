@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T12:55:12.643871+00:00",
+  "updated": "2026-11-05T13:26:06.448925+00:00",
   "games": {
     "6x49": false,
     "6x42": false,
@@ -21,5 +21,234 @@
     "13t1",
     "12t1",
     "10t1"
-  ]
+  ],
+  "error_reasons": [
+    "bot_challenge"
+  ],
+  "source_latest": null,
+  "home_page": {
+    "url": "https://info.toto.bg/",
+    "ok": false,
+    "reason": "bot_challenge",
+    "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).",
+    "http_status": 200,
+    "final_url": "https://info.toto.bg/",
+    "bytes": 118361,
+    "elapsed_s": 0.35,
+    "content_type": "text/html; charset=UTF-8",
+    "content_encoding": "gzip",
+    "server": "rdwr",
+    "cf_ray": "",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+  },
+  "last_success": {},
+  "details": {
+    "6x49": {
+      "file": "toto_6x49.json",
+      "saved_draw": 73,
+      "saved_draw_date": "2026-09-17",
+      "fetch": {
+        "url": "https://info.toto.bg/results/6x49",
+        "ok": false,
+        "reason": "bot_challenge",
+        "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).",
+        "http_status": 200,
+        "final_url": "https://info.toto.bg/results/6x49",
+        "bytes": 118363,
+        "elapsed_s": 0.36,
+        "content_type": "text/html; charset=UTF-8",
+        "content_encoding": "gzip",
+        "server": "rdwr",
+        "cf_ray": "",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+      },
+      "status": "failed",
+      "reason": "bot_challenge",
+      "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README)."
+    },
+    "6x42": {
+      "file": "toto_6x42.json",
+      "saved_draw": 73,
+      "saved_draw_date": "2026-09-17",
+      "fetch": {
+        "url": "https://info.toto.bg/results/6x42",
+        "ok": false,
+        "reason": "bot_challenge",
+        "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).",
+        "http_status": 200,
+        "final_url": "https://info.toto.bg/results/6x42",
+        "bytes": 118363,
+        "elapsed_s": 0.35,
+        "content_type": "text/html; charset=UTF-8",
+        "content_encoding": "gzip",
+        "server": "rdwr",
+        "cf_ray": "",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+      },
+      "status": "failed",
+      "reason": "bot_challenge",
+      "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README)."
+    },
+    "5x35": {
+      "file": "toto_5x35.json",
+      "saved_draw": 73,
+      "saved_draw_date": "2026-09-17",
+      "fetch": {
+        "url": "https://info.toto.bg/results/5x35",
+        "ok": false,
+        "reason": "bot_challenge",
+        "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).",
+        "http_status": 200,
+        "final_url": "https://info.toto.bg/results/5x35",
+        "bytes": 118363,
+        "elapsed_s": 0.35,
+        "content_type": "text/html; charset=UTF-8",
+        "content_encoding": "gzip",
+        "server": "rdwr",
+        "cf_ray": "",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+      },
+      "status": "failed",
+      "reason": "bot_challenge",
+      "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README)."
+    },
+    "joker": {
+      "file": "joker.json",
+      "saved_draw": 73,
+      "saved_draw_date": "2026-09-17",
+      "fetch": {
+        "url": "https://info.toto.bg/results/joker",
+        "ok": false,
+        "reason": "bot_challenge",
+        "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).",
+        "http_status": 200,
+        "final_url": "https://info.toto.bg/results/joker",
+        "bytes": 118363,
+        "elapsed_s": 0.36,
+        "content_type": "text/html; charset=UTF-8",
+        "content_encoding": "gzip",
+        "server": "rdwr",
+        "cf_ray": "",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+      },
+      "status": "failed",
+      "reason": "bot_challenge",
+      "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README)."
+    },
+    "rojdenden": {
+      "file": "rojdenden.json",
+      "saved_draw": 73,
+      "saved_draw_date": "2026-09-17",
+      "fetch": {
+        "url": "https://info.toto.bg/results/rojdenden",
+        "ok": false,
+        "reason": "bot_challenge",
+        "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).",
+        "http_status": 200,
+        "final_url": "https://info.toto.bg/results/rojdenden",
+        "bytes": 118363,
+        "elapsed_s": 0.35,
+        "content_type": "text/html; charset=UTF-8",
+        "content_encoding": "gzip",
+        "server": "rdwr",
+        "cf_ray": "",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+      },
+      "status": "failed",
+      "reason": "bot_challenge",
+      "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README)."
+    },
+    "zodiak": {
+      "file": "zodiak.json",
+      "saved_draw": 73,
+      "saved_draw_date": "2026-09-17",
+      "fetch": {
+        "url": "https://info.toto.bg/results/zodiak",
+        "ok": false,
+        "reason": "bot_challenge",
+        "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).",
+        "http_status": 200,
+        "final_url": "https://info.toto.bg/results/zodiak",
+        "bytes": 118363,
+        "elapsed_s": 0.35,
+        "content_type": "text/html; charset=UTF-8",
+        "content_encoding": "gzip",
+        "server": "rdwr",
+        "cf_ray": "",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+      },
+      "status": "failed",
+      "reason": "bot_challenge",
+      "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README)."
+    },
+    "13t1": {
+      "file": "toto1_13sreshti.json",
+      "saved_draw": 73,
+      "saved_draw_date": "2026-09-17",
+      "fetch": {
+        "url": "https://info.toto.bg/results/13t1",
+        "ok": false,
+        "reason": "bot_challenge",
+        "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).",
+        "http_status": 200,
+        "final_url": "https://info.toto.bg/results/13t1",
+        "bytes": 118363,
+        "elapsed_s": 0.36,
+        "content_type": "text/html; charset=UTF-8",
+        "content_encoding": "gzip",
+        "server": "rdwr",
+        "cf_ray": "",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+      },
+      "status": "failed",
+      "reason": "bot_challenge",
+      "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README)."
+    },
+    "12t1": {
+      "file": "toto1_12tip.json",
+      "saved_draw": 72,
+      "saved_draw_date": "2026-09-13",
+      "fetch": {
+        "url": "https://info.toto.bg/results/12t1",
+        "ok": false,
+        "reason": "bot_challenge",
+        "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).",
+        "http_status": 200,
+        "final_url": "https://info.toto.bg/results/12t1",
+        "bytes": 118363,
+        "elapsed_s": 0.35,
+        "content_type": "text/html; charset=UTF-8",
+        "content_encoding": "gzip",
+        "server": "rdwr",
+        "cf_ray": "",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+      },
+      "status": "failed",
+      "reason": "bot_challenge",
+      "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README)."
+    },
+    "10t1": {
+      "file": "toto1_10ot10.json",
+      "saved_draw": 72,
+      "saved_draw_date": "2026-09-13",
+      "fetch": {
+        "url": "https://info.toto.bg/results/10t1",
+        "ok": false,
+        "reason": "bot_challenge",
+        "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README).",
+        "http_status": 200,
+        "final_url": "https://info.toto.bg/results/10t1",
+        "bytes": 118363,
+        "elapsed_s": 0.36,
+        "content_type": "text/html; charset=UTF-8",
+        "content_encoding": "gzip",
+        "server": "rdwr",
+        "cf_ray": "",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20"
+      },
+      "status": "failed",
+      "reason": "bot_challenge",
+      "message": "Антибот защита (WAF) върна challenge страница вместо резултати - IP адресът е блокиран. <title>: Radware Page. Решение: TOTO_PROXY secret или изпълнение на скрипта от друг сървър (виж README)."
+    }
+  }
 }
