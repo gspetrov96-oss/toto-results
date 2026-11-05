@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 86 - 01.11.2026",
+  "title": "Тираж 87 - 05.11.2026",
   "drawings": [
     {
       "numbers": [
-        "12",
-        "13",
-        "21",
-        "24",
-        "48"
+        "18",
+        "25",
+        "30",
+        "45",
+        "50"
       ],
-      "zodia": "3",
+      "zodia": "2",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -27,58 +27,58 @@
         },
         {
           "label": "4 числа + 1 зодия",
-          "count": "1",
-          "amount": "3 000.00 euro",
-          "total": "3 000.00 euro"
-        },
-        {
-          "label": "4 числа",
           "count": "0",
           "amount": "0.00 euro",
           "total": "0.00 euro"
         },
         {
+          "label": "4 числа",
+          "count": "4",
+          "amount": "300.00 euro",
+          "total": "1 200.00 euro"
+        },
+        {
           "label": "3 числа + 1 зодия",
-          "count": "38",
+          "count": "13",
           "amount": "60.00 euro",
-          "total": "2 280.00 euro"
+          "total": "780.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "321",
+          "count": "298",
           "amount": "6.00 euro",
-          "total": "1 926.00 euro"
+          "total": "1 788.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "510",
+          "count": "318",
           "amount": "3.00 euro",
-          "total": "1 530.00 euro"
+          "total": "954.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2608",
+          "count": "1863",
           "amount": "1.00 euro",
-          "total": "2 608.00 euro"
+          "total": "1 863.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "5513",
+          "count": "4412",
           "amount": "0.50 euro",
-          "total": "2 756.50 euro"
+          "total": "2 206.00 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3677",
+          "count": "3236",
           "amount": "0.60 euro",
-          "total": "2 206.20 euro"
+          "total": "1 941.60 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1793887029,
-  "draw": 86,
-  "draw_date": "2026-11-01",
+  "fetched": 1793922512,
+  "draw": 87,
+  "draw_date": "2026-11-05",
   "source_url": "https://info.toto.bg/results/zodiak"
 }

@@ -1,17 +1,17 @@
 {
   "game": "6x42",
-  "title": "Тираж 86 - 01.11.2026",
+  "title": "Тираж 87 - 05.11.2026",
   "drawings": [
     {
       "numbers": [
-        "18",
-        "19",
-        "22",
-        "25",
+        "1",
+        "3",
+        "20",
+        "23",
         "30",
-        "41"
+        "38"
       ],
-      "jackpot": "275 354.83 euro",
+      "jackpot": "297 782.32 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -22,27 +22,27 @@
         {
           "label": "5 числа",
           "count": "5",
-          "amount": "3 169.40 euro",
-          "total": "15 847.00 euro"
+          "amount": "2 803.50 euro",
+          "total": "14 017.50 euro"
         },
         {
           "label": "4 числа",
-          "count": "343",
-          "amount": "46.20 euro",
-          "total": "15 846.60 euro"
+          "count": "271",
+          "amount": "51.70 euro",
+          "total": "14 010.70 euro"
         },
         {
           "label": "3 числа",
-          "count": "5940",
-          "amount": "3.80 euro",
-          "total": "22 572.00 euro"
+          "count": "4964",
+          "amount": "4.00 euro",
+          "total": "19 856.00 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1793887019,
-  "draw": 86,
-  "draw_date": "2026-11-01",
+  "fetched": 1793922503,
+  "draw": 87,
+  "draw_date": "2026-11-05",
   "source_url": "https://info.toto.bg/results/6x42"
 }
