@@ -2,30 +2,71 @@ name: Fetch Toto Results
 
 on:
   schedule:
-    - cron: '0 17 * * 4'
-    - cron: '0 17 * * 0'
-    - cron: '0 5 * * 5'
-    - cron: '0 5 * * 1'
+    # Тиражите са в четвъртък и неделя вечер (българско време). Часовете са в UTC.
+    # Няколко опита, защото GitHub закъснява/пропуска scheduled рънове, а БСТ
+    # публикува печалбите с известно забавяне. Повторните рънове са безопасни.
+    # Минутите не са :00 - в кръглия час GitHub най-често изпуска рънове.
+    - cron: '35 18 * * 4,0'   # чт/нд ~20:35-21:35 бълг. време
+    - cron: '35 20 * * 4,0'   # чт/нд ~22:35-23:35 бълг. време
+    - cron: '15 5 * * 5,1'    # пт/пн сутрин
+    - cron: '15 12 * * 5,1'   # пт/пн обед (финални печалби)
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: fetch-toto
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install requests beautifulsoup4 lxml
-      - run: python fetch_toto.py
-      - run: |
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch results
+        env:
+          # По избор: Settings → Secrets → Actions → TOTO_PROXY (http://user:pass@host:port)
+          # Нужно само ако info.toto.bg блокира IP адресите на GitHub.
+          TOTO_PROXY: ${{ secrets.TOTO_PROXY }}
+          # По избор: списък с User-Agent низове, разделени с | (презаписва вградените)
+          TOTO_USER_AGENTS: ${{ secrets.TOTO_USER_AGENTS }}
+        run: python fetch_toto.py
+
+      # Записваме summary.json и при грешка, за да се вижда причината в repo-то.
+      - name: Commit data
+        if: always()
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --staged --quiet || git commit -m "Update toto results"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes in data/"
+            exit 0
+          fi
+          git commit -m "Update toto results"
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push && exit 0
+            echo "Push failed, retry $i"; sleep 5
+          done
+          exit 1
+
+      - name: Upload debug HTML
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-html-${{ github.run_number }}
+          path: debug/
+          if-no-files-found: ignore
+          retention-days: 14
