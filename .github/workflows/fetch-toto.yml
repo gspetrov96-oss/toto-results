@@ -22,7 +22,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
@@ -35,11 +35,20 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
+            pip install curl_cffi
           else
             echo "::warning::requirements.txt липсва в repo-то - инсталирам пакетите директно"
             pip install requests beautifulsoup4 lxml brotli
           fi
           pip list | grep -iE "requests|beautifulsoup4|lxml|brotli"
+
+      # Експериментално: Repository variable TOTO_BROWSER=1 (Settings → Secrets and variables → Actions → Variables)
+      # инсталира Chromium и скриптът минава през браузър, ако WAF-ът блокира обикновените заявки.
+      - name: Install browser (optional)
+        if: ${{ vars.TOTO_BROWSER == '1' }}
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
 
       - name: Check files
         run: |
@@ -53,6 +62,10 @@ jobs:
           TOTO_PROXY: ${{ secrets.TOTO_PROXY }}
           # По избор: списък с User-Agent низове, разделени с | (презаписва вградените)
           TOTO_USER_AGENTS: ${{ secrets.TOTO_USER_AGENTS }}
+          TOTO_BROWSER: ${{ vars.TOTO_BROWSER }}
+          # Бисквитки от браузъра (secret) + TLS fingerprint на Chrome (variable, напр. chrome)
+          TOTO_COOKIE: ${{ secrets.TOTO_COOKIE }}
+          TOTO_IMPERSONATE: ${{ vars.TOTO_IMPERSONATE }}
         run: python fetch_toto.py
 
       # Записваме summary.json и при грешка, за да се вижда причината в repo-то.
