@@ -1,0 +1,40 @@
+{
+ "game": "rojdenden",
+ "draws": [
+  {
+   "draw": 86,
+   "draw_date": "2026-11-01",
+   "title": "Тираж 86 - 01.11.2026",
+   "type": "rojdenden",
+   "numbers": [
+    [
+     "47",
+     "2",
+     "12",
+     "6"
+    ]
+   ],
+   "ymdd": [
+    {
+     "label": "Година",
+     "value": "47"
+    },
+    {
+     "label": "Месец",
+     "value": "2"
+    },
+    {
+     "label": "Дата",
+     "value": "12"
+    },
+    {
+     "label": "Ден",
+     "value": "6"
+    }
+   ],
+   "jackpot": "3 501.62 euro"
+  }
+ ],
+ "updated": "2026-11-05T13:57:07.081734+00:00",
+ "count": 1
+}

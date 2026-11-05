@@ -1,6 +1,6 @@
 {
   "game": "12t1",
-  "title": "Тираж 72 - 13.09.2026",
+  "title": "Тираж 86 - 01.11.2026",
   "drawings": [
     {
       "matches": [
@@ -10,23 +10,23 @@
         },
         {
           "match": "2",
-          "result": "1"
-        },
-        {
-          "match": "3",
-          "result": "x"
-        },
-        {
-          "match": "4",
           "result": "2"
         },
         {
+          "match": "3",
+          "result": "1"
+        },
+        {
+          "match": "4",
+          "result": "1"
+        },
+        {
           "match": "5",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "6",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "7",
@@ -34,42 +34,45 @@
         },
         {
           "match": "8",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "9",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "10",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "11",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "12",
-          "result": "1"
+          "result": "x"
         }
       ],
-      "jackpot": "5 909.88 euro",
+      "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "12 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "2",
+          "amount": "325.70 euro",
+          "total": "651.40 euro"
         },
         {
           "label": "11 срещи",
-          "count": "4",
-          "amount": "241.40 euro",
-          "total": "965.60 euro"
+          "count": "23",
+          "amount": "14.50 euro",
+          "total": "333.50 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1789723118
+  "fetched": 1793887034,
+  "draw": 86,
+  "draw_date": "2026-11-01",
+  "source_url": "https://info.toto.bg/results/12t1"
 }

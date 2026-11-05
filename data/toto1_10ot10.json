@@ -1,16 +1,16 @@
 {
   "game": "10t1",
-  "title": "Тираж 72 - 13.09.2026",
+  "title": "Тираж 86 - 01.11.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "2",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "3",
@@ -22,40 +22,43 @@
         },
         {
           "match": "5",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "6",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "7",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "8",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "9",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "10",
-          "result": "2"
+          "result": "1"
         }
       ],
-      "jackpot": "455.15 euro",
+      "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "10 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "13",
+          "amount": "187.50 euro",
+          "total": "2 437.50 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1789723120
+  "fetched": 1793887036,
+  "draw": 86,
+  "draw_date": "2026-11-01",
+  "source_url": "https://info.toto.bg/results/10t1"
 }

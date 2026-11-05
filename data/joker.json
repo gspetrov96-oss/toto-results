@@ -1,35 +1,38 @@
 {
   "game": "joker",
-  "title": "Тираж 73 - 17.09.2026",
+  "title": "Тираж 86 - 01.11.2026",
   "drawings": [
     {
       "numbers": [
-        "5",
-        "7",
-        "2"
+        "8",
+        "8",
+        "9"
       ],
       "positions": [
         "1",
-        "5",
+        "2",
         "7"
       ],
       "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "10",
-          "amount": "3 875.90 euro",
-          "total": "38 759.00 euro"
+          "count": "9",
+          "amount": "4 737.00 euro",
+          "total": "42 633.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "1805",
-          "amount": "21.50 euro",
-          "total": "38 807.50 euro"
+          "count": "2087",
+          "amount": "20.40 euro",
+          "total": "42 574.80 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1789723108
+  "fetched": 1793887024,
+  "draw": 86,
+  "draw_date": "2026-11-01",
+  "source_url": "https://info.toto.bg/results/joker"
 }

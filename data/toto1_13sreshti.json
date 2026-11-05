@@ -1,12 +1,12 @@
 {
   "game": "13t1",
-  "title": "Тираж 73 - 17.09.2026",
+  "title": "Тираж 86 - 01.11.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "2",
@@ -14,15 +14,15 @@
         },
         {
           "match": "3",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "4",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "5",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "6",
@@ -34,7 +34,7 @@
         },
         {
           "match": "8",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "9",
@@ -46,7 +46,7 @@
         },
         {
           "match": "11",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "12",
@@ -54,10 +54,10 @@
         },
         {
           "match": "13",
-          "result": "2"
+          "result": "1"
         }
       ],
-      "jackpot": "29 520.75 euro",
+      "jackpot": "7 160.07 euro",
       "winnings": [
         {
           "label": "13 срещи",
@@ -67,25 +67,28 @@
         },
         {
           "label": "12 срещи",
-          "count": "6",
-          "amount": "459.30 euro",
-          "total": "2 755.80 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         },
         {
           "label": "11 срещи",
-          "count": "95",
-          "amount": "36.30 euro",
-          "total": "3 448.50 euro"
+          "count": "36",
+          "amount": "68.70 euro",
+          "total": "2 473.20 euro"
         },
         {
           "label": "10 срещи",
-          "count": "701",
-          "amount": "6.90 euro",
-          "total": "4 836.90 euro"
+          "count": "436",
+          "amount": "7.90 euro",
+          "total": "3 444.40 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1789723115
+  "fetched": 1793887031,
+  "draw": 86,
+  "draw_date": "2026-11-01",
+  "source_url": "https://info.toto.bg/results/13t1"
 }

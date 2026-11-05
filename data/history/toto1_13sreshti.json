@@ -1,0 +1,68 @@
+{
+ "game": "13t1",
+ "draws": [
+  {
+   "draw": 86,
+   "draw_date": "2026-11-01",
+   "title": "Тираж 86 - 01.11.2026",
+   "type": "toto1",
+   "matches": [
+    {
+     "match": "1",
+     "result": "1"
+    },
+    {
+     "match": "2",
+     "result": "2"
+    },
+    {
+     "match": "3",
+     "result": "1"
+    },
+    {
+     "match": "4",
+     "result": "1"
+    },
+    {
+     "match": "5",
+     "result": "1"
+    },
+    {
+     "match": "6",
+     "result": "x"
+    },
+    {
+     "match": "7",
+     "result": "1"
+    },
+    {
+     "match": "8",
+     "result": "x"
+    },
+    {
+     "match": "9",
+     "result": "2"
+    },
+    {
+     "match": "10",
+     "result": "1"
+    },
+    {
+     "match": "11",
+     "result": "1"
+    },
+    {
+     "match": "12",
+     "result": "2"
+    },
+    {
+     "match": "13",
+     "result": "1"
+    }
+   ],
+   "jackpot": "7 160.07 euro"
+  }
+ ],
+ "updated": "2026-11-05T13:57:11.798841+00:00",
+ "count": 1
+}

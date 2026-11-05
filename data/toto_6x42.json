@@ -1,17 +1,17 @@
 {
   "game": "6x42",
-  "title": "Тираж 73 - 17.09.2026",
+  "title": "Тираж 86 - 01.11.2026",
   "drawings": [
     {
       "numbers": [
-        "3",
-        "7",
-        "8",
-        "23",
-        "26",
-        "35"
+        "18",
+        "19",
+        "22",
+        "25",
+        "30",
+        "41"
       ],
-      "jackpot": "1 188 103.92 euro",
+      "jackpot": "275 354.83 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,25 +21,28 @@
         },
         {
           "label": "5 числа",
-          "count": "14",
-          "amount": "1 267.60 euro",
-          "total": "17 746.40 euro"
+          "count": "5",
+          "amount": "3 169.40 euro",
+          "total": "15 847.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "469",
-          "amount": "37.80 euro",
-          "total": "17 728.20 euro"
+          "count": "343",
+          "amount": "46.20 euro",
+          "total": "15 846.60 euro"
         },
         {
           "label": "3 числа",
-          "count": "7857",
-          "amount": "3.20 euro",
-          "total": "25 142.40 euro"
+          "count": "5940",
+          "amount": "3.80 euro",
+          "total": "22 572.00 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1789723104
+  "fetched": 1793887019,
+  "draw": 86,
+  "draw_date": "2026-11-01",
+  "source_url": "https://info.toto.bg/results/6x42"
 }
