@@ -1,16 +1,16 @@
 {
   "game": "13t1",
-  "title": "Тираж 86 - 01.11.2026",
+  "title": "Тираж 87 - 05.11.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "2",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "3",
@@ -18,7 +18,7 @@
         },
         {
           "match": "4",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "5",
@@ -26,27 +26,27 @@
         },
         {
           "match": "6",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "7",
-          "result": "1"
-        },
-        {
-          "match": "8",
-          "result": "x"
-        },
-        {
-          "match": "9",
           "result": "2"
         },
         {
-          "match": "10",
+          "match": "8",
+          "result": "2"
+        },
+        {
+          "match": "9",
           "result": "1"
         },
         {
+          "match": "10",
+          "result": "x"
+        },
+        {
           "match": "11",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "12",
@@ -54,41 +54,41 @@
         },
         {
           "match": "13",
-          "result": "1"
+          "result": "2"
         }
       ],
-      "jackpot": "7 160.07 euro",
+      "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "13 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "2",
+          "amount": "4 282.70 euro",
+          "total": "8 565.40 euro"
         },
         {
           "label": "12 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "58",
+          "amount": "24.20 euro",
+          "total": "1 403.60 euro"
         },
         {
           "label": "11 срещи",
-          "count": "36",
-          "amount": "68.70 euro",
-          "total": "2 473.20 euro"
+          "count": "705",
+          "amount": "2.50 euro",
+          "total": "1 762.50 euro"
         },
         {
           "label": "10 срещи",
-          "count": "436",
-          "amount": "7.90 euro",
-          "total": "3 444.40 euro"
+          "count": "3516",
+          "amount": "0.70 euro",
+          "total": "2 461.20 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1793927114,
-  "draw": 86,
-  "draw_date": "2026-11-01",
+  "fetched": 1793969858,
+  "draw": 87,
+  "draw_date": "2026-11-05",
   "source_url": "https://info.toto.bg/results/13t1"
 }
