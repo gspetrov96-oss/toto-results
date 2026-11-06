@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T23:48:48.623103+00:00",
+ "updated": "2026-11-06T01:05:27.381290+00:00",
  "games": {
   "6x49": {
    "game": "6x49",
@@ -44,7 +44,7 @@
      "type": "standard"
     }
    ],
-   "fetched": 1793922500,
+   "fetched": 1793927100,
    "draw": 87,
    "draw_date": "2026-11-05",
    "source_url": "https://info.toto.bg/results/6x49"
@@ -92,7 +92,7 @@
      "type": "standard"
     }
    ],
-   "fetched": 1793922503,
+   "fetched": 1793927102,
    "draw": 87,
    "draw_date": "2026-11-05",
    "source_url": "https://info.toto.bg/results/6x42"
@@ -164,7 +164,7 @@
      "type": "standard"
     }
    ],
-   "fetched": 1793922505,
+   "fetched": 1793927104,
    "draw": 87,
    "draw_date": "2026-11-05",
    "source_url": "https://info.toto.bg/results/5x35"
@@ -202,7 +202,7 @@
      "type": "joker"
     }
    ],
-   "fetched": 1793922507,
+   "fetched": 1793927107,
    "draw": 87,
    "draw_date": "2026-11-05",
    "source_url": "https://info.toto.bg/results/joker"
@@ -332,7 +332,7 @@
      "type": "rojdenden"
     }
    ],
-   "fetched": 1793922510,
+   "fetched": 1793927109,
    "draw": 87,
    "draw_date": "2026-11-05",
    "source_url": "https://info.toto.bg/results/rojdenden"
@@ -416,7 +416,7 @@
      "type": "zodiak"
     }
    ],
-   "fetched": 1793922512,
+   "fetched": 1793927111,
    "draw": 87,
    "draw_date": "2026-11-05",
    "source_url": "https://info.toto.bg/results/zodiak"
@@ -510,7 +510,7 @@
      "type": "toto1"
     }
    ],
-   "fetched": 1793922515,
+   "fetched": 1793927114,
    "draw": 86,
    "draw_date": "2026-11-01",
    "source_url": "https://info.toto.bg/results/13t1"
@@ -588,7 +588,7 @@
      "type": "toto1"
     }
    ],
-   "fetched": 1793922519,
+   "fetched": 1793927118,
    "draw": 86,
    "draw_date": "2026-11-01",
    "source_url": "https://info.toto.bg/results/12t1"
@@ -652,7 +652,7 @@
      "type": "toto1"
     }
    ],
-   "fetched": 1793922524,
+   "fetched": 1793927123,
    "draw": 86,
    "draw_date": "2026-11-01",
    "source_url": "https://info.toto.bg/results/10t1"
