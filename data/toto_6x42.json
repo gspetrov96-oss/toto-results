@@ -1,17 +1,17 @@
 {
   "game": "6x42",
-  "title": "Тираж 87 - 05.11.2026",
+  "title": "Тираж 88 - 08.11.2026",
   "drawings": [
     {
       "numbers": [
-        "1",
-        "3",
+        "12",
+        "16",
         "20",
-        "23",
-        "30",
-        "38"
+        "28",
+        "35",
+        "42"
       ],
-      "jackpot": "297 782.32 euro",
+      "jackpot": "323 729.52 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,28 +21,28 @@
         },
         {
           "label": "5 числа",
-          "count": "5",
-          "amount": "2 803.50 euro",
-          "total": "14 017.50 euro"
+          "count": "11",
+          "amount": "1 474.30 euro",
+          "total": "16 217.30 euro"
         },
         {
           "label": "4 числа",
-          "count": "271",
-          "amount": "51.70 euro",
-          "total": "14 010.70 euro"
+          "count": "418",
+          "amount": "38.80 euro",
+          "total": "16 218.40 euro"
         },
         {
           "label": "3 числа",
-          "count": "4964",
-          "amount": "4.00 euro",
-          "total": "19 856.00 euro"
+          "count": "6566",
+          "amount": "3.50 euro",
+          "total": "22 981.00 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1793993213,
-  "draw": 87,
-  "draw_date": "2026-11-05",
+  "fetched": 1794176546,
+  "draw": 88,
+  "draw_date": "2026-11-08",
   "source_url": "https://info.toto.bg/results/6x42"
 }

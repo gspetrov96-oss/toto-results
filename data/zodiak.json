@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 87 - 05.11.2026",
+  "title": "Тираж 88 - 08.11.2026",
   "drawings": [
     {
       "numbers": [
-        "18",
-        "25",
+        "3",
+        "11",
         "30",
-        "45",
-        "50"
+        "40",
+        "41"
       ],
-      "zodia": "2",
+      "zodia": "6",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -33,52 +33,52 @@
         },
         {
           "label": "4 числа",
-          "count": "4",
+          "count": "5",
           "amount": "300.00 euro",
-          "total": "1 200.00 euro"
+          "total": "1 500.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "13",
+          "count": "22",
           "amount": "60.00 euro",
-          "total": "780.00 euro"
+          "total": "1 320.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "298",
+          "count": "215",
           "amount": "6.00 euro",
-          "total": "1 788.00 euro"
+          "total": "1 290.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "318",
+          "count": "368",
           "amount": "3.00 euro",
-          "total": "954.00 euro"
+          "total": "1 104.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "1863",
+          "count": "2064",
           "amount": "1.00 euro",
-          "total": "1 863.00 euro"
+          "total": "2 064.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "4412",
+          "count": "4159",
           "amount": "0.50 euro",
-          "total": "2 206.00 euro"
+          "total": "2 079.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3236",
+          "count": "4076",
           "amount": "0.60 euro",
-          "total": "1 941.60 euro"
+          "total": "2 445.60 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1793993222,
-  "draw": 87,
-  "draw_date": "2026-11-05",
+  "fetched": 1794176556,
+  "draw": 88,
+  "draw_date": "2026-11-08",
   "source_url": "https://info.toto.bg/results/zodiak"
 }
