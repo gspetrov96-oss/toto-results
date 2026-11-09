@@ -1,16 +1,16 @@
 {
   "game": "10t1",
-  "title": "Тираж 86 - 01.11.2026",
+  "title": "Тираж 88 - 08.11.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "2",
-          "result": "1"
+          "result": "x"
         },
         {
           "match": "3",
@@ -18,7 +18,7 @@
         },
         {
           "match": "4",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "5",
@@ -45,20 +45,20 @@
           "result": "1"
         }
       ],
-      "jackpot": "Спечелен",
+      "jackpot": "484.45 euro",
       "winnings": [
         {
           "label": "10 срещи",
-          "count": "13",
-          "amount": "187.50 euro",
-          "total": "2 437.50 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1794182223,
-  "draw": 86,
-  "draw_date": "2026-11-01",
+  "fetched": 1794232482,
+  "draw": 88,
+  "draw_date": "2026-11-08",
   "source_url": "https://info.toto.bg/results/10t1"
 }

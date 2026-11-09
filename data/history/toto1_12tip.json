@@ -2,6 +2,63 @@
  "game": "12t1",
  "draws": [
   {
+   "draw": 88,
+   "draw_date": "2026-11-08",
+   "title": "Тираж 88 - 08.11.2026",
+   "type": "toto1",
+   "matches": [
+    {
+     "match": "1",
+     "result": "2"
+    },
+    {
+     "match": "2",
+     "result": "2"
+    },
+    {
+     "match": "3",
+     "result": "x"
+    },
+    {
+     "match": "4",
+     "result": "x"
+    },
+    {
+     "match": "5",
+     "result": "2"
+    },
+    {
+     "match": "6",
+     "result": "1"
+    },
+    {
+     "match": "7",
+     "result": "2"
+    },
+    {
+     "match": "8",
+     "result": "2"
+    },
+    {
+     "match": "9",
+     "result": "1"
+    },
+    {
+     "match": "10",
+     "result": "2"
+    },
+    {
+     "match": "11",
+     "result": "x"
+    },
+    {
+     "match": "12",
+     "result": "2"
+    }
+   ],
+   "jackpot": "312.55 euro"
+  },
+  {
    "draw": 86,
    "draw_date": "2026-11-01",
    "title": "Тираж 86 - 01.11.2026",
@@ -59,6 +116,6 @@
    "jackpot": "Спечелен"
   }
  ],
- "updated": "2026-11-05T13:57:14.158192+00:00",
- "count": 1
+ "updated": "2026-11-09T13:54:39.828817+00:00",
+ "count": 2
 }

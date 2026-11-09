@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T23:57:07.693291+00:00",
+ "updated": "2026-11-09T13:54:44.273171+00:00",
  "games": {
   "6x49": {
    "game": "6x49",
@@ -44,7 +44,7 @@
      "type": "standard"
     }
    ],
-   "fetched": 1794182199,
+   "fetched": 1794232462,
    "draw": 88,
    "draw_date": "2026-11-08",
    "source_url": "https://info.toto.bg/results/6x49"
@@ -92,7 +92,7 @@
      "type": "standard"
     }
    ],
-   "fetched": 1794182202,
+   "fetched": 1794232465,
    "draw": 88,
    "draw_date": "2026-11-08",
    "source_url": "https://info.toto.bg/results/6x42"
@@ -164,7 +164,7 @@
      "type": "standard"
     }
    ],
-   "fetched": 1794182204,
+   "fetched": 1794232467,
    "draw": 88,
    "draw_date": "2026-11-08",
    "source_url": "https://info.toto.bg/results/5x35"
@@ -202,7 +202,7 @@
      "type": "joker"
     }
    ],
-   "fetched": 1794182206,
+   "fetched": 1794232470,
    "draw": 88,
    "draw_date": "2026-11-08",
    "source_url": "https://info.toto.bg/results/joker"
@@ -332,7 +332,7 @@
      "type": "rojdenden"
     }
    ],
-   "fetched": 1794182209,
+   "fetched": 1794232472,
    "draw": 88,
    "draw_date": "2026-11-08",
    "source_url": "https://info.toto.bg/results/rojdenden"
@@ -416,14 +416,14 @@
      "type": "zodiak"
     }
    ],
-   "fetched": 1794182211,
+   "fetched": 1794232474,
    "draw": 88,
    "draw_date": "2026-11-08",
    "source_url": "https://info.toto.bg/results/zodiak"
   },
   "13t1": {
    "game": "13t1",
-   "title": "Тираж 87 - 05.11.2026",
+   "title": "Тираж 88 - 08.11.2026",
    "drawings": [
     {
      "matches": [
@@ -433,15 +433,15 @@
       },
       {
        "match": "2",
-       "result": "1"
+       "result": "2"
       },
       {
        "match": "3",
-       "result": "1"
+       "result": "x"
       },
       {
        "match": "4",
-       "result": "2"
+       "result": "x"
       },
       {
        "match": "5",
@@ -453,77 +453,77 @@
       },
       {
        "match": "7",
-       "result": "2"
-      },
-      {
-       "match": "8",
-       "result": "2"
-      },
-      {
-       "match": "9",
-       "result": "1"
-      },
-      {
-       "match": "10",
        "result": "x"
       },
       {
-       "match": "11",
+       "match": "8",
+       "result": "1"
+      },
+      {
+       "match": "9",
        "result": "2"
+      },
+      {
+       "match": "10",
+       "result": "1"
+      },
+      {
+       "match": "11",
+       "result": "x"
       },
       {
        "match": "12",
-       "result": "2"
+       "result": "x"
       },
       {
        "match": "13",
-       "result": "2"
+       "result": "1"
       }
      ],
-     "jackpot": "Спечелен",
+     "jackpot": "2 918.62 euro",
      "winnings": [
       {
        "label": "13 срещи",
-       "count": "2",
-       "amount": "4 282.70 euro",
-       "total": "8 565.40 euro"
+       "count": "0",
+       "amount": "0.00 euro",
+       "total": "0.00 euro"
       },
       {
        "label": "12 срещи",
-       "count": "58",
-       "amount": "24.20 euro",
-       "total": "1 403.60 euro"
+       "count": "0",
+       "amount": "0.00 euro",
+       "total": "0.00 euro"
       },
       {
        "label": "11 срещи",
-       "count": "705",
-       "amount": "2.50 euro",
-       "total": "1 762.50 euro"
+       "count": "4",
+       "amount": "456.00 euro",
+       "total": "1 824.00 euro"
       },
       {
        "label": "10 срещи",
-       "count": "3516",
-       "amount": "0.70 euro",
-       "total": "2 461.20 euro"
+       "count": "43",
+       "amount": "59.40 euro",
+       "total": "2 554.20 euro"
       }
      ],
      "type": "toto1"
     }
    ],
-   "fetched": 1794182214,
-   "draw": 87,
-   "draw_date": "2026-11-05",
+   "fetched": 1794232477,
+   "draw": 88,
+   "draw_date": "2026-11-08",
    "source_url": "https://info.toto.bg/results/13t1"
   },
   "12t1": {
    "game": "12t1",
-   "title": "Тираж 86 - 01.11.2026",
+   "title": "Тираж 88 - 08.11.2026",
    "drawings": [
     {
      "matches": [
       {
        "match": "1",
-       "result": "1"
+       "result": "2"
       },
       {
        "match": "2",
@@ -531,11 +531,11 @@
       },
       {
        "match": "3",
-       "result": "1"
+       "result": "x"
       },
       {
        "match": "4",
-       "result": "1"
+       "result": "x"
       },
       {
        "match": "5",
@@ -547,11 +547,11 @@
       },
       {
        "match": "7",
-       "result": "1"
+       "result": "2"
       },
       {
        "match": "8",
-       "result": "1"
+       "result": "2"
       },
       {
        "match": "9",
@@ -563,49 +563,49 @@
       },
       {
        "match": "11",
-       "result": "1"
+       "result": "x"
       },
       {
        "match": "12",
-       "result": "x"
+       "result": "2"
       }
      ],
-     "jackpot": "Спечелен",
+     "jackpot": "312.55 euro",
      "winnings": [
       {
        "label": "12 срещи",
-       "count": "2",
-       "amount": "325.70 euro",
-       "total": "651.40 euro"
+       "count": "0",
+       "amount": "0.00 euro",
+       "total": "0.00 euro"
       },
       {
        "label": "11 срещи",
-       "count": "23",
-       "amount": "14.50 euro",
-       "total": "333.50 euro"
+       "count": "1",
+       "amount": "312.60 euro",
+       "total": "312.60 euro"
       }
      ],
      "type": "toto1"
     }
    ],
-   "fetched": 1794182218,
-   "draw": 86,
-   "draw_date": "2026-11-01",
+   "fetched": 1794232479,
+   "draw": 88,
+   "draw_date": "2026-11-08",
    "source_url": "https://info.toto.bg/results/12t1"
   },
   "10t1": {
    "game": "10t1",
-   "title": "Тираж 86 - 01.11.2026",
+   "title": "Тираж 88 - 08.11.2026",
    "drawings": [
     {
      "matches": [
       {
        "match": "1",
-       "result": "1"
+       "result": "x"
       },
       {
        "match": "2",
-       "result": "1"
+       "result": "x"
       },
       {
        "match": "3",
@@ -613,7 +613,7 @@
       },
       {
        "match": "4",
-       "result": "1"
+       "result": "2"
       },
       {
        "match": "5",
@@ -640,21 +640,21 @@
        "result": "1"
       }
      ],
-     "jackpot": "Спечелен",
+     "jackpot": "484.45 euro",
      "winnings": [
       {
        "label": "10 срещи",
-       "count": "13",
-       "amount": "187.50 euro",
-       "total": "2 437.50 euro"
+       "count": "0",
+       "amount": "0.00 euro",
+       "total": "0.00 euro"
       }
      ],
      "type": "toto1"
     }
    ],
-   "fetched": 1794182223,
-   "draw": 86,
-   "draw_date": "2026-11-01",
+   "fetched": 1794232482,
+   "draw": 88,
+   "draw_date": "2026-11-08",
    "source_url": "https://info.toto.bg/results/10t1"
   }
  }
