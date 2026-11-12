@@ -1,38 +1,38 @@
 {
   "game": "joker",
-  "title": "Тираж 88 - 08.11.2026",
+  "title": "Тираж 89 - 12.11.2026",
   "drawings": [
     {
       "numbers": [
-        "1",
-        "1",
+        "3",
+        "7",
         "0"
       ],
       "positions": [
-        "1",
-        "3",
+        "4",
+        "6",
         "7"
       ],
       "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "31",
-          "amount": "1 306.20 euro",
-          "total": "40 492.20 euro"
+          "count": "2",
+          "amount": "18 340.20 euro",
+          "total": "36 680.40 euro"
         },
         {
           "label": "2 числа",
-          "count": "3433",
-          "amount": "11.80 euro",
-          "total": "40 509.40 euro"
+          "count": "1039",
+          "amount": "35.30 euro",
+          "total": "36 676.70 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1794263078,
-  "draw": 88,
-  "draw_date": "2026-11-08",
+  "fetched": 1794527229,
+  "draw": 89,
+  "draw_date": "2026-11-12",
   "source_url": "https://info.toto.bg/results/joker"
 }

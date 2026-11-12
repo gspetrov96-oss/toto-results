@@ -1,17 +1,17 @@
 {
   "game": "6x42",
-  "title": "Тираж 88 - 08.11.2026",
+  "title": "Тираж 89 - 12.11.2026",
   "drawings": [
     {
       "numbers": [
-        "12",
-        "16",
-        "20",
-        "28",
-        "35",
-        "42"
+        "6",
+        "17",
+        "22",
+        "39",
+        "40",
+        "41"
       ],
-      "jackpot": "323 729.52 euro",
+      "jackpot": "347 803.52 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,28 +21,28 @@
         },
         {
           "label": "5 числа",
-          "count": "11",
-          "amount": "1 474.30 euro",
-          "total": "16 217.30 euro"
+          "count": "3",
+          "amount": "5 015.40 euro",
+          "total": "15 046.20 euro"
         },
         {
           "label": "4 числа",
-          "count": "418",
-          "amount": "38.80 euro",
-          "total": "16 218.40 euro"
+          "count": "302",
+          "amount": "49.80 euro",
+          "total": "15 039.60 euro"
         },
         {
           "label": "3 числа",
-          "count": "6566",
-          "amount": "3.50 euro",
-          "total": "22 981.00 euro"
+          "count": "4948",
+          "amount": "4.30 euro",
+          "total": "21 276.40 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1794263073,
-  "draw": 88,
-  "draw_date": "2026-11-08",
+  "fetched": 1794527224,
+  "draw": 89,
+  "draw_date": "2026-11-12",
   "source_url": "https://info.toto.bg/results/6x42"
 }
