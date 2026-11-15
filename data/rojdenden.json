@@ -1,33 +1,33 @@
 {
   "game": "rojdenden",
-  "title": "Тираж 89 - 12.11.2026",
+  "title": "Тираж 90 - 15.11.2026",
   "drawings": [
     {
       "numbers": [
-        "75",
-        "12",
-        "31",
-        "6"
+        "69",
+        "2",
+        "4",
+        "7"
       ],
       "ymdd": [
         {
           "label": "Година",
-          "value": "75"
+          "value": "69"
         },
         {
           "label": "Месец",
-          "value": "12"
+          "value": "2"
         },
         {
           "label": "Дата",
-          "value": "31"
+          "value": "4"
         },
         {
           "label": "Ден",
-          "value": "6"
+          "value": "7"
         }
       ],
-      "jackpot": "6 848.71 euro",
+      "jackpot": "8 295.04 euro",
       "winnings": [
         {
           "label": "година + месец + дата + ден",
@@ -37,9 +37,9 @@
         },
         {
           "label": "година + месец + дата",
-          "count": "1",
-          "amount": "385.60 euro",
-          "total": "385.60 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         },
         {
           "label": "година + дата + ден",
@@ -49,82 +49,82 @@
         },
         {
           "label": "година + месец + ден",
-          "count": "7",
-          "amount": "27.50 euro",
-          "total": "192.50 euro"
+          "count": "3",
+          "amount": "68.90 euro",
+          "total": "206.70 euro"
         },
         {
           "label": "година + дата",
-          "count": "5",
-          "amount": "38.60 euro",
-          "total": "193.00 euro"
+          "count": "13",
+          "amount": "15.90 euro",
+          "total": "206.70 euro"
         },
         {
           "label": "месец + дата + ден",
-          "count": "12",
-          "amount": "12.90 euro",
-          "total": "154.80 euro"
+          "count": "10",
+          "amount": "16.50 euro",
+          "total": "165.00 euro"
         },
         {
           "label": "година + месец",
-          "count": "38",
-          "amount": "5.10 euro",
-          "total": "193.80 euro"
+          "count": "28",
+          "amount": "7.40 euro",
+          "total": "207.20 euro"
         },
         {
           "label": "година + ден",
-          "count": "76",
-          "amount": "2.00 euro",
-          "total": "152.00 euro"
+          "count": "75",
+          "amount": "2.20 euro",
+          "total": "165.00 euro"
         },
         {
           "label": "месец + дата",
-          "count": "52",
-          "amount": "4.50 euro",
-          "total": "234.00 euro"
+          "count": "88",
+          "amount": "2.80 euro",
+          "total": "246.40 euro"
         },
         {
           "label": "дата + ден",
-          "count": "60",
-          "amount": "4.50 euro",
-          "total": "270.00 euro"
+          "count": "123",
+          "amount": "2.40 euro",
+          "total": "295.20 euro"
         },
         {
           "label": "година",
-          "count": "415",
-          "amount": "0.74 euro",
-          "total": "307.10 euro"
+          "count": "390",
+          "amount": "0.85 euro",
+          "total": "331.50 euro"
         },
         {
           "label": "месец + ден",
-          "count": "296",
-          "amount": "1.30 euro",
-          "total": "384.80 euro"
+          "count": "297",
+          "amount": "1.40 euro",
+          "total": "415.80 euro"
         },
         {
           "label": "дата",
-          "count": "346",
-          "amount": "2.30 euro",
-          "total": "795.80 euro"
+          "count": "838",
+          "amount": "1.00 euro",
+          "total": "838.00 euro"
         },
         {
           "label": "месец",
-          "count": "1950",
+          "count": "2095",
           "amount": "0.67 euro",
-          "total": "1 306.50 euro"
+          "total": "1 403.65 euro"
         },
         {
           "label": "ден",
-          "count": "3640",
+          "count": "3912",
           "amount": "0.59 euro",
-          "total": "2 147.60 euro"
+          "total": "2 308.08 euro"
         }
       ],
       "type": "rojdenden"
     }
   ],
-  "fetched": 1794599140,
-  "draw": 89,
-  "draw_date": "2026-11-12",
+  "fetched": 1794783910,
+  "draw": 90,
+  "draw_date": "2026-11-15",
   "source_url": "https://info.toto.bg/results/rojdenden"
 }

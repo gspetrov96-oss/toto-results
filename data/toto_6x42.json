@@ -1,17 +1,17 @@
 {
   "game": "6x42",
-  "title": "Тираж 89 - 12.11.2026",
+  "title": "Тираж 90 - 15.11.2026",
   "drawings": [
     {
       "numbers": [
-        "6",
-        "17",
-        "22",
-        "39",
-        "40",
-        "41"
+        "7",
+        "24",
+        "32",
+        "34",
+        "35",
+        "42"
       ],
-      "jackpot": "347 803.52 euro",
+      "jackpot": "374 771.48 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,28 +21,28 @@
         },
         {
           "label": "5 числа",
-          "count": "3",
-          "amount": "5 015.40 euro",
-          "total": "15 046.20 euro"
+          "count": "11",
+          "amount": "1 532.30 euro",
+          "total": "16 855.30 euro"
         },
         {
           "label": "4 числа",
-          "count": "302",
-          "amount": "49.80 euro",
-          "total": "15 039.60 euro"
+          "count": "487",
+          "amount": "34.60 euro",
+          "total": "16 850.20 euro"
         },
         {
           "label": "3 числа",
-          "count": "4948",
-          "amount": "4.30 euro",
-          "total": "21 276.40 euro"
+          "count": "7471",
+          "amount": "3.20 euro",
+          "total": "23 907.20 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1794599133,
-  "draw": 89,
-  "draw_date": "2026-11-12",
+  "fetched": 1794783903,
+  "draw": 90,
+  "draw_date": "2026-11-15",
   "source_url": "https://info.toto.bg/results/6x42"
 }
