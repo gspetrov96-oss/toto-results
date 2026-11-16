@@ -2,6 +2,55 @@
  "game": "10t1",
  "draws": [
   {
+   "draw": 90,
+   "draw_date": "2026-11-15",
+   "title": "Тираж 90 - 15.11.2026",
+   "type": "toto1",
+   "matches": [
+    {
+     "match": "1",
+     "result": "2"
+    },
+    {
+     "match": "2",
+     "result": "x"
+    },
+    {
+     "match": "3",
+     "result": "x"
+    },
+    {
+     "match": "4",
+     "result": "1"
+    },
+    {
+     "match": "5",
+     "result": "2"
+    },
+    {
+     "match": "6",
+     "result": "x"
+    },
+    {
+     "match": "7",
+     "result": "2"
+    },
+    {
+     "match": "8",
+     "result": "2"
+    },
+    {
+     "match": "9",
+     "result": "2"
+    },
+    {
+     "match": "10",
+     "result": "x"
+    }
+   ],
+   "jackpot": "1 116.70 euro"
+  },
+  {
    "draw": 88,
    "draw_date": "2026-11-08",
    "title": "Тираж 88 - 08.11.2026",
@@ -100,6 +149,6 @@
    "jackpot": "Спечелен"
   }
  ],
- "updated": "2026-11-09T13:54:42.272435+00:00",
- "count": 2
+ "updated": "2026-11-16T13:39:19.326464+00:00",
+ "count": 3
 }

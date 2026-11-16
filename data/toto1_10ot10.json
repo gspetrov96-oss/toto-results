@@ -1,12 +1,12 @@
 {
   "game": "10t1",
-  "title": "Тираж 88 - 08.11.2026",
+  "title": "Тираж 90 - 15.11.2026",
   "drawings": [
     {
       "matches": [
         {
           "match": "1",
-          "result": "x"
+          "result": "2"
         },
         {
           "match": "2",
@@ -14,38 +14,38 @@
         },
         {
           "match": "3",
-          "result": "1"
-        },
-        {
-          "match": "4",
-          "result": "2"
-        },
-        {
-          "match": "5",
-          "result": "1"
-        },
-        {
-          "match": "6",
-          "result": "2"
-        },
-        {
-          "match": "7",
           "result": "x"
         },
         {
-          "match": "8",
+          "match": "4",
           "result": "1"
+        },
+        {
+          "match": "5",
+          "result": "2"
+        },
+        {
+          "match": "6",
+          "result": "x"
+        },
+        {
+          "match": "7",
+          "result": "2"
+        },
+        {
+          "match": "8",
+          "result": "2"
         },
         {
           "match": "9",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "10",
-          "result": "1"
+          "result": "x"
         }
       ],
-      "jackpot": "484.45 euro",
+      "jackpot": "1 116.70 euro",
       "winnings": [
         {
           "label": "10 срещи",
@@ -57,8 +57,8 @@
       "type": "toto1"
     }
   ],
-  "fetched": 1794788125,
-  "draw": 88,
-  "draw_date": "2026-11-08",
+  "fetched": 1794836359,
+  "draw": 90,
+  "draw_date": "2026-11-15",
   "source_url": "https://info.toto.bg/results/10t1"
 }
