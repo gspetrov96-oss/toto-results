@@ -1,72 +1,72 @@
 {
   "game": "5x35",
-  "title": "Тираж 90 - 15.11.2026",
+  "title": "Тираж 91 - 19.11.2026",
   "drawings": [
     {
       "numbers": [
-        "11",
-        "23",
-        "25",
-        "31",
-        "33"
+        "1",
+        "13",
+        "26",
+        "29",
+        "30"
       ],
       "jackpot": "Няма",
       "winnings": [
         {
           "label": "5 числа",
-          "count": "4",
-          "amount": "6 904.90 euro",
-          "total": "27 619.60 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "583",
-          "amount": "61.80 euro",
-          "total": "36 029.40 euro"
+          "count": "277",
+          "amount": "165.00 euro",
+          "total": "45 705.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "12769",
-          "amount": "4.40 euro",
-          "total": "56 183.60 euro"
+          "count": "8154",
+          "amount": "7.90 euro",
+          "total": "64 416.60 euro"
         }
       ],
       "type": "standard"
     },
     {
       "numbers": [
-        "3",
         "8",
-        "11",
+        "10",
         "18",
-        "34"
+        "22",
+        "24"
       ],
       "jackpot": "Няма",
       "winnings": [
         {
           "label": "5 числа",
           "count": "5",
-          "amount": "5 523.90 euro",
-          "total": "27 619.50 euro"
+          "amount": "5 064.60 euro",
+          "total": "25 323.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "473",
-          "amount": "76.20 euro",
-          "total": "36 042.60 euro"
+          "count": "325",
+          "amount": "101.60 euro",
+          "total": "33 020.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "11580",
-          "amount": "4.90 euro",
-          "total": "56 742.00 euro"
+          "count": "10283",
+          "amount": "5.00 euro",
+          "total": "51 415.00 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1794866885,
-  "draw": 90,
-  "draw_date": "2026-11-15",
+  "fetched": 1795135803,
+  "draw": 91,
+  "draw_date": "2026-11-19",
   "source_url": "https://info.toto.bg/results/5x35"
 }

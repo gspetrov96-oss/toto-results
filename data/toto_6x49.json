@@ -1,17 +1,17 @@
 {
   "game": "6x49",
-  "title": "Тираж 90 - 15.11.2026",
+  "title": "Тираж 91 - 19.11.2026",
   "drawings": [
     {
       "numbers": [
-        "10",
-        "11",
-        "17",
-        "30",
-        "36",
-        "37"
+        "6",
+        "15",
+        "20",
+        "21",
+        "35",
+        "36"
       ],
-      "jackpot": "1 684 341.13 euro",
+      "jackpot": "1 768 142.60 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,28 +21,28 @@
         },
         {
           "label": "5 числа",
-          "count": "9",
-          "amount": "3 005.40 euro",
-          "total": "27 048.60 euro"
+          "count": "3",
+          "amount": "8 041.60 euro",
+          "total": "24 124.80 euro"
         },
         {
           "label": "4 числа",
-          "count": "524",
-          "amount": "57.10 euro",
-          "total": "29 920.40 euro"
+          "count": "372",
+          "amount": "71.70 euro",
+          "total": "26 672.40 euro"
         },
         {
           "label": "3 числа",
-          "count": "9873",
-          "amount": "6.50 euro",
-          "total": "64 174.50 euro"
+          "count": "8081",
+          "amount": "7.10 euro",
+          "total": "57 375.10 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1794866880,
-  "draw": 90,
-  "draw_date": "2026-11-15",
+  "fetched": 1795135798,
+  "draw": 91,
+  "draw_date": "2026-11-19",
   "source_url": "https://info.toto.bg/results/6x49"
 }
