@@ -1,16 +1,16 @@
 {
   "game": "zodiak",
-  "title": "Тираж 91 - 19.11.2026",
+  "title": "Тираж 92 - 22.11.2026",
   "drawings": [
     {
       "numbers": [
-        "13",
-        "15",
-        "36",
+        "8",
+        "11",
+        "25",
         "41",
-        "47"
+        "46"
       ],
-      "zodia": "11",
+      "zodia": "12",
       "jackpot": "1 500 000.00 euro",
       "winnings": [
         {
@@ -27,58 +27,58 @@
         },
         {
           "label": "4 числа + 1 зодия",
-          "count": "1",
-          "amount": "3 000.00 euro",
-          "total": "3 000.00 euro"
+          "count": "0",
+          "amount": "0.00 euro",
+          "total": "0.00 euro"
         },
         {
           "label": "4 числа",
-          "count": "16",
+          "count": "8",
           "amount": "300.00 euro",
-          "total": "4 800.00 euro"
+          "total": "2 400.00 euro"
         },
         {
           "label": "3 числа + 1 зодия",
-          "count": "12",
+          "count": "18",
           "amount": "60.00 euro",
-          "total": "720.00 euro"
+          "total": "1 080.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "209",
+          "count": "310",
           "amount": "6.00 euro",
-          "total": "1 254.00 euro"
+          "total": "1 860.00 euro"
         },
         {
           "label": "2 числа + зодия",
-          "count": "356",
+          "count": "359",
           "amount": "3.00 euro",
-          "total": "1 068.00 euro"
+          "total": "1 077.00 euro"
         },
         {
           "label": "1 число + зодия",
-          "count": "2116",
+          "count": "2217",
           "amount": "1.00 euro",
-          "total": "2 116.00 euro"
+          "total": "2 217.00 euro"
         },
         {
           "label": "2 числа",
-          "count": "4291",
+          "count": "5031",
           "amount": "0.50 euro",
-          "total": "2 145.50 euro"
+          "total": "2 515.50 euro"
         },
         {
           "label": "1 зодия",
-          "count": "3948",
+          "count": "3612",
           "amount": "0.60 euro",
-          "total": "2 368.80 euro"
+          "total": "2 167.20 euro"
         }
       ],
       "type": "zodiak"
     }
   ],
-  "fetched": 1795206310,
-  "draw": 91,
-  "draw_date": "2026-11-19",
+  "fetched": 1795391120,
+  "draw": 92,
+  "draw_date": "2026-11-22",
   "source_url": "https://info.toto.bg/results/zodiak"
 }

@@ -1,17 +1,17 @@
 {
   "game": "6x49",
-  "title": "Тираж 91 - 19.11.2026",
+  "title": "Тираж 92 - 22.11.2026",
   "drawings": [
     {
       "numbers": [
-        "6",
-        "15",
-        "20",
-        "21",
-        "35",
-        "36"
+        "3",
+        "18",
+        "19",
+        "29",
+        "34",
+        "37"
       ],
-      "jackpot": "1 768 142.60 euro",
+      "jackpot": "1 864 804.16 euro",
       "winnings": [
         {
           "label": "6 числа",
@@ -21,28 +21,28 @@
         },
         {
           "label": "5 числа",
-          "count": "3",
-          "amount": "8 041.60 euro",
-          "total": "24 124.80 euro"
+          "count": "8",
+          "amount": "3 478.40 euro",
+          "total": "27 827.20 euro"
         },
         {
           "label": "4 числа",
-          "count": "372",
-          "amount": "71.70 euro",
-          "total": "26 672.40 euro"
+          "count": "652",
+          "amount": "47.20 euro",
+          "total": "30 774.40 euro"
         },
         {
           "label": "3 числа",
-          "count": "8081",
-          "amount": "7.10 euro",
-          "total": "57 375.10 euro"
+          "count": "12734",
+          "amount": "5.20 euro",
+          "total": "66 216.80 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1795206299,
-  "draw": 91,
-  "draw_date": "2026-11-19",
+  "fetched": 1795391108,
+  "draw": 92,
+  "draw_date": "2026-11-22",
   "source_url": "https://info.toto.bg/results/6x49"
 }

@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-20T20:25:26.134004+00:00",
+ "updated": "2026-11-22T23:45:35.763428+00:00",
  "games": {
   "6x49": {
    "game": "6x49",
-   "title": "Тираж 91 - 19.11.2026",
+   "title": "Тираж 92 - 22.11.2026",
    "drawings": [
     {
      "numbers": [
-      "6",
-      "15",
-      "20",
-      "21",
-      "35",
-      "36"
+      "3",
+      "18",
+      "19",
+      "29",
+      "34",
+      "37"
      ],
-     "jackpot": "1 768 142.60 euro",
+     "jackpot": "1 864 804.16 euro",
      "winnings": [
       {
        "label": "6 числа",
@@ -24,45 +24,45 @@
       },
       {
        "label": "5 числа",
-       "count": "3",
-       "amount": "8 041.60 euro",
-       "total": "24 124.80 euro"
+       "count": "8",
+       "amount": "3 478.40 euro",
+       "total": "27 827.20 euro"
       },
       {
        "label": "4 числа",
-       "count": "372",
-       "amount": "71.70 euro",
-       "total": "26 672.40 euro"
+       "count": "652",
+       "amount": "47.20 euro",
+       "total": "30 774.40 euro"
       },
       {
        "label": "3 числа",
-       "count": "8081",
-       "amount": "7.10 euro",
-       "total": "57 375.10 euro"
+       "count": "12734",
+       "amount": "5.20 euro",
+       "total": "66 216.80 euro"
       }
      ],
      "type": "standard"
     }
    ],
-   "fetched": 1795206299,
-   "draw": 91,
-   "draw_date": "2026-11-19",
+   "fetched": 1795391108,
+   "draw": 92,
+   "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/6x49"
   },
   "6x42": {
    "game": "6x42",
-   "title": "Тираж 91 - 19.11.2026",
+   "title": "Тираж 92 - 22.11.2026",
    "drawings": [
     {
      "numbers": [
-      "1",
+      "2",
+      "4",
+      "6",
       "15",
-      "26",
-      "28",
-      "33",
-      "36"
+      "21",
+      "26"
      ],
-     "jackpot": "399 141.27 euro",
+     "jackpot": "426 030.16 euro",
      "winnings": [
       {
        "label": "6 числа",
@@ -72,171 +72,171 @@
       },
       {
        "label": "5 числа",
-       "count": "4",
-       "amount": "3 807.80 euro",
-       "total": "15 231.20 euro"
+       "count": "12",
+       "amount": "1 400.50 euro",
+       "total": "16 806.00 euro"
       },
       {
        "label": "4 числа",
-       "count": "274",
-       "amount": "55.60 euro",
-       "total": "15 234.40 euro"
+       "count": "491",
+       "amount": "34.20 euro",
+       "total": "16 792.20 euro"
       },
       {
        "label": "3 числа",
-       "count": "4797",
-       "amount": "4.50 euro",
-       "total": "21 586.50 euro"
+       "count": "6787",
+       "amount": "3.50 euro",
+       "total": "23 754.50 euro"
       }
      ],
      "type": "standard"
     }
    ],
-   "fetched": 1795206301,
-   "draw": 91,
-   "draw_date": "2026-11-19",
+   "fetched": 1795391110,
+   "draw": 92,
+   "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/6x42"
   },
   "5x35": {
    "game": "5x35",
-   "title": "Тираж 91 - 19.11.2026",
+   "title": "Тираж 92 - 22.11.2026",
    "drawings": [
     {
      "numbers": [
-      "1",
-      "13",
-      "26",
-      "29",
-      "30"
+      "10",
+      "16",
+      "18",
+      "20",
+      "33"
      ],
      "jackpot": "Няма",
      "winnings": [
       {
        "label": "5 числа",
-       "count": "0",
-       "amount": "0.00 euro",
-       "total": "0.00 euro"
+       "count": "2",
+       "amount": "13 829.60 euro",
+       "total": "27 659.20 euro"
       },
       {
        "label": "4 числа",
-       "count": "277",
-       "amount": "165.00 euro",
-       "total": "45 705.00 euro"
+       "count": "406",
+       "amount": "88.90 euro",
+       "total": "36 093.40 euro"
       },
       {
        "label": "3 числа",
-       "count": "8154",
-       "amount": "7.90 euro",
-       "total": "64 416.60 euro"
+       "count": "12064",
+       "amount": "4.70 euro",
+       "total": "56 700.80 euro"
       }
      ],
      "type": "standard"
     },
     {
      "numbers": [
-      "8",
-      "10",
-      "18",
-      "22",
-      "24"
+      "4",
+      "12",
+      "13",
+      "24",
+      "32"
      ],
      "jackpot": "Няма",
      "winnings": [
       {
        "label": "5 числа",
-       "count": "5",
-       "amount": "5 064.60 euro",
-       "total": "25 323.00 euro"
+       "count": "0",
+       "amount": "0.00 euro",
+       "total": "0.00 euro"
       },
       {
        "label": "4 числа",
-       "count": "325",
-       "amount": "101.60 euro",
-       "total": "33 020.00 euro"
+       "count": "455",
+       "amount": "109.70 euro",
+       "total": "49 913.50 euro"
       },
       {
        "label": "3 числа",
-       "count": "10283",
-       "amount": "5.00 euro",
-       "total": "51 415.00 euro"
+       "count": "11357",
+       "amount": "6.20 euro",
+       "total": "70 413.40 euro"
       }
      ],
      "type": "standard"
     }
    ],
-   "fetched": 1795206303,
-   "draw": 91,
-   "draw_date": "2026-11-19",
+   "fetched": 1795391113,
+   "draw": 92,
+   "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/5x35"
   },
   "joker": {
    "game": "joker",
-   "title": "Тираж 91 - 19.11.2026",
+   "title": "Тираж 92 - 22.11.2026",
    "drawings": [
     {
      "numbers": [
-      "3",
-      "5",
-      "1"
+      "6",
+      "8",
+      "9"
      ],
      "positions": [
-      "4",
+      "2",
       "5",
-      "8"
+      "9"
      ],
      "jackpot": "Спечелен",
      "winnings": [
       {
        "label": "3 числа",
        "count": "2",
-       "amount": "18 504.10 euro",
-       "total": "37 008.20 euro"
+       "amount": "20 562.30 euro",
+       "total": "41 124.60 euro"
       },
       {
        "label": "2 числа",
-       "count": "916",
-       "amount": "40.40 euro",
-       "total": "37 006.40 euro"
+       "count": "1135",
+       "amount": "36.20 euro",
+       "total": "41 087.00 euro"
       }
      ],
      "type": "joker"
     }
    ],
-   "fetched": 1795206306,
-   "draw": 91,
-   "draw_date": "2026-11-19",
+   "fetched": 1795391115,
+   "draw": 92,
+   "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/joker"
   },
   "rojdenden": {
    "game": "rojdenden",
-   "title": "Тираж 91 - 19.11.2026",
+   "title": "Тираж 92 - 22.11.2026",
    "drawings": [
     {
      "numbers": [
-      "35",
-      "12",
-      "8",
-      "4"
+      "24",
+      "2",
+      "10",
+      "5"
      ],
      "ymdd": [
       {
        "label": "Година",
-       "value": "35"
+       "value": "24"
       },
       {
        "label": "Месец",
-       "value": "12"
+       "value": "2"
       },
       {
        "label": "Дата",
-       "value": "8"
+       "value": "10"
       },
       {
        "label": "Ден",
-       "value": "4"
+       "value": "5"
       }
      ],
-     "jackpot": "9 359.55 euro",
+     "jackpot": "10 412.36 euro",
      "winnings": [
       {
        "label": "година + месец + дата + ден",
@@ -246,110 +246,110 @@
       },
       {
        "label": "година + месец + дата",
+       "count": "2",
+       "amount": "210.60 euro",
+       "total": "421.20 euro"
+      },
+      {
+       "label": "година + дата + ден",
        "count": "0",
        "amount": "0.00 euro",
        "total": "0.00 euro"
       },
       {
-       "label": "година + дата + ден",
-       "count": "3",
-       "amount": "105.10 euro",
-       "total": "315.30 euro"
-      },
-      {
        "label": "година + месец + ден",
-       "count": "1",
-       "amount": "197.10 euro",
-       "total": "197.10 euro"
+       "count": "2",
+       "amount": "105.30 euro",
+       "total": "210.60 euro"
       },
       {
        "label": "година + дата",
-       "count": "9",
-       "amount": "21.90 euro",
-       "total": "197.10 euro"
+       "count": "7",
+       "amount": "30.10 euro",
+       "total": "210.70 euro"
       },
       {
        "label": "месец + дата + ден",
-       "count": "14",
-       "amount": "11.30 euro",
-       "total": "158.20 euro"
+       "count": "21",
+       "amount": "8.00 euro",
+       "total": "168.00 euro"
       },
       {
        "label": "година + месец",
-       "count": "12",
-       "amount": "16.40 euro",
-       "total": "196.80 euro"
+       "count": "16",
+       "amount": "13.20 euro",
+       "total": "211.20 euro"
       },
       {
        "label": "година + ден",
-       "count": "28",
-       "amount": "5.60 euro",
-       "total": "156.80 euro"
+       "count": "52",
+       "amount": "3.20 euro",
+       "total": "166.40 euro"
       },
       {
        "label": "месец + дата",
-       "count": "57",
-       "amount": "4.20 euro",
-       "total": "239.40 euro"
+       "count": "75",
+       "amount": "3.40 euro",
+       "total": "255.00 euro"
       },
       {
        "label": "дата + ден",
-       "count": "159",
-       "amount": "1.70 euro",
-       "total": "270.30 euro"
+       "count": "160",
+       "amount": "1.80 euro",
+       "total": "288.00 euro"
       },
       {
        "label": "година",
-       "count": "160",
-       "amount": "2.00 euro",
-       "total": "320.00 euro"
+       "count": "240",
+       "amount": "1.40 euro",
+       "total": "336.00 euro"
       },
       {
        "label": "месец + ден",
-       "count": "334",
+       "count": "357",
        "amount": "1.20 euro",
-       "total": "400.80 euro"
+       "total": "428.40 euro"
       },
       {
        "label": "дата",
-       "count": "839",
-       "amount": "0.99 euro",
-       "total": "830.61 euro"
+       "count": "973",
+       "amount": "0.91 euro",
+       "total": "885.43 euro"
       },
       {
        "label": "месец",
-       "count": "1899",
-       "amount": "0.71 euro",
-       "total": "1 348.29 euro"
+       "count": "2084",
+       "amount": "0.69 euro",
+       "total": "1 437.96 euro"
       },
       {
        "label": "ден",
-       "count": "4674",
-       "amount": "0.47 euro",
-       "total": "2 196.78 euro"
+       "count": "4285",
+       "amount": "0.55 euro",
+       "total": "2 356.75 euro"
       }
      ],
      "type": "rojdenden"
     }
    ],
-   "fetched": 1795206308,
-   "draw": 91,
-   "draw_date": "2026-11-19",
+   "fetched": 1795391117,
+   "draw": 92,
+   "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/rojdenden"
   },
   "zodiak": {
    "game": "zodiak",
-   "title": "Тираж 91 - 19.11.2026",
+   "title": "Тираж 92 - 22.11.2026",
    "drawings": [
     {
      "numbers": [
-      "13",
-      "15",
-      "36",
+      "8",
+      "11",
+      "25",
       "41",
-      "47"
+      "46"
      ],
-     "zodia": "11",
+     "zodia": "12",
      "jackpot": "1 500 000.00 euro",
      "winnings": [
       {
@@ -366,59 +366,59 @@
       },
       {
        "label": "4 числа + 1 зодия",
-       "count": "1",
-       "amount": "3 000.00 euro",
-       "total": "3 000.00 euro"
+       "count": "0",
+       "amount": "0.00 euro",
+       "total": "0.00 euro"
       },
       {
        "label": "4 числа",
-       "count": "16",
+       "count": "8",
        "amount": "300.00 euro",
-       "total": "4 800.00 euro"
+       "total": "2 400.00 euro"
       },
       {
        "label": "3 числа + 1 зодия",
-       "count": "12",
+       "count": "18",
        "amount": "60.00 euro",
-       "total": "720.00 euro"
+       "total": "1 080.00 euro"
       },
       {
        "label": "3 числа",
-       "count": "209",
+       "count": "310",
        "amount": "6.00 euro",
-       "total": "1 254.00 euro"
+       "total": "1 860.00 euro"
       },
       {
        "label": "2 числа + зодия",
-       "count": "356",
+       "count": "359",
        "amount": "3.00 euro",
-       "total": "1 068.00 euro"
+       "total": "1 077.00 euro"
       },
       {
        "label": "1 число + зодия",
-       "count": "2116",
+       "count": "2217",
        "amount": "1.00 euro",
-       "total": "2 116.00 euro"
+       "total": "2 217.00 euro"
       },
       {
        "label": "2 числа",
-       "count": "4291",
+       "count": "5031",
        "amount": "0.50 euro",
-       "total": "2 145.50 euro"
+       "total": "2 515.50 euro"
       },
       {
        "label": "1 зодия",
-       "count": "3948",
+       "count": "3612",
        "amount": "0.60 euro",
-       "total": "2 368.80 euro"
+       "total": "2 167.20 euro"
       }
      ],
      "type": "zodiak"
     }
    ],
-   "fetched": 1795206310,
-   "draw": 91,
-   "draw_date": "2026-11-19",
+   "fetched": 1795391120,
+   "draw": 92,
+   "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/zodiak"
   },
   "13t1": {
@@ -510,7 +510,7 @@
      "type": "toto1"
     }
    ],
-   "fetched": 1795206313,
+   "fetched": 1795391122,
    "draw": 90,
    "draw_date": "2026-11-15",
    "source_url": "https://info.toto.bg/results/13t1"
@@ -588,7 +588,7 @@
      "type": "toto1"
     }
    ],
-   "fetched": 1795206317,
+   "fetched": 1795391127,
    "draw": 90,
    "draw_date": "2026-11-15",
    "source_url": "https://info.toto.bg/results/12t1"
@@ -652,7 +652,7 @@
      "type": "toto1"
     }
    ],
-   "fetched": 1795206321,
+   "fetched": 1795391131,
    "draw": 90,
    "draw_date": "2026-11-15",
    "source_url": "https://info.toto.bg/results/10t1"
