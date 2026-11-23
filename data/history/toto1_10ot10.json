@@ -2,6 +2,55 @@
  "game": "10t1",
  "draws": [
   {
+   "draw": 92,
+   "draw_date": "2026-11-22",
+   "title": "Тираж 92 - 22.11.2026",
+   "type": "toto1",
+   "matches": [
+    {
+     "match": "1",
+     "result": "2"
+    },
+    {
+     "match": "2",
+     "result": "1"
+    },
+    {
+     "match": "3",
+     "result": "x"
+    },
+    {
+     "match": "4",
+     "result": "2"
+    },
+    {
+     "match": "5",
+     "result": "1"
+    },
+    {
+     "match": "6",
+     "result": "x"
+    },
+    {
+     "match": "7",
+     "result": "x"
+    },
+    {
+     "match": "8",
+     "result": "2"
+    },
+    {
+     "match": "9",
+     "result": "1"
+    },
+    {
+     "match": "10",
+     "result": "2"
+    }
+   ],
+   "jackpot": "Спечелен"
+  },
+  {
    "draw": 90,
    "draw_date": "2026-11-15",
    "title": "Тираж 90 - 15.11.2026",
@@ -149,6 +198,6 @@
    "jackpot": "Спечелен"
   }
  ],
- "updated": "2026-11-16T13:39:19.326464+00:00",
- "count": 3
+ "updated": "2026-11-23T15:59:01.984521+00:00",
+ "count": 4
 }

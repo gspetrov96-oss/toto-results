@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:05:14.598314+00:00",
+ "updated": "2026-11-23T15:59:03.985365+00:00",
  "games": {
   "6x49": {
    "game": "6x49",
@@ -44,7 +44,7 @@
      "type": "standard"
     }
    ],
-   "fetched": 1795395887,
+   "fetched": 1795449523,
    "draw": 92,
    "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/6x49"
@@ -92,7 +92,7 @@
      "type": "standard"
     }
    ],
-   "fetched": 1795395889,
+   "fetched": 1795449525,
    "draw": 92,
    "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/6x42"
@@ -164,7 +164,7 @@
      "type": "standard"
     }
    ],
-   "fetched": 1795395891,
+   "fetched": 1795449528,
    "draw": 92,
    "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/5x35"
@@ -202,7 +202,7 @@
      "type": "joker"
     }
    ],
-   "fetched": 1795395894,
+   "fetched": 1795449530,
    "draw": 92,
    "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/joker"
@@ -332,7 +332,7 @@
      "type": "rojdenden"
     }
    ],
-   "fetched": 1795395896,
+   "fetched": 1795449532,
    "draw": 92,
    "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/rojdenden"
@@ -416,20 +416,20 @@
      "type": "zodiak"
     }
    ],
-   "fetched": 1795395899,
+   "fetched": 1795449535,
    "draw": 92,
    "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/zodiak"
   },
   "13t1": {
    "game": "13t1",
-   "title": "Тираж 90 - 15.11.2026",
+   "title": "Тираж 92 - 22.11.2026",
    "drawings": [
     {
      "matches": [
       {
        "match": "1",
-       "result": "2"
+       "result": "x"
       },
       {
        "match": "2",
@@ -437,7 +437,7 @@
       },
       {
        "match": "3",
-       "result": "2"
+       "result": "x"
       },
       {
        "match": "4",
@@ -453,7 +453,7 @@
       },
       {
        "match": "7",
-       "result": "1"
+       "result": "x"
       },
       {
        "match": "8",
@@ -461,11 +461,11 @@
       },
       {
        "match": "9",
-       "result": "x"
+       "result": "1"
       },
       {
        "match": "10",
-       "result": "2"
+       "result": "1"
       },
       {
        "match": "11",
@@ -473,14 +473,14 @@
       },
       {
        "match": "12",
-       "result": "1"
+       "result": "x"
       },
       {
        "match": "13",
        "result": "1"
       }
      ],
-     "jackpot": "4 772.40 euro",
+     "jackpot": "6 980.76 euro",
      "winnings": [
       {
        "label": "13 срещи",
@@ -491,33 +491,33 @@
       {
        "label": "12 срещи",
        "count": "1",
-       "amount": "1 853.80 euro",
-       "total": "1 853.80 euro"
+       "amount": "2 208.40 euro",
+       "total": "2 208.40 euro"
       },
       {
        "label": "11 срещи",
-       "count": "38",
-       "amount": "61.00 euro",
-       "total": "2 318.00 euro"
+       "count": "12",
+       "amount": "230.00 euro",
+       "total": "2 760.00 euro"
       },
       {
        "label": "10 срещи",
-       "count": "462",
-       "amount": "7.00 euro",
-       "total": "3 234.00 euro"
+       "count": "83",
+       "amount": "46.60 euro",
+       "total": "3 867.80 euro"
       }
      ],
      "type": "toto1"
     }
    ],
-   "fetched": 1795395901,
-   "draw": 90,
-   "draw_date": "2026-11-15",
+   "fetched": 1795449537,
+   "draw": 92,
+   "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/13t1"
   },
   "12t1": {
    "game": "12t1",
-   "title": "Тираж 90 - 15.11.2026",
+   "title": "Тираж 92 - 22.11.2026",
    "drawings": [
     {
      "matches": [
@@ -527,7 +527,7 @@
       },
       {
        "match": "2",
-       "result": "x"
+       "result": "2"
       },
       {
        "match": "3",
@@ -535,11 +535,11 @@
       },
       {
        "match": "4",
-       "result": "2"
+       "result": "1"
       },
       {
        "match": "5",
-       "result": "1"
+       "result": "2"
       },
       {
        "match": "6",
@@ -555,11 +555,11 @@
       },
       {
        "match": "9",
-       "result": "1"
+       "result": "2"
       },
       {
        "match": "10",
-       "result": "1"
+       "result": "2"
       },
       {
        "match": "11",
@@ -567,10 +567,10 @@
       },
       {
        "match": "12",
-       "result": "1"
+       "result": "2"
       }
      ],
-     "jackpot": "898.60 euro",
+     "jackpot": "1 230.53 euro",
      "winnings": [
       {
        "label": "12 срещи",
@@ -580,22 +580,22 @@
       },
       {
        "label": "11 срещи",
-       "count": "0",
-       "amount": "0.00 euro",
-       "total": "0.00 euro"
+       "count": "4",
+       "amount": "83.00 euro",
+       "total": "332.00 euro"
       }
      ],
      "type": "toto1"
     }
    ],
-   "fetched": 1795395905,
-   "draw": 90,
-   "draw_date": "2026-11-15",
+   "fetched": 1795449539,
+   "draw": 92,
+   "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/12t1"
   },
   "10t1": {
    "game": "10t1",
-   "title": "Тираж 90 - 15.11.2026",
+   "title": "Тираж 92 - 22.11.2026",
    "drawings": [
     {
      "matches": [
@@ -605,7 +605,7 @@
       },
       {
        "match": "2",
-       "result": "x"
+       "result": "1"
       },
       {
        "match": "3",
@@ -613,11 +613,11 @@
       },
       {
        "match": "4",
-       "result": "1"
+       "result": "2"
       },
       {
        "match": "5",
-       "result": "2"
+       "result": "1"
       },
       {
        "match": "6",
@@ -625,7 +625,7 @@
       },
       {
        "match": "7",
-       "result": "2"
+       "result": "x"
       },
       {
        "match": "8",
@@ -633,28 +633,28 @@
       },
       {
        "match": "9",
-       "result": "2"
+       "result": "1"
       },
       {
        "match": "10",
-       "result": "x"
+       "result": "2"
       }
      ],
-     "jackpot": "1 116.70 euro",
+     "jackpot": "Спечелен",
      "winnings": [
       {
        "label": "10 срещи",
-       "count": "0",
-       "amount": "0.00 euro",
-       "total": "0.00 euro"
+       "count": "1",
+       "amount": "2 424.00 euro",
+       "total": "2 424.00 euro"
       }
      ],
      "type": "toto1"
     }
    ],
-   "fetched": 1795395910,
-   "draw": 90,
-   "draw_date": "2026-11-15",
+   "fetched": 1795449541,
+   "draw": 92,
+   "draw_date": "2026-11-22",
    "source_url": "https://info.toto.bg/results/10t1"
   }
  }

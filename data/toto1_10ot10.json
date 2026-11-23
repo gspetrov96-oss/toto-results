@@ -1,6 +1,6 @@
 {
   "game": "10t1",
-  "title": "Тираж 90 - 15.11.2026",
+  "title": "Тираж 92 - 22.11.2026",
   "drawings": [
     {
       "matches": [
@@ -10,7 +10,7 @@
         },
         {
           "match": "2",
-          "result": "x"
+          "result": "1"
         },
         {
           "match": "3",
@@ -18,11 +18,11 @@
         },
         {
           "match": "4",
-          "result": "1"
+          "result": "2"
         },
         {
           "match": "5",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "6",
@@ -30,7 +30,7 @@
         },
         {
           "match": "7",
-          "result": "2"
+          "result": "x"
         },
         {
           "match": "8",
@@ -38,27 +38,27 @@
         },
         {
           "match": "9",
-          "result": "2"
+          "result": "1"
         },
         {
           "match": "10",
-          "result": "x"
+          "result": "2"
         }
       ],
-      "jackpot": "1 116.70 euro",
+      "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "10 срещи",
-          "count": "0",
-          "amount": "0.00 euro",
-          "total": "0.00 euro"
+          "count": "1",
+          "amount": "2 424.00 euro",
+          "total": "2 424.00 euro"
         }
       ],
       "type": "toto1"
     }
   ],
-  "fetched": 1795395910,
-  "draw": 90,
-  "draw_date": "2026-11-15",
+  "fetched": 1795449541,
+  "draw": 92,
+  "draw_date": "2026-11-22",
   "source_url": "https://info.toto.bg/results/10t1"
 }
