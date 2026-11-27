@@ -2,6 +2,67 @@
  "game": "13t1",
  "draws": [
   {
+   "draw": 93,
+   "draw_date": "2026-11-26",
+   "title": "Тираж 93 - 26.11.2026",
+   "type": "toto1",
+   "matches": [
+    {
+     "match": "1",
+     "result": "x"
+    },
+    {
+     "match": "2",
+     "result": "1"
+    },
+    {
+     "match": "3",
+     "result": "2"
+    },
+    {
+     "match": "4",
+     "result": "2"
+    },
+    {
+     "match": "5",
+     "result": "2"
+    },
+    {
+     "match": "6",
+     "result": "2"
+    },
+    {
+     "match": "7",
+     "result": "2"
+    },
+    {
+     "match": "8",
+     "result": "2"
+    },
+    {
+     "match": "9",
+     "result": "1"
+    },
+    {
+     "match": "10",
+     "result": "2"
+    },
+    {
+     "match": "11",
+     "result": "1"
+    },
+    {
+     "match": "12",
+     "result": "1"
+    },
+    {
+     "match": "13",
+     "result": "x"
+    }
+   ],
+   "jackpot": "8 252.48 euro"
+  },
+  {
    "draw": 92,
    "draw_date": "2026-11-22",
    "title": "Тираж 92 - 22.11.2026",
@@ -307,6 +368,6 @@
    "jackpot": "7 160.07 euro"
   }
  ],
- "updated": "2026-11-23T15:58:57.336669+00:00",
- "count": 5
+ "updated": "2026-11-27T15:05:39.238067+00:00",
+ "count": 6
 }
