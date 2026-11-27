@@ -1,38 +1,38 @@
 {
   "game": "joker",
-  "title": "Тираж 92 - 22.11.2026",
+  "title": "Тираж 93 - 26.11.2026",
   "drawings": [
     {
       "numbers": [
-        "6",
-        "8",
-        "9"
+        "9",
+        "0",
+        "0"
       ],
       "positions": [
-        "2",
-        "5",
-        "9"
+        "1",
+        "6",
+        "7"
       ],
       "jackpot": "Спечелен",
       "winnings": [
         {
           "label": "3 числа",
-          "count": "2",
-          "amount": "20 562.30 euro",
-          "total": "41 124.60 euro"
+          "count": "6",
+          "amount": "6 186.90 euro",
+          "total": "37 121.40 euro"
         },
         {
           "label": "2 числа",
-          "count": "1135",
-          "amount": "36.20 euro",
-          "total": "41 087.00 euro"
+          "count": "1731",
+          "amount": "21.50 euro",
+          "total": "37 216.50 euro"
         }
       ],
       "type": "joker"
     }
   ],
-  "fetched": 1795478222,
-  "draw": 92,
-  "draw_date": "2026-11-22",
+  "fetched": 1795744402,
+  "draw": 93,
+  "draw_date": "2026-11-26",
   "source_url": "https://info.toto.bg/results/joker"
 }

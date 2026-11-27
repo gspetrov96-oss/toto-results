@@ -1,45 +1,14 @@
 {
   "game": "5x35",
-  "title": "Тираж 92 - 22.11.2026",
+  "title": "Тираж 93 - 26.11.2026",
   "drawings": [
     {
       "numbers": [
-        "10",
-        "16",
-        "18",
-        "20",
-        "33"
-      ],
-      "jackpot": "Няма",
-      "winnings": [
-        {
-          "label": "5 числа",
-          "count": "2",
-          "amount": "13 829.60 euro",
-          "total": "27 659.20 euro"
-        },
-        {
-          "label": "4 числа",
-          "count": "406",
-          "amount": "88.90 euro",
-          "total": "36 093.40 euro"
-        },
-        {
-          "label": "3 числа",
-          "count": "12064",
-          "amount": "4.70 euro",
-          "total": "56 700.80 euro"
-        }
-      ],
-      "type": "standard"
-    },
-    {
-      "numbers": [
-        "4",
-        "12",
         "13",
+        "15",
         "24",
-        "32"
+        "27",
+        "35"
       ],
       "jackpot": "Няма",
       "winnings": [
@@ -51,22 +20,53 @@
         },
         {
           "label": "4 числа",
-          "count": "455",
-          "amount": "109.70 euro",
-          "total": "49 913.50 euro"
+          "count": "287",
+          "amount": "155.00 euro",
+          "total": "44 485.00 euro"
         },
         {
           "label": "3 числа",
-          "count": "11357",
-          "amount": "6.20 euro",
-          "total": "70 413.40 euro"
+          "count": "9646",
+          "amount": "6.50 euro",
+          "total": "62 699.00 euro"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "numbers": [
+        "5",
+        "18",
+        "22",
+        "23",
+        "28"
+      ],
+      "jackpot": "Няма",
+      "winnings": [
+        {
+          "label": "5 числа",
+          "count": "2",
+          "amount": "12 330.50 euro",
+          "total": "24 661.00 euro"
+        },
+        {
+          "label": "4 числа",
+          "count": "309",
+          "amount": "104.10 euro",
+          "total": "32 166.90 euro"
+        },
+        {
+          "label": "3 числа",
+          "count": "9904",
+          "amount": "5.10 euro",
+          "total": "50 510.40 euro"
         }
       ],
       "type": "standard"
     }
   ],
-  "fetched": 1795478220,
-  "draw": 92,
-  "draw_date": "2026-11-22",
+  "fetched": 1795744400,
+  "draw": 93,
+  "draw_date": "2026-11-26",
   "source_url": "https://info.toto.bg/results/5x35"
 }
